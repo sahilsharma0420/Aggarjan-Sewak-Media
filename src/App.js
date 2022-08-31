@@ -1,9 +1,18 @@
 
 import './App.css';
 
+import Firstpage from './Firstpage/Firstpage';
+import {Secondpage} from './Secondpage';
+
 function App() {
   return (
-    <h1>hello</h1>
+    <>   
+
+    <Firstpage/>
+    <Secondpage/>
+ 
+    </>
+ 
   );
 }
 
