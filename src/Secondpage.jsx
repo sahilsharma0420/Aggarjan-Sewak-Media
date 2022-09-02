@@ -65,14 +65,15 @@ export const Secondpage = ({}) => {
           <FlexRow3>
             <Image1 src={`https://file.rendit.io/n/ooqUNHCMPqGEgFE4X9EC.svg`} />
             <Image2 src={`https://file.rendit.io/n/6b9i5ZEbZ6PUUz4WKm25.svg`} />
+            <Paragraph>
+          बरेली के मेडिसिटी अस्पताल के डॉक्टर समेत चार पर केस दर्ज
+        </Paragraph>
             <LocationOn
               src={`https://file.rendit.io/n/aPQjhN7KgEJ9ayfcPyLr.svg`}
             />
           </FlexRow3>
         </FlexColumn>
-        <Paragraph>
-          बरेली के मेडिसिटी अस्पताल के डॉक्टर समेत चार पर केस दर्ज
-        </Paragraph>
+        
         <Image4 src={`https://file.rendit.io/n/dQN3w334whoBeoQaN7HE.png`} />
       </Element30>
       <FlexRow4>
@@ -712,7 +713,7 @@ const NeonCarrotFlexRow = styled.div`
   align-items: center;
   border-radius: 5px;
   padding: 5px 11px 3px 11px;
-  margin: 8px 9px 0px 0px;
+  margin: 8px 9px 25px 0px;
 `;
 const Plus = styled.img`
   width: 25px;
@@ -734,8 +735,9 @@ const GoldFlexRow = styled.div`
   gap: 10px;
   align-items: center;
   border-radius: 5px;
+
   padding: 4px 10px 4px 12px;
-  margin: 8px 0px 0px 0px;
+  margin: 8px 0px 25px 0px;
   
 `;
 const Text5 = styled.div`
@@ -771,11 +773,14 @@ const Element1 = styled.div`
   white-space: pre-wrap;
 `;
 const Element30 = styled.div`
-  height: 331px;
-  position: relative;
+ display: flex;
+  flex-direction: row;
   min-width: 1440px;
-  margin: 0px 0px 49px 0px;
   justify-content:center;
+  align-items:center;
+   height: 331px;
+  margin: 0px 0px 30px 0px; 
+  
 `;
 const FlexColumn = styled.div`
   height: 331px;
@@ -816,21 +821,21 @@ const Image2 = styled.img`
 `;
 const Paragraph = styled.div`
   mix-blend-mode: normal;
-  width: 904px;
+  width: 1100px;
   font-size: 20px;
   font-family: Hind;
   font-weight: 700;
   color: #ffffff;
   position: absolute;
-  top: 279px;
-  left: 151px;
+  left:91px
+ 
 `;
 const Image4 = styled.img`
   width: 384px;
-  height: 320px;
+  height: 331px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 5px;
+ 
 
   left: 1030px;
   border-radius:10px
@@ -1112,6 +1117,7 @@ const Image31 = styled.img`
   width: 384px;
   height: 320px;
   mix-blend-mode: normal;
+  border-radius:10px;
 `;
 const FlexRow31 = styled.div`
   display: flex;
@@ -1196,7 +1202,7 @@ const Line14 = styled.img`
   width: 784px;
   height: 1px;
   mix-blend-mode: normal;
-  margin: 0px 51px 30px 0px;
+  margin: 0px 51px -30px 0px;
 `;
 const Image37 = styled.img`
   width: 90px;
