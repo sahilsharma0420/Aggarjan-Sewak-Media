@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/figma_design/static/css/main.f8e9a5a3.css",
-    "main.js": "/figma_design/static/js/main.22987568.js",
+    "main.css": "/figma_design/static/css/main.bff76bee.css",
+    "main.js": "/figma_design/static/js/main.339276e6.js",
     "index.html": "/figma_design/index.html",
-    "main.f8e9a5a3.css.map": "/figma_design/static/css/main.f8e9a5a3.css.map",
-    "main.22987568.js.map": "/figma_design/static/js/main.22987568.js.map"
+    "main.bff76bee.css.map": "/figma_design/static/css/main.bff76bee.css.map",
+    "main.339276e6.js.map": "/figma_design/static/js/main.339276e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8e9a5a3.css",
-    "static/js/main.22987568.js"
+    "static/css/main.bff76bee.css",
+    "static/js/main.339276e6.js"
   ]
 }
