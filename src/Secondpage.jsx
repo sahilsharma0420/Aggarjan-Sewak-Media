@@ -11,16 +11,16 @@ export const Secondpage = ({}) => {
           <Text1>अग्रजन सेवक मीडिया नेटवर्क</Text1>
         </Element28>
         <Element29>
-        <Button variant="outlined" style={{height:"40px",borderColor:"black",borderRadius:'14px',position:"absolute",top:"15px"}}><LocationOn
+        <Button variant="outlined" style={{height:"40px",borderColor:"black",borderRadius:'14px',position:"absolute",top:"14px"}}><LocationOn
             style={{paddingRight:"10px"}}   src={`https://file.rendit.io/n/PY94Pekb5HZSo9DJPFD6.svg`}
             /><p style={{color:"black",fontWeight:"bolder"}} >शहर चुनें</p><Line15 style={{marginLeft:'5px'}}  src={`https://file.rendit.io/n/sp3hR6uIj84vmabeo31W.svg`} /><p style={{color:"black"}}>खोज के लिए यहाँ लिखें</p> <Search style={{paddingLeft:"40px"}} src={`https://file.rendit.io/n/gB2MTB0X293FbFK09HA8.svg`} /></Button>
         
         </Element29>
-     <Button style={{color:"black",}}>  <NeonCarrotFlexRow>
+     <Button style={{color:"black",position:"absolute",left:"1120px"}}>  <NeonCarrotFlexRow>
           <Plus src={`https://file.rendit.io/n/QcZIfvSQ2s0JApnJdzj6.png`} />
           <Text4>खबर जोड़ें</Text4>
         </NeonCarrotFlexRow></Button> 
-        <Button  style={{color:"black"}}>     <GoldFlexRow>
+        <Button  style={{color:"black",left:"1260px",position:"absolute"}}>     <GoldFlexRow>
           <Text5  style={{textAlign:"left"}}>Ankush Jain</Text5>
           <Text6>v</Text6>
         </GoldFlexRow></Button> 
@@ -627,7 +627,7 @@ const Text24 = styled.div`
   top: 61px;
 `;
 const DesktopRoot = styled.div`
-  width: 1440px;
+  width: 100%;
   height: 1992px;
   mix-blend-mode: normal;
   background-image: linear-gradient(180deg, #ffffff 0%, #ff9c08 72%);
@@ -641,8 +641,7 @@ const DesktopRoot = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   border: 1px solid black;
-  margin-left:auto;
-  margin-right:auto;
+ 
   margin-top:10rem;
   margin-bottom:10rem
 `;
@@ -666,6 +665,7 @@ const Untitled = styled.img`
   height: 85px;
   mix-blend-mode: normal;
   position: absolute;
+  left:40px
 `;
 const Text1 = styled.div`
   mix-blend-mode: normal;
@@ -674,7 +674,9 @@ const Text1 = styled.div`
   font-weight: 700;
   position: absolute;
   top: 18px;
-  left: 107px;
+  left: 133px;
+  width:300px
+  
 `;
 const Element29 = styled.div`
   align-self: stretch;
@@ -773,6 +775,7 @@ const GoldFlexRow = styled.div`
   border-radius: 5px;
   padding: 4px 10px 4px 12px;
   margin: 8px 0px 0px 0px;
+  
 `;
 const Text5 = styled.div`
   mix-blend-mode: normal;
@@ -786,7 +789,7 @@ const Text6 = styled.div`
 `;
 const WhiteFlexRow = styled.div`
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 1440px;
+  width: 1330px;
   mix-blend-mode: normal;
   background-color: #ffffff;
   display: flex;
@@ -800,7 +803,7 @@ const WhiteFlexRow = styled.div`
 `;
 const Element1 = styled.div`
   mix-blend-mode: normal;
-  width: 1076px;
+  width: 1110px;
   font-size: 18px;
   font-family: Hind;
   font-weight: 700;
@@ -818,7 +821,7 @@ const FlexColumn = styled.div`
   background-image: url("https://file.rendit.io/n/pxx8luXWolEXLgf9ogWB.png");
   background-size: cover;
   position: absolute;
-  left: 50px;
+  left: 82px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -858,7 +861,7 @@ const Paragraph = styled.div`
   color: #ffffff;
   position: absolute;
   top: 279px;
-  left: 121px;
+  left: 151px;
 `;
 const Image4 = styled.img`
   width: 384px;
@@ -866,7 +869,10 @@ const Image4 = styled.img`
   mix-blend-mode: normal;
   position: absolute;
   top: 5px;
-  left: 1004px;
+  border:2px solid black;
+  left: 1030px;
+  border-radius:10px
+
 `;
 const FlexRow4 = styled.div`
   display: flex;
@@ -1193,7 +1199,7 @@ const FlexRow36 = styled.div`
   flex-direction: row;
   min-width: 1345px;
   align-items: flex-end;
-  padding: 0px 52px 0px 43px;
+  padding: 0px 52px 0px 80px;
   margin: 0px 0px 19px 0px;
 `;
 const Element34 = styled.div`
@@ -1240,7 +1246,7 @@ const FlexRow37 = styled.div`
   display: flex;
   flex-direction: row;
   min-width: 1345px;
-  padding: 0px 52px 0px 43px;
+  padding: 0px 52px 0px 80px;
   margin: 0px 0px 2px 0px;
 `;
 const FlexColumn22 = styled.div`
@@ -1285,7 +1291,7 @@ const Line11 = styled.img`
   height: 1px;
   mix-blend-mode: normal;
   align-self: flex-start;
-  margin: 0px 0px 23px 43px;
+  margin: 0px 0px 23px 80px;
 `;
 const FlexRow42 = styled.div`
   display: flex;

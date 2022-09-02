@@ -16,38 +16,44 @@ function Firstpage() {
               <div className="text1">अग्रजन सेवक मीडिया नेटवर्क</div>
             </div>
             <div className="column1">
-              <div className="logo">
+            <div className="first-column-heading">
+            <div className="logo">
                 <img
                   className="first-img1"
                   src={`https://file.rendit.io/n/wbIifXSRyMN3EzZ9hZZZ.png`}
                   alt="notfound"
-                />
+                /></div>
                 <div className="text2">अग्रजन सेवक मीडिया नेटवर्क</div>
-              </div>
-              <div className="row1">
-                <div className="information">
-                  <div className="personal-detail">
-                    <div className="intials">
-                      <pre>नाम : Ankush Jain</pre>
-                    </div>
-                    <div className="intials">
-                      <pre>स्थान : रोहतक</pre>
-                    </div>
-                    <div className="intials">
-                      <pre>पद : पत्रकार</pre>
-                    </div>
-                    <div className="intials">सदस्य क्रमांक : JDF3456</div>
-                  </div>
-                </div>
-                <div>
-                  <img
-                    className="first-img2"
-                    src={`https://file.rendit.io/n/0bovRaCmBGsmR4b60Ubi.png`}
-                    alt="notfound"
-                  />
-                </div>
-              </div>
             </div>
+            <div className="first-column-description">
+              <div className="desciption-values">
+                <div className="description-values-initials"> नाम</div>
+                <div className="description-values-results">
+                {"                "}
+                    : Ankush Jain
+                    <br /></div>
+                    <div className="description-values-initials">स्थान</div>
+                    <div className="description-values-results">
+                    {"              "}
+                    : रोहतक
+                    <br />
+                    </div>
+                    <div className="description-values-initials">पद</div>
+                    <div className="description-values-results">
+                    {"                 "}
+                    : पत्रकार
+                    <br />
+                    </div>
+                    <div className="description-values-initials">सदस्य क्रमांक</div>
+                    <div className="description-values-results">
+                    {" "}: JDF3456</div>
+
+                </div> 
+                <div className="first-column-image"><img src={`https://file.rendit.io/n/TXyoPDn1sFJvcL6GXLHx.png`} alt="not found"/></div>
+              </div>
+         
+           </div>
+      
           </div>
           <img
             className="first-img3"
