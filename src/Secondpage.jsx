@@ -86,7 +86,7 @@ export const Secondpage = ({}) => {
               </Paragraph1>
               <FlexRow6>
                 <Text7>Tue, 21 Jun 2022 04:35 PM</Text7>
-                <Image6
+                <Image8
                   src={`https://file.rendit.io/n/rhtzitKVi4uPz2f0VRPJ.svg`}
                 />
               </FlexRow6>
@@ -232,7 +232,7 @@ export const Secondpage = ({}) => {
                   </Paragraph1>
                   <FlexRow6>
                     <Text7>Tue, 21 Jun 2022 04:35 PM</Text7>
-                    <Image6
+                    <Image8
                       src={`https://file.rendit.io/n/rhtzitKVi4uPz2f0VRPJ.svg`}
                     />
                   </FlexRow6>
@@ -367,7 +367,7 @@ export const Secondpage = ({}) => {
               </Paragraph1>
               <FlexRow6>
                 <Text7>Tue, 21 Jun 2022 04:35 PM</Text7>
-                <Image6
+                <Image8
                   src={`https://file.rendit.io/n/rhtzitKVi4uPz2f0VRPJ.svg`}
                 />
               </FlexRow6>
@@ -407,43 +407,7 @@ export const Secondpage = ({}) => {
         </FlexColumn26>
       </FlexRow37>
       <Line11 src={`https://file.rendit.io/n/SstfaPU1C1fAW8oAmVyt.svg`} />
-      <FlexRow42>
-        <Element35>
-          <FlexRow43>
-           
-            
-          </FlexRow43>
-          <FlexColumn27>
-            <Element37>
-              <Paragraph24>
-                पाक युवती के प्यार में सरहद पार कर गया फर्रुखाबाद का लड़का,
-                अब...
-              </Paragraph24>
-              <Image46
-                src={`https://file.rendit.io/n/rVJygnjoz78K14TYsjvJ.png`}
-              />
-            </Element37>
-            <Text8>Tue, 21 Jun 2022 04:35 PM</Text8>
-          </FlexColumn27>
-        </Element35>
-        <Element38>
-          <FlexRow43>
-           
-          </FlexRow43>
-          <FlexColumn28>
-            <Element40>
-              <Paragraph26>
-                पाक युवती के प्यार में सरहद पार कर गया फर्रुखाबाद का लड़का,
-                अब...
-              </Paragraph26>
-              <Image48
-                src={`https://file.rendit.io/n/rVJygnjoz78K14TYsjvJ.png`}
-              />
-            </Element40>
-            <Text8>Tue, 21 Jun 2022 04:35 PM</Text8>
-          </FlexColumn28>
-        </Element38>
-      </FlexRow42>
+      
     </DesktopRoot>
   );
 };
@@ -499,11 +463,7 @@ const Text7 = styled.div`
   font-family: Hind;
   align-self: flex-end;
 `;
-const Image6 = styled.img`
-  width: 14px;
-  height: 15.49px;
-  mix-blend-mode: normal;
-`;
+
 const Line = styled.img`
   width: 380px;
   height: 1px;
@@ -539,7 +499,8 @@ const Image8 = styled.img`
   width: 14px;
   height: 15.49px;
   mix-blend-mode: normal;
-  align-self: flex-start;
+  align-self: flex-end;
+  margin-left:10px
 `;
 const Line9 = styled.img`
   width: 380px;
@@ -649,8 +610,8 @@ const FlexRow = styled.div`
   display: flex;
   flex-direction: row;
   min-width: 1368px;
-  align-items: flex-start;
-  padding: 0px 40px 0px 32px;
+  align-items:center;
+  padding: 0px 32px 0px 32px;
   margin: 0px 0px 3px 0px;
 `;
 const Element28 = styled.div`
@@ -799,7 +760,7 @@ const WhiteFlexRow = styled.div`
   align-items: center;
   border-radius: 20px;
   padding: 22px 0px 19px 0px;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 15px 30px 0px;
 `;
 const Element1 = styled.div`
   mix-blend-mode: normal;
@@ -814,6 +775,7 @@ const Element30 = styled.div`
   position: relative;
   min-width: 1440px;
   margin: 0px 0px 49px 0px;
+  justify-content:center;
 `;
 const FlexColumn = styled.div`
   height: 331px;
@@ -869,7 +831,7 @@ const Image4 = styled.img`
   mix-blend-mode: normal;
   position: absolute;
   top: 5px;
-  border:2px solid black;
+
   left: 1030px;
   border-radius:10px
 
@@ -1195,12 +1157,13 @@ const Paragraph17 = styled.div`
   margin: 7px 0px 0px 0px;
 `;
 const FlexRow36 = styled.div`
-  display: flex;
+ display: flex;
   flex-direction: row;
-  min-width: 1345px;
-  align-items: flex-end;
-  padding: 0px 52px 0px 80px;
-  margin: 0px 0px 19px 0px;
+  min-width: 1440px;
+  justify-content:center;
+  align-items:center;
+
+  margin: 0px 0px 10px 0px;
 `;
 const Element34 = styled.div`
   align-self: stretch;
@@ -1245,9 +1208,11 @@ const Image37 = styled.img`
 const FlexRow37 = styled.div`
   display: flex;
   flex-direction: row;
-  min-width: 1345px;
-  padding: 0px 52px 0px 80px;
-  margin: 0px 0px 2px 0px;
+  min-width: 1440px;
+  justify-content:center;
+  align-items:center;
+
+  margin: 0px 0px 10px 0px;
 `;
 const FlexColumn22 = styled.div`
   width: 393px;
