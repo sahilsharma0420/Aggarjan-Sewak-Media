@@ -73,8 +73,8 @@ export const Secondpage = ({}) => {
             />
           </FlexRow3>
         </FlexColumn>
-        
-        <Image4 src={`https://file.rendit.io/n/dQN3w334whoBeoQaN7HE.png`} />
+        <Yogaimage>
+        <Image4 src={`https://file.rendit.io/n/dQN3w334whoBeoQaN7HE.png`} /></Yogaimage>
       </Element30>
       <FlexRow4>
         <FlexColumn1>
@@ -776,8 +776,7 @@ const Element30 = styled.div`
  display: flex;
   flex-direction: row;
   min-width: 1440px;
-  justify-content:center;
-  align-items:center;
+  justify-content:flex-end;
    height: 331px;
   margin: 0px 0px 30px 0px; 
   
@@ -785,7 +784,7 @@ const Element30 = styled.div`
 const FlexColumn = styled.div`
   height: 331px;
   mix-blend-mode: normal;
-  background-image: url("https://file.rendit.io/n/pxx8luXWolEXLgf9ogWB.png");
+  background-image: url("https://file.rendit.io/n/RCrBkMKiLPwVCQZWHPRH.png");
   background-size: cover;
   position: absolute;
   left: 82px;
@@ -793,6 +792,21 @@ const FlexColumn = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+`;
+
+const Yogaimage =styled.div`
+
+`;
+const Image4 = styled.img`
+  width: 384px;
+  height: 331px;
+  justify-content: center;
+  mix-blend-mode: normal;
+  border-radius:10px;
+   display:flex;
+   margin-right:100px;
+  
+   j
 `;
 const FlexRow3 = styled.div`
   width: 872px;
@@ -830,17 +844,7 @@ const Paragraph = styled.div`
   left:91px
  
 `;
-const Image4 = styled.img`
-  width: 384px;
-  height: 331px;
-  mix-blend-mode: normal;
-  position: absolute;
- 
 
-  left: 1030px;
-  border-radius:10px
-
-`;
 const FlexRow4 = styled.div`
   display: flex;
   flex-direction: row;
