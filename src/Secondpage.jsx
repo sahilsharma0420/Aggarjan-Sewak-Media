@@ -810,7 +810,7 @@ const FlexColumn = styled.div`
 
 `;
 const FlexRow3 = styled.div`
-  width: 760px;
+  width: 810px;
   height: 41px;
   mix-blend-mode: normal;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 169%);
@@ -830,7 +830,7 @@ const Image4 = styled.img`
   height: 331px;
   mix-blend-mode: normal;
   border-radius:10px; 
-  margin-right:50px;  
+ 
 `;
 
 const Image1 = styled.img`
