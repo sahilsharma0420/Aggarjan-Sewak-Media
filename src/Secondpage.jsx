@@ -618,7 +618,7 @@ const FlexRow = styled.div`
   width: 1330px;
   align-items:center;
   padding: 0px 62px 0px 32px;
-
+ margin:auto;
 `;
 
 const Element29 = styled.div`
