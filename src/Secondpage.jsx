@@ -791,11 +791,11 @@ const Element1 = styled.div`
 const Element30 = styled.div`
  display: flex;
   flex-direction: row;
- justify-content:space-between;
+
+  justify-content:space-evenly;
    height: 331px;
-   margin-bottom:30px; 
-   margin-left:6%;
-   margin-right:%;
+
+  margin: 0px 0px 30px 0px; 
   
 `;
 const FlexColumn = styled.div`
@@ -810,7 +810,7 @@ const FlexColumn = styled.div`
 
 `;
 const FlexRow3 = styled.div`
-  width: 60%;
+  width: 760px;
   height: 41px;
   mix-blend-mode: normal;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 169%);
@@ -820,21 +820,17 @@ const FlexRow3 = styled.div`
   align-items: flex-start;
   border-radius: 0px 0px 10px 10px;
   padding: 17px 19px 12px 19px;
- 
+
 `;
 const Yogaimage =styled.div`
 
 `;
 const Image4 = styled.img`
-  width: 28%px;
+  width: 384px;
   height: 331px;
-
   mix-blend-mode: normal;
-  border-radius:10px;
-
-
-  
-   
+  border-radius:10px; 
+  margin-right:50px;  
 `;
 
 const Image1 = styled.img`
