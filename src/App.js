@@ -7,7 +7,6 @@ import {Secondpage} from './Secondpage';
 function App() {
   return (
     <>   
-    <Firstpage/>
     <Secondpage/>
  
     </>

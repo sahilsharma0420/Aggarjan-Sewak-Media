@@ -791,11 +791,11 @@ const Element1 = styled.div`
 const Element30 = styled.div`
  display: flex;
   flex-direction: row;
-
-  justify-content:space-evenly;
+ justify-content:space-between;
    height: 331px;
-
-  margin: 0px 0px 30px 0px; 
+   margin-bottom:30px; 
+   margin-left:6%;
+   margin-right:%;
   
 `;
 const FlexColumn = styled.div`
@@ -810,7 +810,7 @@ const FlexColumn = styled.div`
 
 `;
 const FlexRow3 = styled.div`
-  width: 810px;
+  width: 60%;
   height: 41px;
   mix-blend-mode: normal;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 169%);
@@ -826,7 +826,7 @@ const Yogaimage =styled.div`
 
 `;
 const Image4 = styled.img`
-  width: 384px;
+  width: 28%px;
   height: 331px;
 
   mix-blend-mode: normal;
