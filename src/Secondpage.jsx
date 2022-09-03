@@ -10,20 +10,23 @@ export const Secondpage = ({}) => {
           <Untitled src={`https://file.rendit.io/n/i6eVE4eCy7Q1r47emUYJ.png`} />
           <Text1>अग्रजन सेवक मीडिया नेटवर्क</Text1>
         </Element28>
+       
         <Element29>
-        <Button variant="outlined" style={{height:"40px",borderColor:"black",borderRadius:'14px',position:"absolute",top:"14px"}}><LocationOn
+        <Button variant="outlined" style={{borderColor:"black",borderRadius:'14px',height:"40px"}}><LocationOn
             style={{paddingRight:"10px"}}   src={`https://file.rendit.io/n/PY94Pekb5HZSo9DJPFD6.svg`}
-            /><p style={{color:"black",fontWeight:"bolder"}} >शहर चुनें</p><Line15 style={{marginLeft:'5px'}}  src={`https://file.rendit.io/n/sp3hR6uIj84vmabeo31W.svg`} /><p style={{color:"black"}}>खोज के लिए यहाँ लिखें</p> <Search style={{paddingLeft:"40px"}} src={`https://file.rendit.io/n/gB2MTB0X293FbFK09HA8.svg`} /></Button>
+            /><p style={{color:"black",fontWeight:"bolder",width:"60px"}} >शहर चुनें</p><Line15 style={{marginLeft:'5px'}}  src={`https://file.rendit.io/n/sp3hR6uIj84vmabeo31W.svg`} /><p style={{color:"black",width:"140px"}}>खोज के लिए यहाँ लिखें</p> <Search style={{paddingLeft:"40px"}} src={`https://file.rendit.io/n/gB2MTB0X293FbFK09HA8.svg`} /></Button>
         
         </Element29>
-     <Button style={{color:"black",position:"absolute",left:"1120px"}}>  <NeonCarrotFlexRow>
+        <Element50>
+     <Button style={{color:"black"}}>  <NeonCarrotFlexRow>
           <Plus src={`https://file.rendit.io/n/QcZIfvSQ2s0JApnJdzj6.png`} />
           <Text4>खबर जोड़ें</Text4>
-        </NeonCarrotFlexRow></Button> 
-        <Button  style={{color:"black",left:"1260px",position:"absolute"}}>     <GoldFlexRow>
+        </NeonCarrotFlexRow></Button>  </Element50>
+        <Element51>
+        <Button  style={{color:"black"}}>     <GoldFlexRow>
           <Text5  style={{textAlign:"left"}}>Ankush Jain</Text5>
           <Text6>v</Text6>
-        </GoldFlexRow></Button> 
+        </GoldFlexRow></Button></Element51> 
       </FlexRow>
       <WhiteFlexRow>
         <Element1>
@@ -73,8 +76,8 @@ export const Secondpage = ({}) => {
             />
           </FlexRow3>
         </FlexColumn>
-        <Yogaimage>
-        <Image4 src={`https://file.rendit.io/n/dQN3w334whoBeoQaN7HE.png`} /></Yogaimage>
+    
+        <Image4 src={`https://file.rendit.io/n/dQN3w334whoBeoQaN7HE.png`} />
       </Element30>
       <FlexRow4>
         <FlexColumn1>
@@ -609,44 +612,87 @@ const DesktopRoot = styled.div`
 `;
 const FlexRow = styled.div`
   display: flex;
+  justify-content:space-around;
   flex-direction: row;
-  min-width: 1368px;
+  min-width: 1320px;
   align-items:center;
-  padding: 0px 32px 0px 32px;
-  margin: 0px 0px 3px 0px;
+  padding: 0px 62px 0px 32px;
+  margin: 0px 50px 3px 50px;
 `;
-const Element28 = styled.div`
+
+const Element29 = styled.div`
   align-self: stretch;
-  width: 378px;
+  width: 500px;
+  height:40px;
+ margin:20px 10px 0px 0px;
+  
+`;
+const Element50=styled.div`
+`;
+const Element51=styled.div`
+margin-right:40px;
+`;
+
+const Element28 = styled.div`
+
+  align-self: stretch;
+  width: 400px;
   height: 85px;
-  position: relative;
+ display:flex;
+ flex-direction:row;
+align-items:center;
   margin: 0px 350px 0px 0px;
+`;
+const NeonCarrotFlexRow = styled.div`
+  width: 97px;
+  mix-blend-mode: normal;
+  background-color: #ff9c08;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 6px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 7px 3px 7px;
+  margin: 17px 9px 25px 0px;
+`;
+const Plus = styled.img`
+  width: 25px;
+  height: 25px;
+  mix-blend-mode: normal;
+  align-self: flex-start;
+`;
+const GoldFlexRow = styled.div`
+  mix-blend-mode: normal;
+  background-color: #f8d5a1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  width:130px;
+  padding: 4px 0px 4px 2px;
+  margin: 17px 0px 25px 0px;
+  
 `;
 const Untitled = styled.img`
   width: 110px;
   height: 85px;
   mix-blend-mode: normal;
-  position: absolute;
-  left:40px
+  margin-left:50px;
+
+ 
 `;
 const Text1 = styled.div`
   mix-blend-mode: normal;
   font-size: 26px;
   font-family: Hind;
   font-weight: 700;
-  position: absolute;
-  top: 18px;
-  left: 133px;
+ 
   width:300px
   
 `;
-const Element29 = styled.div`
-  align-self: stretch;
-  width: 360px;
-  height: 85px;
-  position: relative;
-  margin: 0px 33px 0px 0px;
-`;
+
 const FlexRow1 = styled.div`
   height: 53.58px;
   display: flex;
@@ -702,44 +748,14 @@ const Search = styled.img`
   mix-blend-mode: normal;
   margin: 1px 0px 0px 0px;
 `;
-const NeonCarrotFlexRow = styled.div`
-  width: 97px;
-  mix-blend-mode: normal;
-  background-color: #ff9c08;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 6px;
-  align-items: center;
-  border-radius: 5px;
-  padding: 5px 11px 3px 11px;
-  margin: 8px 9px 25px 0px;
-`;
-const Plus = styled.img`
-  width: 25px;
-  height: 25px;
-  mix-blend-mode: normal;
-  align-self: flex-start;
-`;
+
 const Text4 = styled.div`
   mix-blend-mode: normal;
   font-size: 16px;
   font-family: Hind;
   font-weight: 700;
 `;
-const GoldFlexRow = styled.div`
-  mix-blend-mode: normal;
-  background-color: #f8d5a1;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  border-radius: 5px;
 
-  padding: 4px 10px 4px 12px;
-  margin: 8px 0px 25px 0px;
-  
-`;
 const Text5 = styled.div`
   mix-blend-mode: normal;
   font-size: 16px;
@@ -762,7 +778,7 @@ const WhiteFlexRow = styled.div`
   align-items: center;
   border-radius: 20px;
   padding: 22px 0px 19px 0px;
-  margin: 0px 15px 30px 0px;
+ margin-bottom:30px;
 `;
 const Element1 = styled.div`
   mix-blend-mode: normal;
@@ -775,9 +791,10 @@ const Element1 = styled.div`
 const Element30 = styled.div`
  display: flex;
   flex-direction: row;
-  min-width: 1440px;
-  justify-content:flex-end;
+
+  justify-content:space-evenly;
    height: 331px;
+
   margin: 0px 0px 30px 0px; 
   
 `;
@@ -786,30 +803,14 @@ const FlexColumn = styled.div`
   mix-blend-mode: normal;
   background-image: url("https://file.rendit.io/n/RCrBkMKiLPwVCQZWHPRH.png");
   background-size: cover;
-  position: absolute;
-  left: 82px;
-  display: flex;
+  border-radius:10px;
+   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
-`;
 
-const Yogaimage =styled.div`
-
-`;
-const Image4 = styled.img`
-  width: 384px;
-  height: 331px;
-  justify-content: center;
-  mix-blend-mode: normal;
-  border-radius:10px;
-   display:flex;
-   margin-right:100px;
-  
-   j
 `;
 const FlexRow3 = styled.div`
-  width: 872px;
+  width: 810px;
   height: 41px;
   mix-blend-mode: normal;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 169%);
@@ -819,12 +820,28 @@ const FlexRow3 = styled.div`
   align-items: flex-start;
   border-radius: 0px 0px 10px 10px;
   padding: 17px 19px 12px 19px;
+ 
 `;
+const Yogaimage =styled.div`
+
+`;
+const Image4 = styled.img`
+  width: 384px;
+  height: 331px;
+
+  mix-blend-mode: normal;
+  border-radius:10px;
+
+
+  
+   
+`;
+
 const Image1 = styled.img`
   width: 30px;
   height: 30px;
   mix-blend-mode: normal;
-  margin: 0px 390px 0px 0px;
+  margin: 0px 360px 0px 0px;
 `;
 const Image2 = styled.img`
   width: 46px;
@@ -841,7 +858,7 @@ const Paragraph = styled.div`
   font-weight: 700;
   color: #ffffff;
   position: absolute;
-  left:91px
+  left:141px
  
 `;
 
