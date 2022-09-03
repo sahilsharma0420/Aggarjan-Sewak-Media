@@ -614,7 +614,7 @@ const FlexRow = styled.div`
   display: flex;
   justify-content:space-around;
   flex-direction: row;
-  min-width: 1320px;
+  width: 1330px;
   align-items:center;
   padding: 0px 62px 0px 32px;
   margin: 0px 50px 3px 50px;
@@ -791,8 +791,10 @@ const Element1 = styled.div`
 const Element30 = styled.div`
  display: flex;
   flex-direction: row;
+  width:1330px
 
-  justify-content:space-evenly;
+  align-items: center;
+  justify-content: center;
    height: 331px;
 
   margin: 0px 0px 30px 0px; 
@@ -807,7 +809,7 @@ const FlexColumn = styled.div`
    display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
+ margin-right:90px;
 `;
 const FlexRow3 = styled.div`
   width: 810px;
