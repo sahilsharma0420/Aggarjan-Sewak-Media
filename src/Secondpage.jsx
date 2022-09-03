@@ -67,6 +67,7 @@ export const Secondpage = ({}) => {
         <FlexColumn>
           <FlexRow3>
             <Image1 src={`https://file.rendit.io/n/ooqUNHCMPqGEgFE4X9EC.svg`} />
+            
             <Image2 src={`https://file.rendit.io/n/6b9i5ZEbZ6PUUz4WKm25.svg`} />
             <Paragraph>
           बरेली के मेडिसिटी अस्पताल के डॉक्टर समेत चार पर केस दर्ज
@@ -612,7 +613,7 @@ const DesktopRoot = styled.div`
 `;
 const FlexRow = styled.div`
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   flex-direction: row;
   width: 1330px;
   align-items:center;
@@ -810,6 +811,7 @@ const FlexColumn = styled.div`
   flex-direction: column;
   justify-content: flex-end;
  margin-right:90px;
+ position:relative;
 `;
 const FlexRow3 = styled.div`
   width: 810px;
@@ -856,7 +858,7 @@ const Paragraph = styled.div`
   font-weight: 700;
   color: #ffffff;
   position: absolute;
-  left:141px
+  left:71px
  
 `;
 
