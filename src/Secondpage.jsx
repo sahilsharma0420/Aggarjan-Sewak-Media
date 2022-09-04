@@ -618,7 +618,7 @@ const FlexRow = styled.div`
   width: 1330px;
   align-items:center;
   padding: 0px 62px 0px 32px;
- margin:auto;
+  margin:auto;
 `;
 
 const Element29 = styled.div`
@@ -637,6 +637,7 @@ margin-right:40px;
 const Element28 = styled.div`
 
   align-self: stretch;
+ 
   height: 85px;
  display:flex;
  flex-direction:row;
@@ -851,13 +852,13 @@ const Image2 = styled.img`
 `;
 const Paragraph = styled.div`
   mix-blend-mode: normal;
-
+  
   font-size: 20px;
   font-family: Hind;
   font-weight: 700;
   color: #ffffff;
   position: absolute;
- 
+  
  
 `;
 
