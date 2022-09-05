@@ -1,13 +1,13 @@
 import React from "react";
 import "./Firstpage.css";
+import {Carousel} from 'react-bootstrap';
 function Firstpage() {
   return (
     <div className="desktop-root">
       <div className="main">
-        <div className="upper-nav" />
-        <div className="first-row">
-          <div className="first-column">
-            <div className="first-box">
+       
+        <div className="header-section">
+        <div className="first-box">
               <img
                 className="first-img"
                 src={`https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png`}
@@ -15,14 +15,24 @@ function Firstpage() {
               />
               <div className="text1">अग्रजन सेवक मीडिया नेटवर्क</div>
             </div>
-            <div className="column1">
+            <div className="whitebox">
+              <p className="text3">Ankush Jain</p>
+              <img
+                className="first-img-4"
+                src={`https://file.rendit.io/n/efGn827pzzpthUg7z1Fk.svg`}
+                alt="notfound"
+              />
+            </div>
+        </div>
+        <div className="card-section">
+        <div className="column1">
             <div className="first-column-heading">
-            <div className="logo">
+           
                 <img
                   className="first-img1"
                   src={`https://file.rendit.io/n/wbIifXSRyMN3EzZ9hZZZ.png`}
                   alt="notfound"
-                /></div>
+                />
                 <div className="text2">अग्रजन सेवक मीडिया नेटवर्क</div>
             </div>
             <div className="first-column-description">
@@ -49,33 +59,85 @@ function Firstpage() {
                     {" "}: JDF3456</div>
 
                 </div> 
-                <div className="first-column-image"><img src={`https://file.rendit.io/n/TXyoPDn1sFJvcL6GXLHx.png`} alt="not found"/></div>
+                <div ><img className="first-column-image" src={`https://file.rendit.io/n/TXyoPDn1sFJvcL6GXLHx.png`} alt="not found"/></div>
               </div>
          
            </div>
-      
-          </div>
-          <img
+           <img
             className="first-img3"
             src={`https://file.rendit.io/n/zfoUqFLkmXape0ds6wT4.png`}
             alt="notfound"
           />
-          <div className="second-column">
-            <div className="whitebox">
-              <div className="text3">Ankush Jain</div>
-              <img
-                className="first-img-4"
-                src={`https://file.rendit.io/n/efGn827pzzpthUg7z1Fk.svg`}
-                alt="notfound"
-              />
-            </div>
-            <img
+          <img
               className="first-img5"
               src={`https://file.rendit.io/n/EF4Z2UNF98lchk5CN5UL.png`}
               alt="notfound"
             />
-          </div>
         </div>
+        <div className="Crousel-Item">
+    <Carousel  >
+      <Carousel.Item>
+      <div className="c1olumn1">
+            <div className="first-column-heading1">
+           
+                <img
+                  className="first1-img1"
+                  src={`https://file.rendit.io/n/wbIifXSRyMN3EzZ9hZZZ.png`}
+                  alt="notfound"
+                />
+                <div className="t1ext2">अग्रजन सेवक मीडिया नेटवर्क</div>
+            </div>
+            <div className="first-column-description1">
+              <div className="desciption-values1">
+                <div className="description-values-initials1"> नाम</div>
+                <div className="description-values-results1">
+                {"                 "}
+                    : Ankush Jain
+                    <br /></div>
+                    <div className="description-values-initials1">स्थान</div>
+                    <div className="description-values-results1">
+                    {"               "}
+                    : रोहतक
+                    <br />
+                    </div>
+                    <div className="description-values-initials1">पद</div>
+                    <div className="description-values-results1">
+                    {"                   "}
+                    : पत्रकार
+                    <br />
+                    </div>
+                    <div className="description-values-initials1">सदस्य क्रमांक</div>
+                    <div className="description-values-results1">
+                    {" "}: JDF3456</div>
+
+                </div> 
+                <div ><img className="first1-column-image" src={`https://file.rendit.io/n/TXyoPDn1sFJvcL6GXLHx.png`} alt="not found"/></div>
+              </div>
+         
+           </div>
+      
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className="dressing"> <img
+            className="first1-img3"
+            src={`https://file.rendit.io/n/zfoUqFLkmXape0ds6wT4.png`}
+            alt="notfound"
+          /></div>
+
+        
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className="dressing">
+      <img
+              className="first1-img5"
+              src={`https://file.rendit.io/n/EF4Z2UNF98lchk5CN5UL.png`}
+              alt="notfound"
+            /></div>
+
+        
+      </Carousel.Item>
+    </Carousel>
+    </div>
         <div className="white-block">
           <div className="text4">प्रॉपर्टी</div>
           <div className="text14">क़ानूनी सलाह</div>
@@ -149,36 +211,17 @@ function Firstpage() {
             src={`https://file.rendit.io/n/oDWEeWgNDbjhWWJ21s98.png`}
             alt="notfound"
           />
-          <img
-            className="Line"
-            src={`https://file.rendit.io/n/1PDYd2KkgS8cxb75pMvW.svg`}
-            alt="notfound"
-          />
-          <img
-            className="Line1"
-            src={`https://file.rendit.io/n/TbUw2ocP0Ie7G7zJv0U6.svg`}
-            alt="notfound"
-          />
-          <img
-            className="Line2"
-            src={`https://file.rendit.io/n/TbUw2ocP0Ie7G7zJv0U6.svg`}
-            alt="notfound"
-          />
-          <img
-            className="Line3"
-            src={`https://file.rendit.io/n/TbUw2ocP0Ie7G7zJv0U6.svg`}
-            alt="notfound"
-          />
-          <img
-            className="Line4"
-            src={`https://file.rendit.io/n/TbUw2ocP0Ie7G7zJv0U6.svg`}
-            alt="notfound"
-          />
-          <img
-            className="Line5"
-            src={`https://file.rendit.io/n/TbUw2ocP0Ie7G7zJv0U6.svg`}
-            alt="notfound"
-          />
+      <div className="Line"></div>
+      <div className="Line1"></div>
+      <div className="Line2"></div>
+      <div className="Line3"></div>
+      <div className="Line4"></div>
+      <div className="Line5"></div>
+      <div className="Line6"></div>
+      <div className="Line7"></div>
+      <div className="Line8"></div>
+      <div className="Line9"></div>
+
         </div>
       </div>
       <div className="copyright-block">
