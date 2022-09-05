@@ -187,7 +187,7 @@ justify-content: center;
     height: 29rem;
   }
   .white-block{
-    margin-top: 13rem;
+    margin-top: 3rem;
   }
  
   .first1-img3{
@@ -198,6 +198,9 @@ justify-content: center;
     width: 46rem;
     height: 29rem;
   }
+}
+@media  {
+  
 }
 @media (max-width:900px) {
   .first1-img5{
@@ -1423,9 +1426,7 @@ justify-content: center;
         width: 5rem;
         height: 29rem;
       }
-      .white-block{
-        margin-top: 13rem;
-      }
+     
      
       .first1-img3{
         width: 46rem;
