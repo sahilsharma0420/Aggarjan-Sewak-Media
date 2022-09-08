@@ -1,0 +1,1176 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    right: 0%;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-label{
+    display: flex;
+    align-items: center;
+}
+.side-header{
+    display: flex;
+    flex-direction: row;
+}
+.searchbar{
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid  black;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0px 5px;
+ 
+}
+.name{
+    display: flex;
+    text-transform: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    gap: 10px;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    border: 1px solid  black;
+    height: 30px;
+}
+.namevalue{
+    padding-top: 0%;
+}
+.news-addition{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 7px;
+    gap: 5px;
+    background-color: #ffffff;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    height: 30px;
+
+}
+.plus{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+.secondpage{
+    background: linear-gradient(180deg, #ffffff 0%, #ff9c08 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    background-image: linear-gradient(180deg, #ffffff 0%, #ff9c08 100%);
+
+    height: 1992px;
+}
+/**/
+.menu{
+    display: block;
+    height: 50px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+   
+    width: 87%;
+    right: 0%;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    white-space:nowrap;
+   
+}
+.menu-start{
+  margin-left: 20px;
+}
+.menu-end{
+  margin-right: 20px;
+}
+
+.menu p{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+/**/
+.image-section{
+    display: flex;
+    flex-direction: row;
+}
+/*courtroom*/
+.courtroom{
+  display: flex;
+  align-items: flex-end;
+  width: 921px;
+  border-radius: 10px;
+  height: 331px;
+  background-repeat:no-repeat;
+  margin-bottom: 40px;
+  background-image: url("https://file.rendit.io/n/RCrBkMKiLPwVCQZWHPRH.png");
+}
+.courtroom3{
+  display: flex;
+  align-items: flex-end;
+  width: 850px;
+  border-radius: 10px;
+  height: 331px;
+  background-repeat:no-repeat;
+  margin-bottom: 40px;
+  background-image: url("https://file.rendit.io/n/RCrBkMKiLPwVCQZWHPRH.png");
+}
+.courtroom1{
+border-radius: 10px;
+display: flex;
+align-items: flex-end;
+width: 850px;
+height: 331px;
+background-repeat:no-repeat;
+margin-bottom: 40px;
+background-image: url("https://img.freepik.com/premium-photo/justice-law-conceptmale-judge-courtroom-wooden-table-counselor-male-lawyer-working-office-legal-law-advice-justice-concept_265022-6596.jpg?w=1380");
+}
+.courtroom2{
+display: flex;
+border-radius: 10px;
+align-items: flex-end;
+width: 850px;
+height: 331px;
+background-repeat:no-repeat;
+margin-bottom: 40px;
+background-image: url("https://img.freepik.com/premium-photo/justice-law-conceptmale-judge-courtroom-with-gavel-working-with-computer-docking-keyboard-eyeglasses-table-morning-light_265022-7811.jpg?w=1380");
+}
+.courtroom-information{
+  width: 910px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  height: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  align-items: center;
+}
+.courtroom-text{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  height: 20px;
+}
+
+.left-arrow{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.right-arrow{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.loading{
+  width: 30px;
+  height: 20px;
+  margin-left: 250px;
+}
+.courtroom-text1{
+  color: #ffffff;
+  font-size: small;
+  margin-bottom: 0px;
+  margin-right: 400px;
+}
+/*courtroom*/
+/*.lg-yoga*/
+.lg-yoga{
+height: 331px;
+width: 384px;
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.lg-yoga1{
+    height: 331px;
+    width: 384px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    }
+    /*lg-yoga*/
+/*news-block-yoga*/
+.information1{
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    
+  }
+  .information-cover1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .information-line1{
+    width: 450px;
+    height: 1px;
+    background-color: grey;
+  }
+  .news1{
+    mix-blend-mode: normal;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Hind;
+    word-spacing: 5px;
+  }
+  .date-share1{
+    display: flex;
+    font-size: small;
+    gap:167px;
+  }
+  .flag1{
+    height: 71.43px;
+    width: 100px;
+  }
+/*news-block-yoga*/
+/*news block*/
+.information{
+    display: flex;
+    gap: 20px;
+    width: 381px;
+    height: 100px;
+ 
+  }
+  .information-cover{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+ 
+  }
+  .information-line{
+    width: 381px;
+    height: 1px;
+    background-color: grey;
+  }
+  .news{
+    mix-blend-mode: normal;
+    width: 268px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Hind;
+    word-spacing: 5px;
+  }
+  .date-share{
+    display: flex;
+    font-size: small;
+    gap:87px;
+  }
+  .flag{
+    height: 71.43px;
+    width: 100px;
+  }
+  .yoga{
+    width: 461px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+/*news block*/
+/*person-block*/
+.person{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    height: 110px;
+    font-weight: 600;
+  }
+  .person-image{
+    height:77px ;
+    width: 77px;
+  }
+  .person-date{
+    width: 268px;
+    font-size: 16px;
+    font-family: Hind;
+    word-spacing: 5px;
+  }
+/*person-block*/
+/*content*/
+.content{
+    display: flex;
+   
+    right: 0%;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 26px;
+    justify-content: center;
+}
+/*content*/
+/*headings*/
+.news-heading{
+display: flex;
+align-items: center;
+
+}
+.news-block{
+width: 120px;
+border-left-width: 8px;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-color: #ff9c08;
+border-style: solid;
+border-radius: 7px;
+padding: 0px 8px;
+}
+.news-line{
+width: 265px;
+height: 1px;
+background-color: #ff9c08;
+}
+.entertainment-heading{
+display: flex;
+align-items: center;
+margin-top: 10px ;
+margin-bottom: 30px;
+}
+.entertainment-block{
+border-left-width: 8px;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-color: #ff9c08;
+border-style: solid;
+border-radius: 7px;
+padding: 0px 8px;
+}
+.entertainment-line{
+width: 822px;
+height: 1px;
+background-color: #ff9c08;
+}
+.business-heading{
+display: flex;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.business-block{ 
+border-left-width: 8px;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-color: #ff9c08;
+border-style: solid;
+border-radius: 7px;
+padding: 0px 8px;
+}
+.business-line{
+width: 833px;
+height: 1px;
+background-color: #ff9c08;
+}
+/*headings*/
+/*first-information*/
+.first-information{
+display: flex;
+flex-direction: row;
+gap: 70px;
+}
+.first-information-left{
+display: flex;
+flex-direction: column;
+}
+.first-information-right{
+    display: flex;
+    flex-direction: column;
+}
+/*first-imformation*/
+/*entertainment*/
+.entertainment{
+display: flex;
+flex-direction: row;
+gap: 70px;
+}
+.entertainment-left{
+display: flex;
+flex-direction: column;
+}
+.entertainment-right{
+    display: flex;
+    flex-direction: column;
+}
+/*entertainment*/
+/*business*/
+.business{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    }
+    .business-left{
+    display: flex;
+    flex-direction: column;
+    }
+    .business-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-content1,.news-heading1{
+      display: none;
+    }
+    
+      .crousel-second{
+        display: none;
+      
+      }
+      .mobile-content{
+        display: none;
+      }
+    /*business*/
+    
+      /*bigscreen*/
+      @media (min-width:1366px) {
+        .main-header,.menu{
+          width: 1325px;
+        }
+        .menu-start{
+          margin-left: 200px;
+        }
+      }
+      @media (max-width:1366px) {
+       .courtroom{
+        width: 831px;
+       }
+       .menu-start{
+        margin-left: 150px;
+      }
+       .main-header,.menu{
+        width: 1200px;
+      }
+    
+       .lg-yoga,.lg-yoga1{
+
+        width: 347px;
+       }
+       .news-line{
+        width: 225px;
+       }
+       .person-date{
+        width: 240px;
+       }
+       .person-image{
+        width: 77px;
+       }
+       .content{
+        gap: 0px;
+       }
+       .first-information{
+        gap: 20px;
+       }
+       .entertainment{
+        gap: 20px;
+       }
+       .business{
+        gap: 20px;
+       }
+       .business-line{
+        width: 765px;
+       }
+       .entertainment-line{
+        width: 755px;
+       }
+       .yoga{
+        width: 430px;
+      }
+    
+      .date-share1{
+        width: 330px;
+        gap: 137px;
+      }
+      .news1{
+        width: 320px;
+      }
+      .information-line1{
+        width: 430px;
+      }
+          }    
+    @media (max-width:1220px) {
+      .main-header,.menu{
+        width:87% ;
+      }
+      .menu-start{
+        margin-left: 70px;
+      }
+      .main-header,.menu{
+        width: 1060px;
+      }
+    .courtroom{
+      width: 731px;
+    }
+    .courtroom-text1{
+      margin-right: 350px;
+    }
+    .yoga{
+      width: 365px;
+    }
+    .flag,.flag1{
+      width: 85px;
+    }
+    .information,.information1{
+      gap: 10px;
+    }
+    .news1{
+      width: 263px;
+    }
+    .date-share1{
+      gap: 80px;
+      width: 245px;
+    }
+    .information-line1{
+      width: 345px;
+    }
+    .entertainment-line{
+      width: 650px;
+    }
+    .business-line{
+      width: 660px;
+    }
+    .news{
+      width: 240px;
+    }
+    .information{
+      width: 355px;
+    }
+    .date-share{
+      gap: 70px;
+    }
+    .information-line{
+      width: 325px;
+    }
+    .first-information,.business,.entertainment{
+      gap: 10px;
+    }
+    .content {
+      display: flex;
+      justify-content: center;
+      gap:10px
+    };
+    .left-content{
+      width: 780px;
+    }
+    .lg-yoga,.lg-yoga1{
+      width: 333px;
+    }
+    .person{
+      width: 333px;
+      gap: 10px;
+    }
+    .news-line{
+      width: 210px;
+    }
+    } 
+    @media (max-width:1080px) {
+      .secondpage{
+        height:2450px
+      }
+      .right-content{
+        display: none;
+      }
+      .main-header,.menu{
+        width: 900px;
+      }
+      .menu-start{
+        margin-left: 20px;
+      }
+      .courtroom{
+        width: 900px;
+      }
+      .yoga{
+        width: 479px;
+      }
+      .information,.information1{
+        gap: 20px;
+      }
+      .news,.news1{
+        font-size: 16px;
+       
+      }
+      .news{
+        width: 263px;
+      }
+      .news1{
+        width: 381px;
+      }
+      .flag,.flag1{
+        width: 100px;
+        height: 81px;
+      }
+      .first-information,.entertainment,.business{
+        gap: 40px;
+      }
+      .information,.information1{
+        width: 381px;
+      }
+      .date-share{
+        font-size: 14px;
+      }
+      .date-share1{
+        gap: 160px;
+        
+        width: 381px;
+        font-size: 14px;
+  
+      }
+      .business-block,.entertainment-block,.news-block1{
+        font-size: 22px;
+      }
+      .information-line{
+        width: 380px;
+      }
+      .information-line1{
+        width: 480px;
+      }
+      .entertainment-line{
+        width: 810px;
+      }
+      .business-line{
+        width: 820px;
+      }
+     .right-content1,.news-heading1{
+        display: flex;
+      }
+      .lg-yoga-right{
+        width: 479px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+      }
+      .person{
+        width: 381px;
+        height: 132px;
+        gap: 20px;
+      }
+      .right-content1{
+        gap:40px ;
+      }
+      .person-date{
+        width: 273px;
+        text-align: justify;
+      }
+      .person1{
+        display: flex;
+        width: 479px;
+        gap: 10px;
+      }
+      .news-heading1{
+        display: flex;
+        align-items: center;
+      }
+      .news-block1{
+        width: 150px;
+        border-left-width: 8px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-color: #b77107;
+        border-style: solid;
+        border-radius: 7px;
+        padding: 0px 8px;
+      }
+      .news-line1{
+        height: 1px;
+        background-color:  #b77107;
+        width: 740px;
+      }
+    } /*bigscreen*/
+    /*ipad*/
+    @media (max-width:900px) {
+      .secondpage{
+        height: 2400px;
+      }
+      .right-content,.news-heading,.button2,.button3,.courtroom{
+        display: none;
+      }
+      .right-content1,.news-heading1{
+        display: flex;
+      }
+      .menu,.main-header{
+        width: 88%;
+      }
+      .crousel-second{
+        display: flex;
+       justify-content: center;
+      }
+      .right-content1{
+        display: flex;
+        flex-direction: row;
+      }
+      .right-content1-left{
+        display: flex;
+        flex-direction: column;
+      }
+      .right-content1-right{
+        display: flex;
+        flex-direction: column;
+        width:401px ;
+      }
+      .news-heading1{
+        display: flex;
+        align-items: center;
+        
+        }
+        .news-block1{
+        width: 120px;
+        border-left-width: 8px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-color: #ff9c08;
+        border-style: solid;
+        border-radius: 7px;
+        padding: 0px 8px;
+        }
+        .news-line1{
+        width: 500px;
+        height: 1px;
+        background-color: #ff9c08;
+        }
+        .courtroom-information,.courtroom1,.courtroom2,.courtroom3{
+          width: 790px;
+        }
+        .yoga{
+          width: 401px;
+        }
+        .news1{
+          width:275px ;
+        }
+        .date-share1{
+          gap: 97px;
+          width: 275px;
+        }
+        .information-line1{
+          width:390px ;
+        }
+        .first-information,.entertainment,.business,.right-content1{
+          gap: 5px;
+          justify-content: center;
+        }
+        .information{
+          gap: 10px;
+        }
+        .information-line{
+          width: 365px;
+        }
+        .lg-yoga-right{
+          margin-top: 13px;
+          height: 318px;
+          width: 401px;
+          display: flex;
+          margin-bottom: 0px;
+          justify-items: center;
+          border-radius: 10px;
+        }
+        .person{
+          width: 381px;
+          height: 108px;
+        }
+        .person1{
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+          align-items: center;
+          height: 106px;
+          width: 401px;
+          font-weight: 600;
+        }
+        .person-date1{
+          width: 310px;
+          font-size: 16px;
+          font-family: Hind;
+          word-spacing: 5px;
+        }
+        .entertainment-heading,.business-heading,.news-heading1{
+          justify-content: center;
+        }
+        .business-line{
+          width: 700px;
+        }
+        .entertainment-line{
+          width: 700px;
+        }
+        .news-line1{
+          width: 620px;
+        }
+        .news-block1{
+          width:150px ;
+        }
+      }
+      @media (max-width:800px) {
+        .courtroom-information,.courtroom1,.courtroom2,.courtroom3{
+          width: 700px;
+        }
+        .business,.entertainment,.first-information{
+          gap: 20px;
+        }
+        .yoga,.lg-yoga-right{
+          width: 351px;
+        }
+        .flag,.flag1
+        {width: 80px;
+        }
+        .information{
+          width: 331px;
+        }
+        .news{
+          width: 250px;
+        }
+        .date-share{
+          gap: 55px;
+        }
+        .information-line{
+          width:331px;
+        }
+        .information1{
+          width: 351px;
+          gap: 10px;
+        }
+        .date-share1{
+          width: 250px;
+          gap: 80px;
+        }
+        .information-line1{
+          width: 330px;
+        }
+        .news1{
+          width: 250px;
+        }
+        .right-content1{
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+        }
+        .right-content1-left{
+          width: 331px;
+        }
+        .right-content1-right{
+          width: 351px;
+        }
+        .person{
+          gap: 10px;
+        }
+        .person-date{
+          width: 248px;
+          text-align: justify;
+        }
+        .person-date1{
+          width: 260px;
+          text-align: justify;
+        }
+        .business-line{
+          width: 580px;
+        }
+        .news-line1{
+          width: 560px;
+        }
+        .entertainment-line{
+          width: 580px;
+        }
+        .person-image{
+          width: 57px;
+        }
+        .entertainment-heading,.business-heading,.news-heading1{
+          width: 700px;
+        }
+        .courtroom-text1{
+          margin-right: 300px;
+        }
+        .right-content1{
+          gap: 20px;
+        }
+        .person{
+          width: 331px;
+          height: 109px;
+          margin-left: 5px;
+        }
+        .person1{
+          width: 375px;
+          height: 106px;
+        }
+        .lg-yoga-right{
+          margin-bottom: 0px;
+        }
+      }
+      @media (max-width:700px) {
+        .courtroom1,.courtroom2,.courtroom3{
+          width: 90%;
+          left: 0;
+          right: 0;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .courtroom-information{
+          width: 100%;
+        }
+        .courtroom-text1{
+          margin-right: 120px;
+        }
+        .content{
+          display: none;
+        }
+        .mobile-content{
+          display: flex;
+          flex-direction: column;
+         left: 0;
+         right: 0;
+        
+         margin-left: auto;
+        }
+        .secondpage{
+          height: 3430px;
+        }
+        .mobile-business-line{
+          height: 1px;
+           background-color: grey;
+           width: 470px;
+        }
+        .mobile-news-line1{
+          width: 400px;
+          height: 1px;
+           background-color: grey;
+        }
+        .mobile-entertainment-line{
+          width: 450px;
+          height: 1px;
+           background-color: grey;
+        }
+        .mobile-yoga{
+          width: 95%;
+          
+          
+        }
+        .mobile-information-cover{
+          width: 95%;
+          display: flex;
+          left: 0;
+          right: 0;
+          margin-left: auto;
+          margin-right: auto;
+          flex-direction: column;
+          height: 120px;
+          margin: 20px 0px;
+        
+        }
+        .mobile-information-line{
+          height: 1px;
+          width: 100%;
+          background-color: grey;
+        }
+        .mobile-lower-information{
+          display: flex;
+          flex-direction: column;
+          padding-left: 5%;
+          width: 100%;
+        }
+        .mobile-flag{
+          width: 200px;
+          margin-bottom: 10px;
+        }
+        .mobile-information{
+          display: flex;
+          flex-direction: row;
+          gap: 4%;
+         
+        }
+        .mobile-news{
+          font-weight: 700;
+          font-size: 20px;
+        }
+        .mobile-date-share{
+          display: flex;
+          flex-direction: row;
+          gap: 55%;
+        }
+        .mobile-person{
+          display: flex;
+          width: 95%;
+          gap: 4%;
+          margin: 15px 0px;
+        }
+        .mobile-person-image{
+          width: 20%;
+      
+        }
+        .mobile-person-date{
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .mobile-lg-yoga1{
+          width: 95%;
+        }
+    
+        .mobile-entertainment-block1,.mobile-business-block1,.mobile-news-block2{
+          font-size: 26px;
+          border-left-width: 8px;
+          border-top-width: 1px;
+          border-right-width: 1px;
+          border-bottom-width: 1px;
+          border-color: #ff9c08;
+          border-style: solid;
+          border-radius: 7px;
+          padding: 0px 8px;
+        }
+        .mobile-news-block2{
+          width: 200px;
+        }
+        .mobile-news-heading1,.mobile-business-heading,.mobile-entertainment-heading{
+          width: 95%;
+          display: flex;
+          align-items: center;
+
+        }
+        
+      }
+      @media (max-width:600px) {
+        .main-header{
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+          justify-self:flex-start;
+        }
+        .secondpage{
+          height: 3300px;
+        }
+        .logo-label{
+          display: flex;
+          margin-right: auto;
+        }
+        .side-header{
+          display: flex;
+          margin-right: auto;
+        }
+        .mobile-flag{
+          height: 100px;
+        
+        }
+        .mobile-news-line1{
+          width: 340px;
+        }
+        .courtroom-text1{
+          margin-right: 50px;
+        }
+        .mobile-news{
+          font-size: 18px;
+          font-weight: 900;
+        }
+        .mobile-date-share{
+          font-size: 14px;
+        }
+        .mobile-person-image{
+          width: 107px;
+        }
+        .mobile-person-date{
+          font-size: 18px;
+          text-align: justify;
+        }
+      }
+      
+      @media (max-width:500px) {
+        .courtroom-text1{
+          margin-left: 0px;
+          font-size:10px;
+        }
+        .left-arrow{
+          margin-left: 0%;
+          width: 25x;
+          height: 25px;
+        }
+        .right-arrow{
+          margin-right: 0%;
+          width: 25x;
+          height: 25px;
+        }
+        .loading{
+          margin-left: 200px;
+        }
+        .mobile-news{
+          font-size: 16px;
+        }
+        .mobile-date-share{
+          font-size: 12px;
+        }
+        .mobile-flag{
+          width: 120px;
+          height: 110px;
+        }
+        .mobile-person-date{
+          font-size: 16px;
+        }
+        .mobile-business-block1,.mobile-entertainment-block1,.mobile-news-block2{
+          font-size: 20px;
+        }
+      }
+      @media(max-width:400px){
+       .searchbar{
+        width: 280px;
+        font-size: 11px;
+       }
+       .courtroom1,.courtroom2,.courtroom3{
+        height: 300px;
+       }
+       .logo{
+        width: 90px;
+       }
+       .label{
+        font-size: 14px;
+       }
+       .courtroom-text1{
+        width: 200px;
+        overflow-x: hidden;
+       }
+       .courtroom-text{
+        width: 200px;
+       }
+       .loading{
+        margin-left: 150px;
+       }
+       .mobile-information{
+        display: flex;
+        flex-direction: column;
+       
+       }
+       .mobile-information-cover{
+        height: 255px;
+        margin-top: 0px;
+       }
+       .mobile-flag{
+        width: 170px;
+        
+       }
+       .mobile-yoga{
+        margin-bottom: 20px;
+       }
+       .mobile-news{
+        font-size: 20px;
+       }
+       .mobile-date-share{
+        font-size: 16px;
+       }
+       .secondpage{
+        height: 3700px;
+       }
+        .mobile-business-block1,.mobile-entertainment-block1,.mobile-news-block2{
+          font-size: 24px;
+        
+       }
+       .mobile-news-block2{
+        width: 300px;
+       }
+       .mobile-business-heading,.mobile-entertainment-heading,.mobile-news-heading1{
+        margin-bottom: 20px;
+      
+     }
+      }
