@@ -1,0 +1,738 @@
+.thirdpage{
+    height: 1300px;
+    width: 100%;
+}
+.thirdpage-main-content{
+    height: 1240px;
+    width: 100%;
+}
+.thirdpage-header-section {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: rgba(255, 156, 9, 0.8);
+  justify-content: center;
+  align-items: center;
+  gap: 55%;
+}
+.thirdpage-first-box {
+  height: 84px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.thirdpage-first-img {
+  width: 110px;
+  height: 84px;
+  mix-blend-mode: normal;
+}
+.thirdpage-text1 {
+  mix-blend-mode: normal;
+  font-size: 24px;
+  font-family: Hind;
+  font-weight: 700;
+}
+.thirdpage-whitebox {
+  width: 119px;
+  mix-blend-mode: normal;
+  background-color: #ffffff;
+  display: flex;
+
+  flex-direction: row;
+  gap: 6px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  padding: 4px 0px;
+  transition: all 2s linear 0s;
+}
+.thirdpage-text3 {
+  mix-blend-mode: normal;
+  font-size: 14px;
+  font-family: Hind;
+  margin-bottom: 0px;
+}
+.thirdpage-first-img4 {
+  width: 7px;
+  height: 5px;
+  mix-blend-mode: normal;
+  align-self: flex-end;
+  margin: 0px 0px 9px 0px;
+}
+/*card-section*/
+.thirdpage-card-section{
+  display: flex;
+  flex-direction: row;
+  height: 646px; 
+  background-image: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    #ff9c08 92%
+  );
+  align-items:flex-start;
+  padding-top: 50px;
+  justify-content:center;
+    gap: 20px;
+}
+.thirdpage-information-card{
+    height: 270px;
+    width: 421px;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(
+        180deg,
+        #f8d5a1 14%,
+        #f6b555 56%,
+        #f39407 100%
+      );
+}
+.thirdpage-heading-information{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.thirdpage-detail-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.thirdpage-person-details{
+    display: flex;
+    flex-direction: column;
+ 
+    
+ }
+ .thirdpage-detail-options{
+    width: 90px;
+ }
+.thirdpage-person-name,.thirdpage-person-place,.thirdpage-person-status,.thirdpage-person-rollno{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 250px;
+}
+.thirdpage-person-image{
+    width: 100px;
+    height: 100px;
+}
+.thirdpage-card-section-image{
+    height: 270px;
+    width: 868px;
+   
+}
+/*thirdpage whiteblock*/
+.thirdpage-whiteblock{
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 1240px;
+  height: 560px;
+  mix-blend-mode: normal;
+  background-color: #ffffff;
+  position: absolute;
+  top: 444px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 20px;
+  border-width: 1px;
+ transition: all .2s linear 0s;
+}
+/*whiteblock3*/
+.service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  gap: 5px;
+}
+  .thirdpage-line1,.thirdpage-line2,.thirdpage-line3,.thirdpage-line4,.thirdpage-line5,.thirdpage-line6,.thirdpage-line7,.thirdpage-line8{
+    background-color: rgb(79, 66, 66);
+    position: absolute;
+    width: 1px;
+    height: 431px;
+  }
+  .thirdpage-line1{
+    left: 135px;
+    top: 50px;
+  }
+  .thirdpage-line2{
+    left: 275px;
+    top:50px ;
+  }
+  .thirdpage-line3{
+    left: 408px;
+    top: 50px;
+  }
+  .thirdpage-line4{
+    left: 540px;
+    top: 50px;
+  }
+  .thirdpage-line5{
+    left: 680px;
+    top: 50px;
+  }
+  .thirdpage-line6{
+    left: 815px;
+    top: 50px;
+  }
+  .thirdpage-line7{
+    left: 945px;
+    top: 50px;
+  }
+  .thirdpage-line8{
+    left: 1085px;
+    top: 50px;
+  }
+  .thirdpage-line9{
+    background-color: rgb(79, 66, 66);
+    position: absolute;
+    height: 1px;
+    width: 1170px;
+    top:190px;
+    left:35px;
+  }
+  .thirdpage-line10{
+    background-color: rgb(79, 66, 66);
+    position: absolute;
+    height: 1px;
+    width: 1170px;
+    top:360px;
+    left: 35px;
+  }
+  
+  .service41{
+    left: 35px;
+    top: 50px;
+  }
+  .service42{
+    left: 170px;
+    top: 50px;
+  }
+  .service43{
+    left: 305px;
+    top: 50px;
+  }
+  .service44{
+    left: 440px;
+    top: 80px;
+  }
+  .service45{
+    left: 575px;
+    top: 50px;
+  }
+  .service46{
+    left: 710px;
+    top: 50px;
+  }
+  .service47{
+    left: 845px;
+    top: 50px;
+  }
+  .service48{
+    left: 980px;
+    top: 50px;
+  }
+  .service49{
+    left: 1115px;
+    top: 50px;
+  }
+  .service410{
+    left: 35px;
+    top: 245px;
+  }
+  .service411{
+    left: 170px;
+    top: 215px;
+  }
+  .service412{
+    left: 305px;
+    top: 215px;
+  }
+  .service413{
+    left: 440px;
+    top: 245px;
+  }
+  .service414{
+    left: 575px;
+    top: 215px;
+  }
+  .service415{
+    left: 710px;
+    top: 215px;
+  }
+  .service416{
+    left: 845px;
+    top: 215px;
+  }
+  .service417{
+    left: 980px;
+    top: 215px;
+  }
+  .service418{
+    left: 1115px;
+    top: 215px;
+  }
+  .service419{
+    left: 35px;
+    top: 400px;
+  }
+  .service420{
+    left: 170px;
+    top: 420px;
+  }
+  .service421{
+    left: 305px;
+    top: 400px;
+  }
+  .service422{
+    left: 440px;
+    top: 400px;
+  }
+  .service423{
+    left: 575px;
+    top: 400px;
+  }
+  .service424{
+    left: 710px;
+    top: 400px;
+  }
+  .service425{
+    left: 845px;
+    top: 430px;
+  }
+  .service426{
+    left: 980px;
+    top: 400px;
+  }
+  .service427{
+    left: 1115px;
+    top: 400px;
+  }
+  .thirdpage-description-reason{
+  
+    font-size: 14px;
+  }
+/*whiteblock3*/
+/*thirdpage whiteblock*/
+/*card-section*/
+.copyright-block{
+    mix-blend-mode: normal;
+    display: flex;
+    font-size: 16px;
+    font-family: Hind;
+    width: 100%;
+    height: 45px;
+    background-color: #f8d5a1;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13px 0px 10px 0px;
+  }
+  .thirdpage-line11,.thirdpage-line12,.thirdpage-line13,.thirdpage-line14,.thirdpage-line15,.thirdpage-line16{
+    display: none;
+  }
+  /*RESPONSIVENESS*/
+  @media (max-width:1330px) {
+    .thirdpage-whiteblock{
+      height: 900px;
+      width: 835px;
+    }
+    .thirdpage{
+      height: 1640px;
+    }
+    .thirdpage-main-content{
+      height: 1580px;
+    }
+    .thirdpage-line6,.thirdpage-line7,.thirdpage-line8{
+      display: none;
+    }
+    .thirdpage-line9,.thirdpage-line10{
+      width: 765px;
+    }
+    .thirdpage-line1,.thirdpage-line2,.thirdpage-line3,.thirdpage-line4,.thirdpage-line5{
+    height: 800px;
+    }
+    .thirdpage-line11{
+      display: block;
+      background-color: rgb(79, 66, 66);
+      position: absolute;
+      height: 1px;
+      width: 765px;
+      top: 550px;
+      left: 35px;
+    }
+    .thirdpage-line12{
+      display: block;
+      background-color: rgb(79, 66, 66);
+      position: absolute;
+      height: 1px;
+      width: 765px;
+      top: 720px;
+      left: 35px;
+    }
+    .service47{
+      left: 35px;
+      top: 580px;
+    }
+    .service48{
+      top: 580px;
+      left: 170px;
+    }
+    .service49{
+      top: 580px;
+      left: 305px;
+    }
+    .service416{
+      top: 580px;
+      left: 440px;
+    }
+    .service417{
+      top: 580px;
+      left: 575px;
+    }
+    .service418{
+      top: 580px;
+      left: 710px;
+    }
+    .service425{
+      top: 760px;
+      left: 35px;
+    }
+    .service426{
+      top: 750px;
+      left: 170px;
+    }
+    .service427{
+      top: 750px;
+      left: 305px;
+    }
+   .thirdpage-card-section-image{
+    width: 750px;
+   }
+  }
+  @media (max-width:1220px) {
+    .thirdpage-card-section-image{
+      width: 600px;
+     }
+  }
+  @media (max-width:1100px) {
+    .thirdpage-card-section-image{
+      width: 500px;
+     }
+     .thirdpage-text1{
+      font-size: 20px;
+     }
+  }
+  @media (max-width:1010px) {
+    .thirdpage-card-section-image{
+      width: 421px;
+     }
+     .thirdpage-text1{
+      font-size: 17px;
+     }
+  }
+  @media (max-width:900px) {
+    .thirdpage-card-section-image{
+      width: 500px;
+     }
+     .thirdpage-header-section{
+      gap: 48%;
+     }
+     .thirdpage-text1{
+      font-size: 16px;
+     }
+     .thirdpage-first-img{
+      width: 100px;
+      height: 80px;
+     }
+     .thirdpage-card-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    padding-top: 50px;
+     }
+     .thirdpage-whiteblock{
+      top: 930px;
+     }
+     .thirdpage{
+      height:2330px;
+     }
+     .thirdpage-main-content{
+      height: 2270px;
+     }
+     .thirdpage-card-section{
+      height: 1316px;
+     }
+     .thirdpage-card-section-image{
+      width: 750px;
+      height: 380px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+     }
+     .thirdpage-information-card{
+      margin-top: 0px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      height: 380px;
+      width: 750px;
+     }
+     .thirdpage-whiteblock{
+      height: 1240px;
+      width: 561px;
+     }
+     .thirdpage-line4,.thirdpage-line5{
+      display: none;
+     }
+     .thirdpage-line9,.thirdpage-line10,.thirdpage-line11,.thirdpage-line12{
+      width: 491px;
+     }
+     .thirdpage-line1,.thirdpage-line2,.thirdpage-line3{
+      height: 1150px;
+     }
+     .thirdpage-line13,.thirdpage-line14{
+      background-color: rgb(79, 66, 66);
+      position: absolute;
+      height: 1px;
+      width: 491px;
+      display: block;
+      left:35px;
+     }
+     .thirdpage-line13{
+      top: 890px;
+     }
+     .thirdpage-line14{
+      top: 1060px;
+     }
+     .service45{
+      left: 440px;
+      top: 750px;
+     }
+     .service46{
+      left: 35px;
+      top: 920px;
+     }
+     .service414{
+      left: 170px;
+      top: 920px;
+     }
+     .service415{
+      left: 305px;
+      top: 920px;
+     }
+     .service423{
+      left: 35px;
+      top: 1090px;
+     }
+     .service424{
+      left: 440px;
+      top: 920px;
+     }
+     .service417{
+      left: 170px;
+      top: 1090px;
+     }
+     .service418{
+      left: 305px;
+      top:1090px
+     }
+     .thirdpage-heading-information{
+      font-size: 26px;
+     }
+     .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
+      font-size: 18px;
+     }
+     .thirdpage-detail-options{
+      width: 200px;
+     }
+     .thirdpage-person-image{
+      height: 150px;
+      width: 150px;
+     }
+     .thirdpage-header-section{
+      justify-content: center;
+     }
+  }
+  @media (max-width:770px) {
+    .thirdpage-card-section-image{
+      width: 650px;
+    }
+    .thirdpage-information-card{
+      width: 650px;
+    }
+    .thirdpage-header-section{
+      gap: 42%;
+    }
+
+   .thirdpage-header-section{
+    justify-content: center;
+   }
+   
+  }
+  @media (max-width:670px) {
+    .thirdpage-card-section-image{
+      width: 550px;
+    }
+    .thirdpage-information-card{
+      width: 550px;
+    }
+    .thirdpage-header-section{
+      gap: 38%;
+    }
+  
+  }
+  @media (max-width:630px) {
+    .thirdpage-whiteblock{
+      height: 1580px;
+      width: 424px;
+    }
+    .thirdpage-card-section-image{
+      width: 650px;
+    }
+    .thirdpage-information-card{
+      width: 650px;
+    }
+    .thirdpage-line3{
+      display: none;
+    }
+    .thirdpage-header-section{
+      gap: 30%;
+    }
+    .thirdpage-line9,.thirdpage-line10,.thirdpage-line11,.thirdpage-line12,.thirdpage-line13,.thirdpage-line14,.thirdpage-line15,.thirdpage-line16{
+      width: 354px;
+    }
+    .thirdpage-line1,.thirdpage-line2{
+      height: 1500px;
+    
+    }
+    .thirdpage-main-content{
+      height:2590px;
+    }
+    .thirdpage{
+      height: 2650px;
+    }
+    .thirdpage-line15,.thirdpage-line16{
+      background-color: rgb(79, 66, 66);
+      position: absolute;
+      height: 1px;
+ 
+      display: block;
+      left:35px;
+    }
+    .thirdpage-line15{
+      top:1230px;
+    }
+    .thirdpage-line16{
+      top: 1400px;
+    }
+    .service44{
+      left: 35px;
+      top: 1280px;
+    }
+    .service413{
+      left: 170px;
+      top: 1280px;
+
+    }
+    .service422{
+      left: 305px;
+      top: 1250px;
+    }
+    .service416{
+      left: 35px;
+      top: 1420px;
+    }
+    .service45{
+      left: 170px;
+      top: 1420px;
+    }
+    .service424{
+      left: 305px;
+      top: 1420px;
+
+    }
+  }
+
+  
+  @media (max-width:670px) {
+    .thirdpage-card-section-image{
+      width: 550px;
+      height: 350px;
+    }
+    .thirdpage-information-card{
+      width: 550px;
+      height: 350px;
+    }
+  }
+    
+  @media (max-width:570px) {
+    .thirdpage-card-section-image{
+      width: 450px;
+      height: 330px;
+    }
+    .thirdpage-information-card{
+      width: 450px;
+      height: 330px;
+    }
+    .thirdpage-text3{
+      font-size: 12px;
+    }
+    .thirdpage-header-section{
+      gap: 17%;
+    }
+    .thirdpage-card-section{
+      gap: 50px;
+    }
+  }
+  @media (max-width:470px) {
+    .thirdpage-card-section-image{
+      width: 350px;
+      height: 330px;
+    }
+    
+    .thirdpage-information-card{
+      width: 350px;
+      height: 330px;
+    }
+    .thirdpage-header-section{
+      gap: 2%;
+    }
+    .thirdpage-card-section{
+      gap: 50px;
+    }
+    .thirdpage-heading-information{
+      font-size: 18px;
+     }
+     .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
+      font-size: 14px;
+      width: 200px;
+     }
+     .thirdpage-detail-options{
+      width: 100px;
+     }
+     .thirdpage-person-image{
+      height: 100px;
+      width: 100px;
+     }
+     .thirdpage-detail-information{
+      justify-content: center;
+     }
+     .thirdpage-person-details{
+      width: 200px;
+     }
+     .thirdpage-whiteblock{
+      width: 400px;
+     }
+  }
