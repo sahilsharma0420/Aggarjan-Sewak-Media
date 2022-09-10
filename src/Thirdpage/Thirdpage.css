@@ -162,7 +162,7 @@ align-items: center;
     height: 431px;
   }
   .thirdpage-line1{
-    left: 135px;
+    left: 137px;
     top: 50px;
   }
   .thirdpage-line2{
@@ -170,15 +170,16 @@ align-items: center;
     top:50px ;
   }
   .thirdpage-line3{
-    left: 408px;
+    left: 409px;
     top: 50px;
+    width: 1px;
   }
   .thirdpage-line4{
-    left: 540px;
+    left: 541px;
     top: 50px;
   }
   .thirdpage-line5{
-    left: 680px;
+    left: 681px;
     top: 50px;
   }
   .thirdpage-line6{
@@ -198,7 +199,7 @@ align-items: center;
     position: absolute;
     height: 1px;
     width: 1170px;
-    top:190px;
+    top:191px;
     left:35px;
   }
   .thirdpage-line10{
@@ -206,7 +207,7 @@ align-items: center;
     position: absolute;
     height: 1px;
     width: 1170px;
-    top:360px;
+    top:361px;
     left: 35px;
   }
   
@@ -367,7 +368,7 @@ align-items: center;
       position: absolute;
       height: 1px;
       width: 765px;
-      top: 550px;
+      top: 551px;
       left: 35px;
     }
     .thirdpage-line12{
@@ -376,7 +377,7 @@ align-items: center;
       position: absolute;
       height: 1px;
       width: 765px;
-      top: 720px;
+      top: 721px;
       left: 35px;
     }
     .service47{
@@ -404,7 +405,7 @@ align-items: center;
       left: 710px;
     }
     .service425{
-      top: 760px;
+      top: 775px;
       left: 35px;
     }
     .service426{
@@ -502,6 +503,15 @@ align-items: center;
      .thirdpage-line1,.thirdpage-line2,.thirdpage-line3{
       height: 1150px;
      }
+     .thirdpage-line1{
+      left: 136px;
+     }
+     .thirdpage-line3{
+      left: 410px;
+     }
+     .thirdpage-line2{
+      left: 276px;
+     }
      .thirdpage-line13,.thirdpage-line14{
       background-color: rgb(79, 66, 66);
       position: absolute;
@@ -511,7 +521,7 @@ align-items: center;
       left:35px;
      }
      .thirdpage-line13{
-      top: 890px;
+      top: 891px;
      }
      .thirdpage-line14{
       top: 1060px;
@@ -617,6 +627,7 @@ align-items: center;
       height: 1500px;
     
     }
+    
     .thirdpage-main-content{
       height:2590px;
     }
@@ -632,7 +643,7 @@ align-items: center;
       left:35px;
     }
     .thirdpage-line15{
-      top:1230px;
+      top:1231px;
     }
     .thirdpage-line16{
       top: 1400px;
@@ -645,6 +656,12 @@ align-items: center;
       left: 170px;
       top: 1280px;
 
+    }
+    .thirdpage-line1{
+      left: 137px;
+    }
+    .thirdpage-line2{
+      left: 275px;
     }
     .service422{
       left: 305px;
