@@ -2,11 +2,14 @@
     height: 1600px;
     width: 100%;
 }
-.main-content{
+.fourthpage-main-content{
     height: 1540px;
     width: 100%;
 }
-.header-section {
+.fourthpage-description-reason{
+  font-size: 18px;
+}
+.fourthpage-header-section {
   display: flex;
   flex-direction: row;
   height: 80px;
@@ -15,11 +18,11 @@
   align-items: center;
   gap: 55%;
 }
-.side-panel{
+.fourthpage-side-panel{
     display: flex;
     flex-direction: row;
 }
-.business-button{
+.fourthpage-business-button{
 width: 119px;
   mix-blend-mode: normal;
   background-color: #f39507;
@@ -31,16 +34,16 @@ width: 119px;
   align-items: center;
   border-radius: 3px;
   padding: 4px 0px;
-  transition: all 2s linear 0s;
+  transition: all .2s linear 0s;
 }
-.business-text{
+.fourthpage-business-text{
     color: black;
     font-weight: 900;
     margin-bottom: 0px;
     font-family: Hind;
     font-size: 14px;
 }
-.first-box {
+.fourthpage-first-box {
   height: 84px;
   position: relative;
 
@@ -48,18 +51,18 @@ width: 119px;
   flex-direction: row;
   align-items: center;
 }
-.first-img {
+.fourthpage-first-img {
   width: 110px;
   height: 84px;
   mix-blend-mode: normal;
 }
-.text1 {
+.fourthpage-text1 {
   mix-blend-mode: normal;
   font-size: 24px;
   font-family: Hind;
   font-weight: 700;
 }
-.whitebox {
+.fourthpage-whitebox {
   width: 119px;
   mix-blend-mode: normal;
   background-color: #ffffff;
@@ -72,9 +75,9 @@ width: 119px;
   align-items: center;
   border-radius: 3px;
   padding: 4px 0px;
-  transition: all 2s linear 0s;
+  transition: all .2s linear 0s;
 }
-.text3 {
+.fourthpage-text3 {
   mix-blend-mode: normal;
   font-size: 14px;
   font-family: Hind;
@@ -83,7 +86,7 @@ width: 119px;
   font-weight: 900;
 
 }
-.first-img4 {
+.fourthpage-first-img4 {
   width: 7px;
   height: 5px;
   mix-blend-mode: normal;
@@ -100,7 +103,7 @@ width: 119px;
   justify-content:center;
     gap: 20px;
 }
-.information-card{
+.fourthpage-information-card{
     height: 270px;
     width: 421px;
     border-width: 5px;
@@ -117,34 +120,34 @@ width: 119px;
         #f39407 100%
       );
 }
-.heading-information{
+.fourthpage-heading-information{
 display: flex;
 flex-direction: row;
 align-items: center;
 }
-.detail-information{
+.fourthpage-detail-information{
     display: flex;
     flex-direction: row;
     padding: 0px 20px;
 }
-.person-detail{
+.fourthpage-person-detail{
     display: flex;
     flex-direction: column;
  }
- .detail-options{
+ .fourthpage-detail-options{
     width: 90px;
  }
-.person-name,.person-place,.person-status,.person-rollno{
+.fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 250px;
 }
-.person-image{
+.fourthpage-person-image{
     width: 100px;
     height: 100px;
 }
-.card-section-image{
+.fourthpage-card-section-image{
     height: 270px;
     width: 868px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -240,58 +243,62 @@ gap: 20px;
   height: 800px;
   position: absolute;
   width: 1px;
-  top: 550px;
-  left: 1084.5px;
+  top: 120px;
+  left: 970.5px;
 }
 .fourthpage-line2{
   background-color: rgb(79, 66, 66);
   height: 800px;
   position: absolute;
   width: 1px;
-  top: 550px;
-  left: 761px;
+  top: 120px;
+  left: 647px;
 }
 .fourthpage-line1{
   background-color: rgb(79, 66, 66);
   height: 800px;
   position: absolute;
   width: 1px;
-  top: 550px;
-  left: 437.5px;
+  top: 120px;
+  left: 323.5px;
 }
 .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10{
   background-color: rgb(79, 66, 66);
   height: 1px;
-  width: 1220px;
+  width: 1170px;
+  left: 60px;
   position: absolute;
 }
+.fourthpage-line11,.fourthpage-line12,.fourthpage-line13,.fourthpage-line14,.fourthpage-line15,.fourthpage-line15,.fourthpage-line16,.fourthpage-line17,.fourthpage-line18{
+  display: none;
+}
 .fourthpage-line4{
-  top: 655px;
-  left: 150px;
+  top: 200px;
+ 
 }
 .fourthpage-line5{
-  top:760px ;
-  left:150px ;
+  top:315px ;
+ 
 }
 .fourthpage-line6{
-  top: 865px;
-  left: 150px;
+  top: 415px;
+
 }
 .fourthpage-line7{
-  top:970px ;
-  left:150px ;
+  top:515px ;
+ 
 }
 .fourthpage-line8{
-  top:1075px ;
-  left: 150px;
+  top:615px ;
+  
 }
 .fourthpage-line9{
-  top:1180px ;
-  left: 150px;
+  top:730px ;
+ 
 }
 .fourthpage-line10{
-  top: 1285px;
-  left: 150px;
+  top: 840px;
+
 }
 .service1{
   left:80px ;
@@ -438,4 +445,527 @@ gap: 20px;
     padding: 13px 0px 10px 0px;
  
   
+  }
+  /*responsive*/
+  @media (max-width:1400px) {
+    .fourthpage-header-section{
+      gap: 51%;
+    }
+  }
+  @media (max-width:1330px) {
+    .fourthpage-card-section-image{
+      width: 545px;
+    }
+    .fourthpage-header-section{
+      gap: 48%;
+    }
+    .fourthpage-whiteblock{
+      height:1268px;
+      width: 971px;
+    }
+    .fourthpage-line1,.fourthpage-line2{
+      height: 1100px;
+    }
+    .fourthpage{
+      height: 1900px;
+    }
+    .fourthpage-main-content{
+      height: 1840px;
+    }
+    .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10{
+ 
+      width: 850px;
+     
+    }
+    .fourthpage-line3{
+      display: none;
+    }
+    .fourthpage-line11{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 850px;
+      top: 950px;
+      left: 60px;
+    }
+    .fourthpage-line12{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 850px;
+      top: 1050px;
+      left: 60px;
+    }
+    .fourthpage-line13{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 850px;
+      top: 1150px;
+      left: 60px;
+    }
+    .service4{
+      left: 70px;
+      top: 980px;
+    }
+    .service8{
+      left: 370px;
+      top: 970px;
+    }
+    .service12{
+      left: 720px;
+      top: 970px;
+    }
+    .service16{
+      left: 70px;
+      top: 1060px;
+    }
+    .service20{
+      left: 370px;
+      top: 1070px;
+    }
+    .service24{
+      left: 720px;
+      top: 1060px;
+    }
+    .service28{
+      left: 70px;
+      top: 1170px;
+    }
+    .service32{
+      left: 370px;
+      top: 1170px;
+    }
+    .search-button{
+      width: 430px;
+    }
+    .search-button-image3{
+      margin-left: 130px;
+    }
+    .fourthpage-buttons{
+      justify-content: center;
+      width: 900px;
+      gap: 20%;
+    }
+  }
+  @media (max-width:1215px) {
+    .fourthpage-header-section{
+      gap: 45%;
+    }
+  }
+  @media (max-width:1145px) {
+    .fourthpage-header-section{
+      gap: 40%;
+    }
+  }
+  @media (max-width:1050px) {
+    .fourthpage-header-section{
+      gap: 36%;
+    }
+  }
+  @media (max-width:985px) {
+    .fourthpage-header-section{
+      gap: 33%;
+    }
+    .fourthpage-text1{
+      font-size: 20px;
+    }
+  }
+  @media (max-width:1000px) {
+
+    .fourthpage-card-section-image{
+      width: 383px;
+    }
+    .fourthpage-information-card{
+      width: 383px;
+    }
+    .fourthpage-whiteblock{
+      height:1800px;
+      width: 648px;
+    }
+    .fourthpage-line1,.fourthpage-line2{
+      height: 1100px;
+    }
+    .fourthpage{
+      height: 2400px;
+    }
+    .fourthpage-main-content{
+      height: 2340px;
+    }
+    .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10,.fourthpage-line11,.fourthpage-line12,.fourthpage-line13{
+ 
+      width: 545px;
+     
+    }
+    .fourthpage-line1{
+      height: 1630px;
+    }
+    .fourthpage-line2{
+      display: none;
+    }
+    .fourthpage-line14{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 545px;
+      top: 1255px;
+      left: 60px;
+    }
+    .fourthpage-line15{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 545px;
+      top: 1360px;
+      left: 60px;
+    }
+    .fourthpage-line16{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 545px;
+      top: 1465px;
+      left: 60px;
+    }
+    .fourthpage-line17{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 545px;
+      top: 1570px;
+      left: 60px;
+    }
+    .fourthpage-line18{
+      background-color: rgb(79, 66, 66);
+      height: 1px;
+      display: block;
+      position: absolute;
+      width: 545px;
+      top: 1675px;
+      left: 60px;
+    }
+    .service3{
+      left: 70px;
+      top: 1275px;
+    }
+    .service7{
+      left: 370px;
+      top: 1275px;
+    }
+    .service11{
+      left: 70px;
+      top: 1380px;
+    }
+    .service15{
+      left: 370px;
+      top: 1380px;
+    }
+    .service19{
+      left: 70px;
+      top: 1485px;
+    }
+    .service23{
+      left: 370px;
+      top: 1485px;
+    }
+    .service27{
+      left: 70px;
+      top: 1585px;
+    }
+    .service31{
+      left: 370px;
+      top: 1590px;
+    }
+    .service12{
+      left: 70px;
+      top: 1690px;
+    }
+    .service24{
+      left: 370px;
+      top: 1690px;
+    }
+    .fourthpage-buttons{
+      gap: 10%;
+      width: 600px;
+    }
+    .fourthpage-button1,.fourthpage-button2{
+      width: 80px;
+    }
+    .search-button-image3{
+      margin-left: 30px;
+    }
+  }
+  @media (max-width:880px) {
+    .fourthpage-header-section{
+      gap:27%;
+    }
+  }
+  @media (max-width:810px) {
+    .fourthpage-header-section{
+      gap:19%;
+    }
+    .fourthpage-text1{
+      font-size: 18px;
+    }
+    .fourthpage-card-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .fourthpage-card-section-image{
+      width: 700px;
+      height: 350px;
+    }
+    .fourthpage-information-card{
+      width: 700px;
+      height: 350px ;
+    }
+    .fourthpage-card-section{
+      height: 800px;
+    }
+    .fourthpage-whiteblock{
+      top: 900px;
+    }
+    .fourthpage{
+      height: 2800px;
+    }
+    .fourthpage-main-content{
+      height:2760px ;
+    }
+    .fourthpage-person-image{
+      height: 150px;
+      width: 150px;
+    }
+    .fourthpage-heading-information-label{
+      font-size: 26px;
+    }
+    .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 350px;
+      font-size: 20px;
+  }
+  .fourthpage-detail-options{
+    width: 120px;
+  }
+  .fourthpage-detail-information{
+    justify-content: space-between;
+  }
+  }
+  @media (max-width:710px) {
+    .fourthpage-header-section{
+      gap: 10%;
+    }
+    .fourthpage-text1{
+      font-size: 14px;
+    }
+    .fourthpage-card-section-image{
+      width: 590px;
+      height: 350px;
+    }
+    .fourthpage-information-card{
+      width: 590px;
+      height: 350px ;
+    }
+    .fourthpage-whiteblock{
+      width: 540px;
+    }
+    .service1,.service5,.service9,.service13,.service17,.service21,.service25,.service29,.service4,.service16,.service28,.service3,.service11,.service19,.service27,.service12{
+      left: 70px;
+    }
+    .service2,.service6,.service10,.service14,.service18,.service22,.service26,.service30,.service8,.service23,.service15,.service31,.service24,.service7,.service20,.service32{
+      left: 300px;
+    }
+    .fourthpage-line1{
+      left: 270px;
+    }
+    .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10,.fourthpage-line11,.fourthpage-line12,.fourthpage-line13,.fourthpage-line14,.fourthpage-line15,.fourthpage-line16,.fourthpage-line17,.fourthpage-line18{
+     left: 45px;
+      width: 450px;
+     
+    }
+    .fourthpage-buttons{
+      gap: 3%;
+      width: 500px;
+      left: 20px;
+    }
+    .fourthpage-button1,.fourthpage-button2{
+      width: 60px;
+    }
+    .search-button-image3{
+      margin-left: 30px;
+    }
+    .search-button-image2{
+      margin: 0px 5px;
+    }
+    .fourthpage-business-button{
+width: 90px;
+    }
+    .fourthpage-business-text{
+font-size: 12px;
+    }
+    .fourthpage-whitebox{
+ width: 100px;
+    }
+    .fourthpage-text3{
+font-size: 12px;
+    }
+  }
+  @media (max-width:600px) {
+    .fourthpage-header-section{
+      gap: 9%;
+    }
+    .fourthpage-information-card{
+      width: 450px;
+      height: 300px;
+    }
+    .fourthpage-card-section-image
+    {
+      height: 300px;
+      width: 450px;
+    }
+    .fourthpage-whiteblock{
+      top: 820px;
+    }
+    .fourthpage-person-image{
+      height: 120px;
+      width: 120px;
+    }
+    .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
+     
+      width: 250px;
+     
+  }
+  .fourthpage-whiteblock{
+    width: 430px;
+  }
+  .fourthpage-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    left: 0px;
+    width: 430px;
+  }
+  .search-button{
+    width: 370px;
+  }
+  .service1,.service5,.service9,.service13,.service17,.service21,.service25,.service29,.service4,.service16,.service28,.service3,.service11,.service19,.service27,.service12{
+    left: 18px;
+  }
+  .service2,.service6,.service10,.service14,.service18,.service22,.service26,.service30,.service8,.service23,.service15,.service31,.service24,.service7,.service20,.service32{
+    left: 231px;
+  }
+  .fourthpage-line1{
+    left: 208px;
+  }
+  .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10,.fourthpage-line11,.fourthpage-line12,.fourthpage-line13,.fourthpage-line14,.fourthpage-line15,.fourthpage-line16,.fourthpage-line17,.fourthpage-line18{
+   left: 35px;
+    width: 380px;
+   
+  }
+  .search-button-image3{
+    margin-left: 60px;
+  }
+  .search-button-image2{
+    margin: 0px 15px;
+  }
+  }
+  @media (max-width:550px) {
+    .fourthpage-header-section{
+      gap: 3%;
+      
+    }
+
+  }
+  @media (max-width:500px) {
+    .fourthpage-header-section{
+      display: flex;
+      flex-direction: column;
+      height: 140px;
+      gap: 0%;
+    }
+    .fourthpage-text1{
+      font-size: 24px;
+    }
+    
+    .fourthpage-information-card{
+      width: 380px;
+      height: 270px;
+    }
+    .fourthpage-card-section-image
+    {
+      height: 270px;
+      width: 380px;
+    }    
+    .fourthpage-person-image{
+      width: 100px;
+      height: 100px;
+    }
+    .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
+     
+      width: 200px;
+     
+  }
+  .fourthpage-heading-information-label{
+    font-size: 22px;
+  }
+  .fourthpage-detail-options{
+font-size: 16px;
+width: 90px;
+  }
+.fourthpage-whiteblock{
+  top: 830px;
+  width: 380px;
+}
+.fourthpage-business-button{
+  width: 150px;
+      }
+      .fourthpage-business-text{
+  font-size: 20px;
+      }
+      .fourthpage-whitebox{
+   width: 150px;
+      }
+      .fourthpage-text3{
+  font-size: 20px;
+      }
+      .fourthpage-buttons{
+        width: 380px;
+        gap: 20px;
+      }
+      .service1,.service5,.service9,.service13,.service17,.service21,.service25,.service29,.service4,.service16,.service28,.service3,.service11,.service19,.service27,.service12{
+        left: 18px;
+        gap: 10px;
+      }
+      .service2,.service6,.service10,.service14,.service18,.service22,.service26,.service30,.service8,.service23,.service15,.service31,.service24,.service7,.service20,.service32{
+        left: 211px;
+        gap: 10px;
+      }
+      .fourthpage-line1{
+        left: 188px;
+      }
+      .fourthpage-line4,.fourthpage-line5,.fourthpage-line6,.fourthpage-line7,.fourthpage-line8,.fourthpage-line9,.fourthpage-line10,.fourthpage-line11,.fourthpage-line12,.fourthpage-line13,.fourthpage-line14,.fourthpage-line15,.fourthpage-line16,.fourthpage-line17,.fourthpage-line18{
+       left: 25px;
+        width: 330px;
+       
+      }
+      .search-button-image2{
+        margin: 0px 10px;
+      }
+      .fourthpage-description-reason{
+        font-size: 14px;
+      }
+      .service1,.service2{
+        margin-top: 5px;
+      }
   }

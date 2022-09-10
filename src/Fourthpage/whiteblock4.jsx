@@ -9,7 +9,7 @@ const Whiteblock4 = (props) => {
                        <div className={`service${value.id}`}>
                      
                         <img src={value.services} alt="not found"/>
-                        <p className="description-reason">{value.name}</p>
+                        <p className="fourthpage-description-reason">{value.name}</p>
                         </div>
                 </div>
             ))};
