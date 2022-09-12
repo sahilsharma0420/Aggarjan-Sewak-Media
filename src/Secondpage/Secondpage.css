@@ -2,61 +2,105 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 87%;
-    right: 0%;
-    left: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    background-color: #FFB03A;
+  margin-bottom: 5px;
 }
 .logo-label{
     display: flex;
     align-items: center;
 }
+.label{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
 .side-header{
     display: flex;
     flex-direction: row;
+    gap: 20px;
+}
+
+.news-search-bar{
+  width: 330px;
+  mix-blend-mode: normal;
+  background-color: #ffffff;
+  display: flex;
+
+  flex-direction: row;
+  gap: 6px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  padding: 4px 0px;
+  transition: all 2s linear 0s;
 }
 .searchbar{
     display: flex;
-    background-color: #ffffff;
-    border: 1px solid  black;
-    border-radius: 15px;
+    
     height: 30px;
     padding: 0px 5px;
  
 }
+.secondpage-city{
+  color:black;
+  font-weight:bolder;
+  width:60px;
+  margin-top: 3px;
+}
+.secondpage-search{
+  color:black;
+  width:140px;
+  margin-top: 3px;
+}
 .name{
-    display: flex;
-    text-transform: none;
-    border: 1px solid black;
-    border-radius: 15px;
-    gap: 10px;
-    padding-top: 2px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 2px;
-    background-color: #ffffff;
-    border: 1px solid  black;
-    height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  font-weight: 700;
 }
 .namevalue{
-    padding-top: 0%;
+  font-size: 13px;
+  margin-bottom: 0%;
+
 }
+
 .news-addition{
     display: flex;
-    border: 1px solid black;
-    border-radius: 15px;
-    text-align: center;
-    justify-content: center;
-    padding: 5px 7px;
     gap: 5px;
-    background-color: #ffffff;
     padding-top: 2px;
-    padding-left: 7px;
-    padding-right: 7px;
     padding-bottom: 2px;
     height: 30px;
 
+}
+.button2{
+  width: 110px;
+      mix-blend-mode: normal;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+  
+      transition: all .2s linear 0s;
+}
+.button3{
+  width: 125px;
+      mix-blend-mode: normal;
+      background-color: #ffffff;
+      display: flex;
+      border: none;
+      flex-direction: row;
+     margin-right: 25px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      padding: 4px 0px;
+      transition: all .2s linear 0s;
 }
 .plus{
     width: 20px;
@@ -93,7 +137,7 @@
   margin-left: 20px;
 }
 .menu-end{
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .menu p{
@@ -101,6 +145,7 @@
     padding-top: 10px;
     padding-left: 10px;
     margin-right: 10px;
+  
 }
 /**/
 .image-section{
@@ -114,6 +159,7 @@
   width: 921px;
   border-radius: 10px;
   height: 331px;
+  margin-right: 0px;
   background-repeat:no-repeat;
   margin-bottom: 40px;
   background-image: url("https://file.rendit.io/n/RCrBkMKiLPwVCQZWHPRH.png");
@@ -435,7 +481,10 @@ flex-direction: column;
     
       /*bigscreen*/
       @media (min-width:1366px) {
-        .main-header,.menu{
+        .main-header{
+          width: 100%;
+        }
+        .menu{
           width: 1325px;
         }
         .menu-start{
@@ -449,7 +498,10 @@ flex-direction: column;
        .menu-start{
         margin-left: 150px;
       }
-       .main-header,.menu{
+       .main-header{
+        width: 100%;
+      }
+      .menu{
         width: 1200px;
       }
     
@@ -500,13 +552,19 @@ flex-direction: column;
       }
           }    
     @media (max-width:1220px) {
-      .main-header,.menu{
+      .main-header{
+        width:100% ;
+      }
+      .menu{
         width:87% ;
       }
       .menu-start{
         margin-left: 70px;
       }
-      .main-header,.menu{
+      .main-header{
+        width: 100%;
+      }
+      .menu{
         width: 1060px;
       }
     .courtroom{
@@ -581,7 +639,10 @@ flex-direction: column;
       .right-content{
         display: none;
       }
-      .main-header,.menu{
+      .main-header{
+        width: 100%;
+      }
+      .menu{
         width: 900px;
       }
       .menu-start{
@@ -688,6 +749,7 @@ flex-direction: column;
       }
     } /*bigscreen*/
     /*ipad*/
+    
     @media (max-width:900px) {
       .secondpage{
         height: 2400px;
@@ -698,7 +760,10 @@ flex-direction: column;
       .right-content1,.news-heading1{
         display: flex;
       }
-      .menu,.main-header{
+      .main-header{
+        width: 100%;
+      }
+      .menu{
         width: 88%;
       }
       .crousel-second{

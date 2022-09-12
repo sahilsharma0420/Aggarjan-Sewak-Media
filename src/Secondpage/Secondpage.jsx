@@ -14,7 +14,7 @@ function Secondpage() {
         <div className='news-search-bar'>
         <Button variant="outlined" style={{border:"none"}}><div className='searchbar'><img
             style={{paddingRight:"10px"}}   src={`https://file.rendit.io/n/PY94Pekb5HZSo9DJPFD6.svg`}
-            /><p style={{color:"black",fontWeight:"bolder",width:"60px"}} >शहर चुनें</p><img style={{marginLeft:'5px'}}  src={`https://file.rendit.io/n/sp3hR6uIj84vmabeo31W.svg`} /><p style={{color:"black",width:"140px"}}>खोज के लिए यहाँ लिखें</p> <img style={{paddingLeft:"40px"}} src={`https://file.rendit.io/n/gB2MTB0X293FbFK09HA8.svg`} /></div></Button>
+            /><p className='secondpage-city'  >शहर चुनें</p><img style={{marginLeft:'5px'}}  src={`https://file.rendit.io/n/sp3hR6uIj84vmabeo31W.svg`} /><p className="secondpage-search" >खोज के लिए यहाँ लिखें</p> <img style={{paddingLeft:"40px"}} src={`https://file.rendit.io/n/gB2MTB0X293FbFK09HA8.svg`} /></div></Button>
         </div>
         <div className='button2'>
      <Button style={{color:"black"}}>  <div className='news-addition'>
