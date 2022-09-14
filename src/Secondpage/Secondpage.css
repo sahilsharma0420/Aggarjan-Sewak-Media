@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     background-color: #FFB03A;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .logo-label{
     display: flex;
@@ -209,6 +209,7 @@ background-image: url("https://img.freepik.com/premium-photo/justice-law-concept
   flex-direction: column;
   justify-self: center;
   height: 20px;
+  align-items: center;
 }
 
 .left-arrow{
@@ -224,13 +225,13 @@ background-image: url("https://img.freepik.com/premium-photo/justice-law-concept
 .loading{
   width: 30px;
   height: 20px;
-  margin-left: 250px;
+  
 }
 .courtroom-text1{
   color: #ffffff;
   font-size: small;
   margin-bottom: 0px;
-  margin-right: 400px;
+ 
 }
 /*courtroom*/
 /*.lg-yoga*/
@@ -353,7 +354,7 @@ margin-bottom: 40px;
     left: 0%;
     margin-left: auto;
     margin-right: auto;
-    gap: 26px;
+   
     justify-content: center;
 }
 /*content*/
@@ -485,11 +486,13 @@ flex-direction: column;
           width: 100%;
         }
         .menu{
-          width: 1325px;
+          width: 1355px;
         }
         .menu-start{
           margin-left: 200px;
         }
+        .content{
+          gap: 51px;}
       }
       @media (max-width:1366px) {
        .courtroom{
@@ -502,7 +505,10 @@ flex-direction: column;
         width: 100%;
       }
       .menu{
-        width: 1200px;
+        width: 1240px;
+      }
+      .content{
+        gap: 30px;
       }
     
        .lg-yoga,.lg-yoga1{
@@ -518,9 +524,7 @@ flex-direction: column;
        .person-image{
         width: 77px;
        }
-       .content{
-        gap: 0px;
-       }
+      
        .first-information{
         gap: 20px;
        }
@@ -551,13 +555,11 @@ flex-direction: column;
         width: 430px;
       }
           }    
-    @media (max-width:1220px) {
+    @media (max-width:1240px) {
       .main-header{
         width:100% ;
       }
-      .menu{
-        width:87% ;
-      }
+     
       .menu-start{
         margin-left: 70px;
       }
@@ -565,14 +567,13 @@ flex-direction: column;
         width: 100%;
       }
       .menu{
-        width: 1060px;
+        width: 1100px;
       }
+
     .courtroom{
       width: 731px;
     }
-    .courtroom-text1{
-      margin-right: 350px;
-    }
+  
     .yoga{
       width: 365px;
     }
@@ -616,7 +617,7 @@ flex-direction: column;
     .content {
       display: flex;
       justify-content: center;
-      gap:10px
+      gap:40px
     };
     .left-content{
       width: 780px;
@@ -632,7 +633,7 @@ flex-direction: column;
       width: 210px;
     }
     } 
-    @media (max-width:1080px) {
+    @media (max-width:1110px) {
       .secondpage{
         height:2450px
       }
@@ -749,22 +750,30 @@ flex-direction: column;
       }
     } /*bigscreen*/
     /*ipad*/
-    
-    @media (max-width:900px) {
+   
+
+    @media (max-width:990px) {
       .secondpage{
         height: 2400px;
       }
-      .right-content,.news-heading,.button2,.button3,.courtroom{
+      .right-content,.news-heading,.courtroom{
         display: none;
       }
       .right-content1,.news-heading1{
         display: flex;
       }
+      .label{
+        display: none;
+
+      }
+      .news-search-bar {
+        display: none;
+      }
       .main-header{
         width: 100%;
       }
       .menu{
-        width: 88%;
+        width: 790px;
       }
       .crousel-second{
         display: flex;
@@ -890,6 +899,9 @@ flex-direction: column;
         .information{
           width: 331px;
         }
+        .menu{
+          width: 700px;
+        }
         .news{
           width: 250px;
         }
@@ -950,9 +962,7 @@ flex-direction: column;
         .entertainment-heading,.business-heading,.news-heading1{
           width: 700px;
         }
-        .courtroom-text1{
-          margin-right: 300px;
-        }
+    
         .right-content1{
           gap: 20px;
         }
@@ -969,8 +979,8 @@ flex-direction: column;
           margin-bottom: 0px;
         }
       }
-      @media (max-width:700px) {
-        .courtroom1,.courtroom2,.courtroom3{
+      @media (max-width:730px) {
+        .courtroom1,.courtroom2,.courtroom3,.menu{
           width: 90%;
           left: 0;
           right: 0;
@@ -980,9 +990,7 @@ flex-direction: column;
         .courtroom-information{
           width: 100%;
         }
-        .courtroom-text1{
-          margin-right: 120px;
-        }
+     
         .content{
           display: none;
         }
@@ -1100,12 +1108,7 @@ flex-direction: column;
         
       }
       @media (max-width:600px) {
-        .main-header{
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 10px;
-          justify-self:flex-start;
-        }
+       
         .secondpage{
           height: 3300px;
         }
@@ -1115,7 +1118,7 @@ flex-direction: column;
         }
         .side-header{
           display: flex;
-          margin-right: auto;
+          
         }
         .mobile-flag{
           height: 100px;
@@ -1158,9 +1161,7 @@ flex-direction: column;
           width: 25x;
           height: 25px;
         }
-        .loading{
-          margin-left: 200px;
-        }
+      
         .mobile-news{
           font-size: 16px;
         }
@@ -1199,9 +1200,7 @@ flex-direction: column;
        .courtroom-text{
         width: 200px;
        }
-       .loading{
-        margin-left: 150px;
-       }
+       
        .mobile-information{
         display: flex;
         flex-direction: column;
