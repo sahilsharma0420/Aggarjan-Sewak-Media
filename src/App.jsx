@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/Aggrajan-Sewak-Media" element={<Firstpage/>} />
         <Route path="/secondpage" element={<Secondpage/>} />
-        <Route path="/*" element={<Navigate to="/"/>} />
+        <Route path="/*" element={<Navigate to="/Aggrajan-Sewak-Media"/>} />
       </Routes>
       </BrowserRouter>
     </div>
