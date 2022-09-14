@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/figma_design/static/css/main.f57d375d.css",
-    "main.js": "/figma_design/static/js/main.ea14c0b8.js",
-    "index.html": "/figma_design/index.html",
-    "main.f57d375d.css.map": "/figma_design/static/css/main.f57d375d.css.map",
-    "main.ea14c0b8.js.map": "/figma_design/static/js/main.ea14c0b8.js.map"
+    "main.css": "/Aggrajan-Sewak-Media/static/css/main.b9fe410c.css",
+    "main.js": "/Aggrajan-Sewak-Media/static/js/main.c966f11d.js",
+    "index.html": "/Aggrajan-Sewak-Media/index.html",
+    "main.b9fe410c.css.map": "/Aggrajan-Sewak-Media/static/css/main.b9fe410c.css.map",
+    "main.c966f11d.js.map": "/Aggrajan-Sewak-Media/static/js/main.c966f11d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57d375d.css",
-    "static/js/main.ea14c0b8.js"
+    "static/css/main.b9fe410c.css",
+    "static/js/main.c966f11d.js"
   ]
 }
