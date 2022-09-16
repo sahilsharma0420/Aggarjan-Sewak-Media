@@ -2,7 +2,7 @@ import "./App.css";
 import Firstpage from "./Firstpage/Firstpage";
 import Secondpage from "./Secondpage/Secondpage";
 import { Routes, Route, Navigate ,BrowserRouter} from "react-router-dom";
-import { DEFAULT_BREAKPOINTS } from "react-bootstrap/esm/ThemeProvider";
+
 function App() {
   return (
     <div>

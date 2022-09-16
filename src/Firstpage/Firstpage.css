@@ -124,17 +124,14 @@ width: 450px;
 display: flex;
 gap: 10px;
 flex-direction: column;
-background-image: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0) 0%,
-    #ff9c08 92%
-  );
-  justify-content: center;
-  align-items: center;
-border: 5px solid black;
+background-color: white;
+justify-content: center;
+align-items: center;
+border: 5px solid  #e78d07;
 border-radius: 15px;
 width: 100px;
 height: 105px;
+box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
 position: absolute;
 }
 
@@ -345,14 +342,16 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 29rem;
-      width:54rem ;
+      height: 28rem;
+      width:100%;
+      min-width: 51rem;
     }
     .Crousel-firstpage-information-card{
       display: flex;
       flex-direction: column;
-      height: 29rem;
-      width:54rem ;
+      height: auto;
+      width:100% ;
+      min-width: 51rem;
       border: 5px solid white;
       background-image: linear-gradient(
         180deg,
@@ -477,11 +476,13 @@ position: absolute;
     }
     .Crousel-card-image,.Crousel-card-image1{
       height: 27rem;
-      width:46rem ;
+      width:100% ;
+      min-width: 46rem;
     }
     .Crousel-firstpage-information-card{
-      height: 27rem;
-      width:46rem ;
+      height: auto;
+      width:100% ;
+      min-width: 46rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -541,7 +542,7 @@ position: absolute;
   height: 165px;
   }
   
-  .fifthpage-options-values{
+  .firstpage-options-values{
     font-size: 14px;
     font-weight: 700;
   }
@@ -606,12 +607,14 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 25rem;
-      width:40rem ;
+      height: 28rem;
+      width:100% ;
+      min-width: 41rem;
     }
     .Crousel-firstpage-information-card{
-      height: 25rem;
-      width:40rem ;
+      height: auto;
+      width:100% ;
+      min-width: 41rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -669,7 +672,7 @@ position: absolute;
   height: 145px;
   }
   
-  .fifthpage-options-values{
+  .firstpage-options-values{
     font-size: 14px;
     font-weight: 700;
   }
@@ -739,11 +742,13 @@ position: absolute;
     }
     .Crousel-card-image,.Crousel-card-image1{
       height: 25rem;
-      width:35rem ;
+      width:100% ;
+      min-width: 35rem;
     }
     .Crousel-firstpage-information-card{
-      height: 25rem;
-      width:35rem ;
+      height: auto;
+      width:100% ;
+      min-width: 35rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -804,7 +809,7 @@ position: absolute;
     .firstpage{
       height: 1400px;
     }
-    .fifthpage-options-values{
+    .firstpage-options-values{
       font-size: 14px;
       font-weight: 700;
     }
@@ -873,11 +878,13 @@ position: absolute;
     }
     .Crousel-card-image,.Crousel-card-image1{
       height: 21rem;
-      width:29rem ;
+      width:100% ;
+      min-width: 28rem;
     }
     .Crousel-firstpage-information-card{
-      height: 21rem;
-      width:29rem ;
+      height: auto;
+      width:100% ;
+      min-width: 28rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -922,74 +929,76 @@ position: absolute;
   }
   @media (max-width: 500px) {
     .cardimages{
-      height:80px;
-      width: 80px;
+      height:60px;
+      width: 60px;
       margin-top: 20px;
     }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
-    width: 155px;
-    height: 150px;
+    width: 120px;
+    height: 110px;
     }
     .firstpage{
-      height: 1600px;
+      height: 1150px;
     }
-    .fifthpage-options-values{
+    .firstpage-options-values{
       font-size: 14px;
       font-weight: 700;
     }
     .firstpage-cards{
-      height: 975px;
-      width: 367px;
+      height: 500px;
+      width: 25rem;
       top: 500px;
+  
+
     }
     .options1{
       top: 0px;
-      left: 0px;
+      left: 00px;
     }
     .options2{
       top: 0px;
-      left: 210px;
+      left: 135px;
     }
     .options3{
-      top: 165px;
-      left: 0px;
+      top: 0px;
+      left: 270px;
     }
     .options4{
-      top: 165px;
-      left: 210px;
-    }
-    .options5{
-      top: 330px;
+      top: 130px;
       left: 0px;
     }
+    .options5{
+      top: 130px;
+      left: 135px;
+    }
     .options6{
-      top: 330px;
-      left: 210px;
+      top: 130px;
+      left: 270px;
     }
     .options7{
-      top: 495px;
+      top: 260px;
       left: 0px;
     }
     .options8{
-      top: 495px;
-      left: 210px;
+      top: 260px;
+      left: 135px;
     }
     .options9{
-      top: 660px;
-      left: 0px;
+      top: 260px;
+      left: 270px;
     }
     .options10{
-      top: 660px;
-      left: 210px;
-    }
-    .options11{
-      top: 825px;
+      top: 390px;
       left: 0px;
     }
+    .options11{
+      top: 390px;
+      left: 135px;
+    }
     .options12{
-      top: 825px;
-      left: 210px;
+      top: 390px;
+      left: 270px;
     }
 .firstpage-text1{
   display: none;
@@ -1002,11 +1011,13 @@ position: absolute;
     }
     .Crousel-card-image,.Crousel-card-image1{
       height: 19rem;
-      width:23rem ;
+      width:100% ;
+      min-width: 25rem;
     }
     .Crousel-firstpage-information-card{
-      height: 19rem;
-      width:23rem ;
+      height: auto;
+      width:100% ;
+      min-width: 25rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -1051,72 +1062,82 @@ position: absolute;
   }
   @media (max-width:430px) {
     .cardimages{
-      height:70px;
-      width: 70px;
+      height:50px;
+      width: 50px;
       margin-top: 20px;
     }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
-    width: 125px;
-    height: 135px;
+    width: 90px;
+    height: 105px;
     }
     
-    .fifthpage-options-values{
+    .firstpage-options-values{
       font-size: 14px;
       font-weight: 700;
     }
     .firstpage-cards{
-      height: 975px;
+      height: 510px;
       width: 300px;
       top: 450px;
     }
+    .Crousel-card-image,.Crousel-card-image1{
+      height: 19rem;
+      width:100% ;
+      min-width: 22rem;
+    }
+    .Crousel-firstpage-information-card{
+      height: auto;
+      width:100% ;
+      min-width: 22rem;
+      }
     .options1{
       top: 0px;
       left: 0px;
     }
     .options2{
       top: 0px;
-      left: 175px;
+      left: 105px;
     }
     .options3{
-      top: 165px;
-      left: 0px;
+      top: 0px;
+      left: 210px;
     }
     .options4{
-      top: 165px;
-      left: 175px;
-    }
-    .options5{
-      top: 330px;
+      top: 135px;
       left: 0px;
     }
+    .options5{
+      top: 135px;
+      left: 105px;
+    }
     .options6{
-      top: 330px;
-      left: 175px;
+      top: 135px;
+      left: 210px;
     }
     .options7{
-      top: 495px;
+      top: 270px;
       left: 0px;
     }
     .options8{
-      top: 495px;
-      left: 175px;
+      top: 270px;
+      left: 105px;
     }
     .options9{
-      top: 660px;
-      left: 0px;
+      top: 270px;
+      left: 210px;
     }
     .options10{
-      top: 660px;
-      left: 175px;
-    }
-    .options11{
-      top: 825px;
+      top:405px;
       left: 0px;
     }
+    .options11{
+      top: 405px;
+      left: 105px;
+    }
     .options12{
-      top: 825px;
-      left: 175px;
+      top: 405px;
+      left: 210px;
     }
     .firstpage-header-section{
       gap: 35%;
@@ -1132,11 +1153,13 @@ position: absolute;
     }
     .Crousel-card-image,.Crousel-card-image1{
       height: 16rem;
-      width:19rem ;
+      width:100% ;
+      min-width: 20rem;
     }
     .Crousel-firstpage-information-card{
-      height: 16rem;
-      width:19rem ;
+      height: auto;
+      width:100% ;
+      min-width: 20rem;
       }
     .Crousel-firstpage-heading-information{
       display: flex;

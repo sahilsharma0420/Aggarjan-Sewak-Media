@@ -9,7 +9,7 @@ const Firstpagecard = (props) => {
                        <div className={`options${value.id}`}>
                      
                         <img className="cardimages" src={value.optionsimage} alt="not found"/>
-                        <p className="fifthpage-options-values">{value.optionsname}</p>
+                        <p className="firstpage-options-values">{value.optionsname}</p>
                         </div>
                 </div>
             ))};
