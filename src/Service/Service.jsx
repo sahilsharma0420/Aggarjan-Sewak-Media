@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Thirdpage.css"
+import "./Service.css"
 import Whiteblock3 from './whiteblock3';
 import { thirdpagedata } from './thirdpagedata';
 import {Button} from "@mui/material";
-function Thirdpage() {
+function Service() {
   return (
     <>
     <div className='thirdpage'>
@@ -78,4 +78,4 @@ function Thirdpage() {
   )
 }
 
-export default Thirdpage;
+export default Service;

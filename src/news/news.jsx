@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Secondpage.css";
+import "./news.css";
 import { Carousel } from 'react-bootstrap';
 import {Button} from "@mui/material";
-function Secondpage() {
+function News() {
   return (
     <div className='secondpage'>
         <div className='main-header'>
@@ -693,4 +693,4 @@ function Secondpage() {
   )
 }
 
-export default Secondpage
+export default News

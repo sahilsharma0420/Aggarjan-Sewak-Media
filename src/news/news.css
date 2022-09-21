@@ -12,7 +12,7 @@
 }
 .label{
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
 }
 .side-header{
@@ -58,10 +58,10 @@
   display: flex;
   flex-direction: row;
   gap: 6px;
-  font-weight: 700;
+  
 }
 .namevalue{
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 0%;
 
 }
@@ -88,7 +88,7 @@
       transition: all .2s linear 0s;
 }
 .button3{
-  width: 125px;
+  width: 135px;
       mix-blend-mode: normal;
       background-color: #ffffff;
       display: flex;
@@ -373,6 +373,7 @@ border-color: #ff9c08;
 border-style: solid;
 border-radius: 7px;
 padding: 0px 8px;
+font-weight: 600;
 }
 .news-line{
 width: 265px;
@@ -394,6 +395,7 @@ border-color: #ff9c08;
 border-style: solid;
 border-radius: 7px;
 padding: 0px 8px;
+font-weight: 600;
 }
 .entertainment-line{
 width: 822px;
@@ -415,6 +417,7 @@ border-color: #ff9c08;
 border-style: solid;
 border-radius: 7px;
 padding: 0px 8px;
+font-weight: 600;
 }
 .business-line{
 width: 833px;
@@ -628,7 +631,7 @@ flex-direction: column;
     } 
     @media (max-width:1120px) {
       .secondpage{
-        height:2450px
+        height:2500px
       }
       .right-content{
         display: none;
@@ -759,6 +762,7 @@ flex-direction: column;
         border-style: solid;
         border-radius: 7px;
         padding: 0px 8px;
+        font-weight: 600;
       }
       .news-line1{
         height: 1px;
@@ -771,7 +775,7 @@ flex-direction: column;
 
     @media (max-width:990px) {
       .secondpage{
-        height: 2400px;
+        height: 2450px;
       }
       .right-content,.news-heading,.courtroom{
         display: none;
@@ -997,6 +1001,7 @@ flex-direction: column;
         }
       }
       @media (max-width:730px) {
+      
         .courtroom1,.courtroom2,.courtroom3,.menu{
           width: 90%;
           left: 0;
@@ -1020,7 +1025,7 @@ flex-direction: column;
          margin-left: auto;
         }
         .secondpage{
-          height: 3430px;
+          height: 3520px;
         }
         .mobile-business-line{
           height: 1px;
@@ -1076,7 +1081,7 @@ flex-direction: column;
          
         }
         .mobile-news{
-          font-weight: 700;
+        
           font-size: 20px;
         }
         .mobile-date-share{
@@ -1089,6 +1094,7 @@ flex-direction: column;
           width: 95%;
           gap: 4%;
           margin: 15px 0px;
+          margin-bottom: 0;
         }
         .mobile-person-image{
           width: 20%;
@@ -1096,7 +1102,7 @@ flex-direction: column;
         }
         .mobile-person-date{
           font-size: 20px;
-          font-weight: 700;
+   
         }
         .mobile-lg-yoga1{
           width: 95%;
@@ -1124,10 +1130,25 @@ flex-direction: column;
         }
         
       }
+      @media (max-width:700px) {
+        .secondpage{
+          height: 3440px;
+        }
+      }
+      @media (max-width:670px) {
+        .secondpage{
+          height: 3400px;
+        }
+      }
+      @media (max-width:650px) {
+        .secondpage{
+          height: 3340px;
+        }
+      }
       @media (max-width:600px) {
        
         .secondpage{
-          height: 3300px;
+          height: 3250px;
         }
         .logo-label{
           display: flex;
@@ -1149,7 +1170,7 @@ flex-direction: column;
         }
         .mobile-news{
           font-size: 18px;
-          font-weight: 900;
+          
         }
         .mobile-date-share{
           font-size: 14px;
@@ -1162,8 +1183,15 @@ flex-direction: column;
           text-align: justify;
         }
       }
-      
+      @media (max-width:570px) {
+        .secondpage{
+          height: 3150px;
+        }
+      }
       @media (max-width:500px) {
+        .secondpage{
+          height: 3000px;
+        }
         .courtroom-text1{
           margin-left: 0px;
           font-size:10px;
@@ -1196,6 +1224,16 @@ flex-direction: column;
           font-size: 20px;
         }
       }
+      @media (max-width:450px) {
+        .secondpage{
+          height: 2930px;
+        }
+      }
+      @media (max-width:430px) {
+        .secondpage{
+          height: 2880px;
+        }
+      }
       @media(max-width:400px){
        .searchbar{
         width: 280px;
@@ -1208,7 +1246,7 @@ flex-direction: column;
         width: 90px;
        }
        .label{
-        font-size: 14px;
+        font-size: 18px;
        }
        .courtroom-text1{
         width: 200px;
@@ -1254,4 +1292,9 @@ flex-direction: column;
         margin-bottom: 20px;
       
      }
+      }
+      @media (max-width:380px) {
+        .secondpage{
+          height: 3650px;
+        }
       }

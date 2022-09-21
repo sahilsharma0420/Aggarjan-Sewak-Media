@@ -30,7 +30,7 @@
 }
 .thirdpage-text1 {
   mix-blend-mode: normal;
-  font-size: 24px;
+  font-size: 22px;
   font-family: Hind;
   font-weight: 700;
 }
@@ -51,7 +51,7 @@
 }
 .thirdpage-text3 {
   mix-blend-mode: normal;
-  font-size: 20px;
+  font-size: 14px;
   color: black;
   font-family: Hind;
   margin-bottom: 0px;
@@ -1421,9 +1421,7 @@ align-items: center;
       width: 450px;
       height: 330px;
     }
-    .thirdpage-text3{
-      font-size: 18px;
-    }
+
     .thirdpage-header-section{
       gap: 50%;
     }
@@ -1442,7 +1440,7 @@ align-items: center;
     .thirdpage-whiteblock{
       height: 1585px;
       
-      top: 930px;
+      top: 842px;
       width: 450px;
      }
   
@@ -1570,12 +1568,14 @@ align-items: center;
   @media (max-width:480px) {
     .thirdpage-card-section-image{
       width: 350px;
-      height: 330px;
+      height: 300px;
     }
-    
+    .thirdpage-whiteblock{
+      top: 780px;
+    }
     .thirdpage-information-card{
       width: 350px;
-      height: 330px;
+      height: 300px;
     }
     .thirdpage-header-section{
       gap: 40%;
@@ -1584,15 +1584,16 @@ align-items: center;
       gap: 50px;
     }
     .thirdpage-heading-information-label{
-      font-size: 20px;
+      font-size: 17px;
      }
      .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
-      font-size: 14px;
-      width: 200px;
+  
+     
+     margin-bottom: 0px;
      }
      .thirdpage-detail-options{
-      min-width: 105px;
-      font-size: 18px;
+      min-width: 45px;
+      font-size: 15px;
      }
      .thirdpage-person-image{
       height: 100px;

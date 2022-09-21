@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Thirdpage.css";
+import "./Service.css";
 const Whiteblock3 = (props) => {
   return (
     <>
