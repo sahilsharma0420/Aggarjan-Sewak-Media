@@ -1,9 +1,9 @@
 .thirdpage{
-    height: 1300px;
+    height: 1135px;
     width: 100%;
 }
 .thirdpage-main-content{
-    height: 1240px;
+    height: 1090px;
     width: 100%;
 }
 .thirdpage-header-section {
@@ -35,14 +35,14 @@
   font-weight: 700;
 }
 .thirdpage-whitebox {
-  width: 119px;
+  width: 100%;
+  max-width: 155px;
   mix-blend-mode: normal;
   background-color: #ffffff;
   display: flex;
-
+  height: 30px;
   flex-direction: row;
-  gap: 6px;
-  height: 35px;
+
   justify-content: center;
   align-items: center;
   border-radius: 3px;
@@ -51,9 +51,11 @@
 }
 .thirdpage-text3 {
   mix-blend-mode: normal;
-  font-size: 14px;
+  font-size: 20px;
+  color: black;
   font-family: Hind;
   margin-bottom: 0px;
+  margin-right:5px ;
 }
 .thirdpage-first-img4 {
   width: 7px;
@@ -98,6 +100,9 @@ display: flex;
 flex-direction: row;
 align-items: center;
 }
+.thirdpage-heading-information-label{
+  margin-bottom: 0px;
+}
 .thirdpage-detail-information{
     display: flex;
     flex-direction: row;
@@ -117,7 +122,7 @@ align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 250px;
+
 }
 .thirdpage-person-image{
     width: 100px;
@@ -130,203 +135,149 @@ align-items: center;
 }
 /*thirdpage whiteblock*/
 .thirdpage-whiteblock{
-  border-style: solid;
-  border-color: #000000;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 1240px;
-  height: 560px;
-  mix-blend-mode: normal;
-  background-color: #ffffff;
   position: absolute;
+  height: 560px;   
+  width: 1310px;
   top: 444px;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  border-radius: 20px;
-  border-width: 1px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
  transition: all .2s linear 0s;
 }
 /*whiteblock3*/
 .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
   display: flex;
+  gap: 10px;
   flex-direction: column;
-  position: absolute;
+  background-color: white;
+  justify-content: center;
   align-items: center;
-  gap: 5px;
+  border: 2px solid  #e78d07;
+  border-radius: 15px;
+  width: 130px;
+  height: 135px;
+  box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+  position: absolute;
 }
-  .thirdpage-line1,.thirdpage-line2,.thirdpage-line3,.thirdpage-line4,.thirdpage-line5,.thirdpage-line6,.thirdpage-line7,.thirdpage-line8{
-    background-color: rgb(79, 66, 66);
-    position: absolute;
-    width: 1px;
-    height: 431px;
-  }
-  .thirdpage-line1{
-    left: 137px;
-    top: 50px;
-  }
-  .thirdpage-line2{
-    left: 275px;
-    top:50px ;
-  }
-  .thirdpage-line3{
-    left: 409px;
-    top: 50px;
-    width: 1px;
-  }
-  .thirdpage-line4{
-    left: 541px;
-    top: 50px;
-  }
-  .thirdpage-line5{
-    left: 681px;
-    top: 50px;
-  }
-  .thirdpage-line6{
-    left: 815px;
-    top: 50px;
-  }
-  .thirdpage-line7{
-    left: 945px;
-    top: 50px;
-  }
-  .thirdpage-line8{
-    left: 1085px;
-    top: 50px;
-  }
-  .thirdpage-line9{
-    background-color: rgb(79, 66, 66);
-    position: absolute;
-    height: 1px;
-    width: 1170px;
-    top:191px;
-    left:35px;
-  }
-  .thirdpage-line10{
-    background-color: rgb(79, 66, 66);
-    position: absolute;
-    height: 1px;
-    width: 1170px;
-    top:361px;
-    left: 35px;
-  }
+  
   
   .service41{
-    left: 35px;
+    left: 0px;
     top: 50px;
   }
   .service42{
-    left: 170px;
+    left: 147.5px;
     top: 50px;
   }
   .service43{
-    left: 305px;
+    left: 295px;
     top: 50px;
   }
   .service44{
-    left: 440px;
-    top: 80px;
+    left: 441.5px;
+    top: 50px;
   }
   .service45{
-    left: 575px;
+    left: 589px;
     top: 50px;
   }
   .service46{
-    left: 710px;
+    left: 736.5px;
     top: 50px;
   }
   .service47{
-    left: 845px;
+    left: 884px;
     top: 50px;
   }
   .service48{
-    left: 980px;
+    left: 1031.5px;
     top: 50px;
   }
   .service49{
-    left: 1115px;
+    left: 1179px;
     top: 50px;
   }
   .service410{
-    left: 35px;
-    top: 245px;
+    left: 0px;
+    top: 215px;
   }
   .service411{
-    left: 170px;
+    left: 147.5px;
     top: 215px;
   }
   .service412{
-    left: 305px;
+    left: 295px;
     top: 215px;
   }
   .service413{
-    left: 440px;
-    top: 245px;
+    left: 441.5px;
+    top: 215px;
   }
   .service414{
-    left: 575px;
+    left: 589px;
     top: 215px;
   }
   .service415{
-    left: 710px;
+    left: 736.5px;
     top: 215px;
   }
   .service416{
-    left: 845px;
+    left: 884px;
     top: 215px;
   }
   .service417{
-    left: 980px;
+    left: 1031.5px;
     top: 215px;
   }
   .service418{
-    left: 1115px;
+    left: 1179px;
     top: 215px;
   }
   .service419{
-    left: 35px;
-    top: 400px;
+    left: 0px;
+    top: 380px;
   }
   .service420{
-    left: 170px;
-    top: 420px;
+    left: 147.5px;
+    top: 380px;
   }
   .service421{
-    left: 305px;
-    top: 400px;
+    left: 295px;
+    top: 380px;
   }
   .service422{
-    left: 440px;
-    top: 400px;
+    left: 441.5px;
+    top: 380px;
   }
   .service423{
-    left: 575px;
-    top: 400px;
+    left: 589px;
+    top: 380px;
   }
   .service424{
-    left: 710px;
-    top: 400px;
+    left: 736.5px;
+    top: 380px;
   }
   .service425{
-    left: 845px;
-    top: 430px;
+    left: 884px;
+    top: 380px;
   }
   .service426{
-    left: 980px;
-    top: 400px;
+    left: 1031.5px;
+    top: 380px;
   }
   .service427{
-    left: 1115px;
-    top: 400px;
+    left: 1179px;
+    top: 380px;
   }
   .thirdpage-description-reason{
   
-    font-size: 14px;
+    font-size: 16px;
   }
 /*whiteblock3*/
 /*thirdpage whiteblock*/
 /*card-section*/
-.copyright-block{
+.thirdpage-copyright-block{
     mix-blend-mode: normal;
     display: flex;
     font-size: 16px;
@@ -338,84 +289,131 @@ align-items: center;
     justify-content: center;
     padding: 13px 0px 10px 0px;
   }
-  .thirdpage-line11,.thirdpage-line12,.thirdpage-line13,.thirdpage-line14,.thirdpage-line15,.thirdpage-line16{
-    display: none;
-  }
+
   /*RESPONSIVENESS*/
   @media (max-width:1330px) {
     .thirdpage-whiteblock{
-      height: 900px;
-      width: 835px;
+      height: 560px;
+      width: 1190px;
     }
     .thirdpage{
-      height: 1640px;
+      height: 1135px;
     }
     .thirdpage-main-content{
-      height: 1580px;
+      height: 1090px;
     }
-    .thirdpage-line6,.thirdpage-line7,.thirdpage-line8{
-      display: none;
-    }
-    .thirdpage-line9,.thirdpage-line10{
-      width: 765px;
-    }
-    .thirdpage-line1,.thirdpage-line2,.thirdpage-line3,.thirdpage-line4,.thirdpage-line5{
-    height: 800px;
-    }
-    .thirdpage-line11{
-      display: block;
-      background-color: rgb(79, 66, 66);
-      position: absolute;
-      height: 1px;
-      width: 765px;
-      top: 551px;
-      left: 35px;
-    }
-    .thirdpage-line12{
-      display: block;
-      background-color: rgb(79, 66, 66);
-      position: absolute;
-      height: 1px;
-      width: 765px;
-      top: 721px;
-      left: 35px;
-    }
-    .service47{
-      left: 35px;
-      top: 580px;
-    }
-    .service48{
-      top: 580px;
-      left: 170px;
-    }
-    .service49{
-      top: 580px;
-      left: 305px;
-    }
-    .service416{
-      top: 580px;
-      left: 440px;
-    }
-    .service417{
-      top: 580px;
-      left: 575px;
-    }
-    .service418{
-      top: 580px;
-      left: 710px;
-    }
-    .service425{
-      top: 775px;
-      left: 35px;
-    }
-    .service426{
-      top: 750px;
-      left: 170px;
-    }
-    .service427{
-      top: 750px;
-      left: 305px;
-    }
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 120px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 133.75px;
+        top: 50px;
+      }
+      .service43{
+        left: 267.5px;
+        top: 50px;
+      }
+      .service44{
+        left: 401.25px;
+        top: 50px;
+      }
+      .service45{
+        left: 535px;
+        top: 50px;
+      }
+      .service46{
+        left: 668.75px;
+        top: 50px;
+      }
+      .service47{
+        left: 802.5px;
+        top: 50px;
+      }
+      .service48{
+        left: 936.25px;
+        top: 50px;
+      }
+      .service49{
+        left: 1070px;
+        top: 50px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 133.75px;
+        top: 215px;
+      }
+      .service412{
+        left: 267.5px;
+        top: 215px;
+      }
+      .service413{
+        left: 401.25px;
+        top: 215px;
+      }
+      .service414{
+        left: 535px;
+        top: 215px;
+      }
+      .service415{
+        left: 668.75px;
+        top: 215px;
+      }
+      .service416{
+        left: 802.5px;
+        top: 215px;
+      }
+      .service417{
+        left: 936.25px;
+        top: 215px;
+      }
+      .service418{
+        left: 1070px;
+        top: 215px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 133.75px;
+        top: 380px;
+      }
+      .service421{
+        left: 267.5px;
+        top: 380px;
+      }
+      .service422{
+        left: 401.25px;
+        top: 380px;
+      }
+      .service423{
+        left: 535px;
+        top: 380px;
+      }
+      .service424{
+        left: 668.75px;
+        top: 380px;
+      }
+      .service425{
+        left: 802.5px;
+        top: 380px;
+      }
+      .service426{
+        left: 936.25px;
+        top: 380px;
+      }
+      .service427{
+        left: 1070px;
+        top: 380px;
+      }
    .thirdpage-card-section-image{
     width: 750px;
    }
@@ -424,32 +422,408 @@ align-items: center;
     .thirdpage-card-section-image{
       width: 600px;
      }
+     .thirdpage-whiteblock{
+      height: 725px;
+      width: 1010px;
+    }
+    .thirdpage{
+      height: 1300px;
+    }
+    .thirdpage-main-content{
+      height: 1255px;
+    }
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 120px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 149px;
+        top: 50px;
+      }
+      .service43{
+        left: 298px;
+        top: 50px;
+      }
+      .service44{
+        left: 447px;
+        top: 50px;
+      }
+      .service45{
+        left: 596px;
+        top: 50px;
+      }
+      .service46{
+        left: 745px;
+        top: 50px;
+      }
+      .service47{
+        left: 894px;
+        top: 50px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 149px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 149px;
+        top: 215px;
+      }
+      .service412{
+        left: 298px;
+        top: 215px;
+      }
+      .service413{
+        left: 447px;
+        top: 215px;
+      }
+      .service414{
+        left: 596px;
+        top: 215px;
+      }
+      .service415{
+        left: 745px;
+        top: 215px;
+      }
+      .service416{
+        left: 894px;
+        top: 215px;
+      }
+      .service417{
+        left: 296px;
+        top: 545px;
+      }
+      .service418{
+        left: 445px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 149px;
+        top: 380px;
+      }
+      .service421{
+        left: 298px;
+        top: 380px;
+      }
+      .service422{
+        left: 447px;
+        top: 380px;
+      }
+      .service423{
+        left: 596px;
+        top: 380px;
+      }
+      .service424{
+        left: 745px;
+        top: 380px;
+      }
+      .service425{
+        left: 894px;
+        top: 380px;
+      }
+      .service426{
+        left: 594px;
+        top: 545px;
+      }
+      .service427{
+        left: 745px;
+        top: 545px;
+      }
+      .thirdpage-header-section{
+        gap: 52%;
+      }
   }
   @media (max-width:1100px) {
     .thirdpage-card-section-image{
       width: 500px;
      }
      .thirdpage-text1{
-      font-size: 20px;
+      font-size: 22px;
      }
+     .thirdpage-header-section{
+      gap: 50%;
+     }
+     .thirdpage-whiteblock{
+      height: 725px;
+      width: 939px;
+    }
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 120px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 136.5px;
+        top: 50px;
+      }
+      .service43{
+        left: 273px;
+        top: 50px;
+      }
+      .service44{
+        left: 409.5px;
+        top: 50px;
+      }
+      .service45{
+        left: 546px;
+        top: 50px;
+      }
+      .service46{
+        left: 682.5px;
+        top: 50px;
+      }
+      .service47{
+        left: 819px;
+        top: 50px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 136.5px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 136.5px;
+        top: 215px;
+      }
+      .service412{
+        left: 273px;
+        top: 215px;
+      }
+      .service413{
+        left: 409.5px;
+        top: 215px;
+      }
+      .service414{
+        left: 546px;
+        top: 215px;
+      }
+      .service415{
+        left: 682.5px;
+        top: 215px;
+      }
+      .service416{
+        left: 819px;
+        top: 215px;
+      }
+      .service417{
+        left: 273px;
+        top: 545px;
+      }
+      .service418{
+        left: 409.5px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 136.5px;
+        top: 380px;
+      }
+      .service421{
+        left: 273px;
+        top: 380px;
+      }
+      .service422{
+        left: 409.5px;
+        top: 380px;
+      }
+      .service423{
+        left: 546px;
+        top: 380px;
+      }
+      .service424{
+        left: 682.5px;
+        top: 380px;
+      }
+      .service425{
+        left: 819px;
+        top: 380px;
+      }
+      .service426{
+        left: 546px;
+        top: 545px;
+      }
+      .service427{
+        left: 682.5px;
+        top: 545px;
+      }
+  
   }
+  
+  
   @media (max-width:1010px) {
     .thirdpage-card-section-image{
       width: 421px;
      }
      .thirdpage-text1{
-      font-size: 17px;
+      font-size: 22px;
      }
+     .thirdpage-header-section{
+      gap:43%;
+     }
+     .thirdpage-whiteblock{
+      height: 890px;
+      width: 865px;
+    }
+    .thirdpage{
+      height: 1465px;
+    }
+    .thirdpage-main-content{
+      height: 1420px;
+    }
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 125px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 148px;
+        top: 50px;
+      }
+      .service43{
+        left: 298px;
+        top: 50px;
+      }
+      .service44{
+        left: 444px;
+        top: 50px;
+      }
+      .service45{
+        left: 592px;
+        top: 50px;
+      }
+      .service46{
+        left: 740px;
+        top: 50px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 148px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 148px;
+        top: 215px;
+      }
+      .service412{
+        left: 296px;
+        top: 215px;
+      }
+      .service413{
+        left: 444px;
+        top: 215px;
+      }
+      .service414{
+        left: 592px;
+        top: 215px;
+      }
+      .service415{
+        left: 740px;
+        top: 215px;
+      }
+      .service416{
+        left: 148px;
+        top: 710px;
+      }
+      .service417{
+        left: 296px;
+        top: 545px;
+      }
+      .service418{
+        left: 444px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 148px;
+        top: 380px;
+      }
+      .service421{
+        left: 296px;
+        top: 380px;
+      }
+      .service422{
+        left: 444px;
+        top: 380px;
+      }
+      .service423{
+        left: 592px;
+        top: 380px;
+      }
+      .service424{
+        left: 740px;
+        top: 380px;
+      }
+      .service425{
+        left: 296px;
+        top: 710px;
+      }
+      .service426{
+        left: 592px;
+        top: 545px;
+      }
+      .service427{
+        left: 740px;
+        top: 545px;
+      }
   }
   @media (max-width:900px) {
     .thirdpage-card-section-image{
       width: 500px;
      }
      .thirdpage-header-section{
-      gap: 48%;
+      gap: 31%;
      }
+     .thirdpage-heading-information-label{
+      font-size: 32px;
+    }
+    
      .thirdpage-text1{
-      font-size: 16px;
+      font-size: 26px;
      }
      .thirdpage-first-img{
       width: 100px;
@@ -461,17 +835,15 @@ align-items: center;
       justify-content: flex-start;
     padding-top: 50px;
      }
-     .thirdpage-whiteblock{
-      top: 930px;
-     }
+ 
      .thirdpage{
-      height:2330px;
+      height:2030px;
      }
      .thirdpage-main-content{
-      height: 2270px;
+      height: 1985px;
      }
      .thirdpage-card-section{
-      height: 1316px;
+      height: 1250px;
      }
      .thirdpage-card-section-image{
       width: 750px;
@@ -491,81 +863,136 @@ align-items: center;
       width: 750px;
      }
      .thirdpage-whiteblock{
-      height: 1240px;
-      width: 561px;
+      height: 1055px;
+      
+      top: 930px;
+      width: 750px;
      }
-     .thirdpage-line4,.thirdpage-line5{
-      display: none;
-     }
-     .thirdpage-line9,.thirdpage-line10,.thirdpage-line11,.thirdpage-line12{
-      width: 491px;
-     }
-     .thirdpage-line1,.thirdpage-line2,.thirdpage-line3{
-      height: 1150px;
-     }
-     .thirdpage-line1{
-      left: 136px;
-     }
-     .thirdpage-line3{
-      left: 410px;
-     }
-     .thirdpage-line2{
-      left: 276px;
-     }
-     .thirdpage-line13,.thirdpage-line14{
-      background-color: rgb(79, 66, 66);
-      position: absolute;
-      height: 1px;
-      width: 491px;
-      display: block;
-      left:35px;
-     }
-     .thirdpage-line13{
-      top: 891px;
-     }
-     .thirdpage-line14{
-      top: 1060px;
-     }
-     .service45{
-      left: 440px;
-      top: 750px;
-     }
-     .service46{
-      left: 35px;
-      top: 920px;
-     }
-     .service414{
-      left: 170px;
-      top: 920px;
-     }
-     .service415{
-      left: 305px;
-      top: 920px;
-     }
-     .service423{
-      left: 35px;
-      top: 1090px;
-     }
-     .service424{
-      left: 440px;
-      top: 920px;
-     }
-     .service417{
-      left: 170px;
-      top: 1090px;
-     }
-     .service418{
-      left: 305px;
-      top:1090px
-     }
+ 
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 130px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 155px;
+        top: 50px;
+      }
+      .service43{
+        left: 310px;
+        top: 50px;
+      }
+      .service44{
+        left: 465px;
+        top: 50px;
+      }
+      .service45{
+        left: 620px;
+        top: 50px;
+      }
+      .service46{
+        left: 465px;
+        top: 710px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 155px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 155px;
+        top: 215px;
+      }
+      .service412{
+        left: 310px;
+        top: 215px;
+      }
+      .service413{
+        left: 465px;
+        top: 215px;
+      }
+      .service414{
+        left: 620px;
+        top: 215px;
+      }
+      .service415{
+        left: 620px;
+        top: 710px;
+      }
+      .service416{
+        left: 155px;
+        top: 710px;
+      }
+      .service417{
+        left: 310px;
+        top: 545px;
+      }
+      .service418{
+        left: 465px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 155px;
+        top: 380px;
+      }
+      .service421{
+        left: 310px;
+        top: 380px;
+      }
+      .service422{
+        left: 465px;
+        top: 380px;
+      }
+      .service423{
+        left: 620px;
+        top: 380px;
+      }
+      .service424{
+        left: 0px;
+        top: 875px;
+      }
+      .service425{
+        left: 310px;
+        top: 710px;
+      }
+      .service426{
+        left: 620px;
+        top: 545px;
+      }
+      .service427{
+        left: 155px;
+        top: 875px;
+      }
+     
      .thirdpage-heading-information{
       font-size: 26px;
      }
-     .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
-      font-size: 18px;
+     .thirdpage-person-name,.thirdpage-person-place,.thirdpage-person-rollno,.thirdpage-person-status{
+      font-size: 28px;
+    
+      margin-bottom: 10px;
      }
      .thirdpage-detail-options{
-      width: 200px;
+      min-width: 175px;
+      width: 100%;
      }
      .thirdpage-person-image{
       height: 150px;
@@ -583,12 +1010,136 @@ align-items: center;
       width: 650px;
     }
     .thirdpage-header-section{
-      gap: 42%;
+      gap: 21%;
     }
-
+    .thirdpage{
+      height:2230px;
+     }
+     .thirdpage-main-content{
+      height: 2185px;
+     }
    .thirdpage-header-section{
     justify-content: center;
    }
+   .thirdpage-whiteblock{
+    height: 1255px;
+    
+    top: 930px;
+    width: 650px;
+   }
+
+  .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 140px;
+    height: 140px;
+    }
+    .service41{
+      left: 0px;
+      top: 50px;
+    }
+    .service42{
+      left: 170px;
+      top: 50px;
+    }
+    .service43{
+      left: 340px;
+      top: 50px;
+    }
+    .service44{
+      left: 510px;
+      top: 50px;
+    }
+    .service45{
+      left: 340px;
+      top: 875px;
+    }
+    .service46{
+      left: 510px;
+      top: 710px;
+    }
+    .service47{
+      left: 0px;
+      top: 710px;
+    }
+    .service48{
+      left: 0px;
+      top: 545px;
+    }
+    .service49{
+      left: 170px;
+      top: 545px;
+    }
+    .service410{
+      left: 0px;
+      top: 215px;
+    }
+    .service411{
+      left: 170px;
+      top: 215px;
+    }
+    .service412{
+      left: 340px;
+      top: 215px;
+    }
+    .service413{
+      left: 510px;
+      top: 215px;
+    }
+    .service414{
+      left: 510px;
+      top: 875px;
+    }
+    .service415{
+      left:340px;
+      top: 1045px;
+    }
+    .service416{
+      left: 170px;
+      top: 710px;
+    }
+    .service417{
+      left: 340px;
+      top: 545px;
+    }
+    .service418{
+      left: 510px;
+      top: 545px;
+    }
+    .service419{
+      left: 0px;
+      top: 380px;
+    }
+    .service420{
+      left: 170px;
+      top: 380px;
+    }
+    .service421{
+      left: 340px;
+      top: 380px;
+    }
+    .service422{
+      left: 510px;
+      top: 380px;
+    }
+    .service423{
+      left: 0px;
+      top: 1045px;
+    }
+    .service424{
+      left: 0px;
+      top: 875px;
+    }
+    .service425{
+      left: 340px;
+      top: 710px;
+    }
+    .service426{
+      left: 170px;
+      top: 1045px;
+    }
+    .service427{
+      left: 170px;
+      top: 875px;
+    }
    
   }
   @media (max-width:670px) {
@@ -599,89 +1150,137 @@ align-items: center;
       width: 550px;
     }
     .thirdpage-header-section{
-      gap: 38%;
+      gap: 11%;
     }
-  
-  }
-  @media (max-width:630px) {
+    .thirdpage-detail-options{
+      font-size: 24px;
+      min-width: 140px;
+      width: 100%;
+    }
+    .thirdpage-heading-information-label{
+      font-size: 28px;
+    }
     .thirdpage-whiteblock{
-      height: 1580px;
-      width: 424px;
-    }
-    .thirdpage-card-section-image{
-      width: 650px;
-    }
-    .thirdpage-information-card{
-      width: 650px;
-    }
-    .thirdpage-line3{
-      display: none;
-    }
-    .thirdpage-header-section{
-      gap: 30%;
-    }
-    .thirdpage-line9,.thirdpage-line10,.thirdpage-line11,.thirdpage-line12,.thirdpage-line13,.thirdpage-line14,.thirdpage-line15,.thirdpage-line16{
-      width: 354px;
-    }
-    .thirdpage-line1,.thirdpage-line2{
-      height: 1500px;
-    
-    }
-    
-    .thirdpage-main-content{
-      height:2590px;
-    }
-    .thirdpage{
-      height: 2650px;
-    }
-    .thirdpage-line15,.thirdpage-line16{
-      background-color: rgb(79, 66, 66);
-      position: absolute;
-      height: 1px;
- 
-      display: block;
-      left:35px;
-    }
-    .thirdpage-line15{
-      top:1231px;
-    }
-    .thirdpage-line16{
-      top: 1400px;
-    }
-    .service44{
-      left: 35px;
-      top: 1280px;
-    }
-    .service413{
-      left: 170px;
-      top: 1280px;
-
-    }
-    .thirdpage-line1{
-      left: 137px;
-    }
-    .thirdpage-line2{
-      left: 275px;
-    }
-    .service422{
-      left: 305px;
-      top: 1250px;
-    }
-    .service416{
-      left: 35px;
-      top: 1420px;
-    }
-    .service45{
-      left: 170px;
-      top: 1420px;
-    }
-    .service424{
-      left: 305px;
-      top: 1420px;
-
-    }
+      height: 1255px;
+      
+      top: 930px;
+      width: 550px;
+     }
+  
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 120px;
+      height: 125px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 143px;
+        top: 50px;
+      }
+      .service43{
+        left: 286px;
+        top: 50px;
+      }
+      .service44{
+        left: 429px;
+        top: 50px;
+      }
+      .service45{
+        left: 286px;
+        top: 875px;
+      }
+      .service46{
+        left: 429px;
+        top: 710px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 143px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 143px;
+        top: 215px;
+      }
+      .service412{
+        left: 286px;
+        top: 215px;
+      }
+      .service413{
+        left: 429px;
+        top: 215px;
+      }
+      .service414{
+        left: 429px;
+        top: 875px;
+      }
+      .service415{
+        left:286px;
+        top: 1045px;
+      }
+      .service416{
+        left: 143px;
+        top: 710px;
+      }
+      .service417{
+        left: 286px;
+        top: 545px;
+      }
+      .service418{
+        left: 429px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 143px;
+        top: 380px;
+      }
+      .service421{
+        left: 286px;
+        top: 380px;
+      }
+      .service422{
+        left: 429px;
+        top: 380px;
+      }
+      .service423{
+        left: 0px;
+        top: 1045px;
+      }
+      .service424{
+        left: 0px;
+        top: 875px;
+      }
+      .service425{
+        left: 286px;
+        top: 710px;
+      }
+      .service426{
+        left: 143px;
+        top: 1045px;
+      }
+      .service427{
+        left: 143px;
+        top: 875px;
+      }
   }
-
+  
   
   @media (max-width:670px) {
     .thirdpage-card-section-image{
@@ -692,9 +1291,128 @@ align-items: center;
       width: 550px;
       height: 350px;
     }
+    .thirdpage-whiteblock{
+      height: 1255px;
+      
+      top: 930px;
+      width: 550px;
+     }
+  
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 120px;
+      height: 125px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 143px;
+        top: 50px;
+      }
+      .service43{
+        left: 286px;
+        top: 50px;
+      }
+      .service44{
+        left: 429px;
+        top: 50px;
+      }
+      .service45{
+        left: 286px;
+        top: 875px;
+      }
+      .service46{
+        left: 429px;
+        top: 710px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 143px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 143px;
+        top: 215px;
+      }
+      .service412{
+        left: 286px;
+        top: 215px;
+      }
+      .service413{
+        left: 429px;
+        top: 215px;
+      }
+      .service414{
+        left: 429px;
+        top: 875px;
+      }
+      .service415{
+        left:286px;
+        top: 1045px;
+      }
+      .service416{
+        left: 143px;
+        top: 710px;
+      }
+      .service417{
+        left: 286px;
+        top: 545px;
+      }
+      .service418{
+        left: 429px;
+        top: 545px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 143px;
+        top: 380px;
+      }
+      .service421{
+        left: 286px;
+        top: 380px;
+      }
+      .service422{
+        left: 429px;
+        top: 380px;
+      }
+      .service423{
+        left: 0px;
+        top: 1045px;
+      }
+      .service424{
+        left: 0px;
+        top: 875px;
+      }
+      .service425{
+        left: 286px;
+        top: 710px;
+      }
+      .service426{
+        left: 143px;
+        top: 1045px;
+      }
+      .service427{
+        left: 143px;
+        top: 875px;
+      }
   }
     
-  @media (max-width:570px) {
+  @media (max-width:610px) {
     .thirdpage-card-section-image{
       width: 450px;
       height: 330px;
@@ -704,16 +1422,152 @@ align-items: center;
       height: 330px;
     }
     .thirdpage-text3{
-      font-size: 12px;
+      font-size: 18px;
     }
     .thirdpage-header-section{
-      gap: 17%;
+      gap: 50%;
     }
+    .thirdpage-text1{
+      display: none;
+      }
     .thirdpage-card-section{
       gap: 50px;
     }
+    .thirdpage{
+      height: 2560px;
+    }
+    .thirdpage-main-content{
+      height: 2515px;
+    }
+    .thirdpage-whiteblock{
+      height: 1585px;
+      
+      top: 930px;
+      width: 450px;
+     }
+  
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 130px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 160px;
+        top: 50px;
+      }
+      .service43{
+        left: 320px;
+        top: 50px;
+      }
+      .service44{
+        left: 320px;
+        top: 1210px;
+      }
+      .service45{
+        left: 320px;
+        top: 875px;
+      }
+      .service46{
+        left: 0px;
+        top: 1375px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 160px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 160px;
+        top: 215px;
+      }
+      .service412{
+        left: 320px;
+        top: 215px;
+      }
+      .service413{
+        left: 160px;
+        top: 1210px;
+      }
+      .service414{
+        left: 320px;
+        top: 1375px;
+      }
+      .service415{
+        left:320px;
+        top: 1045px;
+      }
+      .service416{
+        left: 160px;
+        top: 710px;
+      }
+      .service417{
+        left: 320px;
+        top: 545px;
+      }
+      .service418{
+        left: 160px;
+        top: 1375px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 160px;
+        top: 380px;
+      }
+      .service421{
+        left: 320px;
+        top: 380px;
+      }
+      .service422{
+        left: 0px;
+        top: 1210px;
+      }
+      .service423{
+        left: 0px;
+        top: 1045px;
+      }
+      .service424{
+        left: 0px;
+        top: 875px;
+      }
+      .service425{
+        left: 320px;
+        top: 710px;
+      }
+      .service426{
+        left: 160px;
+        top: 1045px;
+      }
+      .service427{
+        left: 160px;
+        top: 875px;
+      }
+      .thirdpage-heading-information-label{
+        font-size: 24px;
+      }
+      .thirdpage-detail-options{
+        font-size: 20px;
+        min-width: 115px;
+        width: 100%;
+      }
   }
-  @media (max-width:470px) {
+  @media (max-width:480px) {
     .thirdpage-card-section-image{
       width: 350px;
       height: 330px;
@@ -724,24 +1578,26 @@ align-items: center;
       height: 330px;
     }
     .thirdpage-header-section{
-      gap: 2%;
+      gap: 40%;
     }
     .thirdpage-card-section{
       gap: 50px;
     }
-    .thirdpage-heading-information{
-      font-size: 18px;
+    .thirdpage-heading-information-label{
+      font-size: 20px;
      }
      .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
       font-size: 14px;
       width: 200px;
      }
      .thirdpage-detail-options{
-      width: 100px;
+      min-width: 105px;
+      font-size: 18px;
      }
      .thirdpage-person-image{
       height: 100px;
       width: 100px;
+      margin-left: 20px;
      }
      .thirdpage-detail-information{
       justify-content: center;
@@ -750,6 +1606,124 @@ align-items: center;
       width: 200px;
      }
      .thirdpage-whiteblock{
-      width: 400px;
+      width: 350px;
      }
+  
+    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+      width: 110px;
+      height: 135px;
+      }
+      .service41{
+        left: 0px;
+        top: 50px;
+      }
+      .service42{
+        left: 120px;
+        top: 50px;
+      }
+      .service43{
+        left: 240px;
+        top: 50px;
+      }
+      .service44{
+        left: 240px;
+        top: 1210px;
+      }
+      .service45{
+        left: 240px;
+        top: 875px;
+      }
+      .service46{
+        left: 0px;
+        top: 1375px;
+      }
+      .service47{
+        left: 0px;
+        top: 710px;
+      }
+      .service48{
+        left: 0px;
+        top: 545px;
+      }
+      .service49{
+        left: 120px;
+        top: 545px;
+      }
+      .service410{
+        left: 0px;
+        top: 215px;
+      }
+      .service411{
+        left: 120px;
+        top: 215px;
+      }
+      .service412{
+        left: 240px;
+        top: 215px;
+      }
+      .service413{
+        left: 120px;
+        top: 1210px;
+      }
+      .service414{
+        left: 240px;
+        top: 1375px;
+      }
+      .service415{
+        left:240px;
+        top: 1045px;
+      }
+      .service416{
+        left: 120px;
+        top: 710px;
+      }
+      .service417{
+        left: 240px;
+        top: 545px;
+      }
+      .service418{
+        left: 120px;
+        top: 1375px;
+      }
+      .service419{
+        left: 0px;
+        top: 380px;
+      }
+      .service420{
+        left: 120px;
+        top: 380px;
+      }
+      .service421{
+        left: 240px;
+        top: 380px;
+      }
+      .service422{
+        left: 0px;
+        top: 1210px;
+      }
+      .service423{
+        left: 0px;
+        top: 1045px;
+      }
+      .service424{
+        left: 0px;
+        top: 875px;
+      }
+      .service425{
+        left: 240px;
+        top: 710px;
+      }
+      .service426{
+        left: 120px;
+        top: 1045px;
+      }
+      .service427{
+        left: 120px;
+        top: 875px;
+      }
+      @media (max-width:430px) {
+        .thirdpage-header-section{
+          gap: 35%;
+        }
+      }
   }

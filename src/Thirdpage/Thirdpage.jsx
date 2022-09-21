@@ -67,25 +67,9 @@ function Thirdpage() {
         </div>
         <div className='thirdpage-whiteblock'>
         <Whiteblock3 details={thirdpagedata}/>
-        <div className='thirdpage-line1'></div>
-        <div className='thirdpage-line2'></div>
-        <div className='thirdpage-line3'></div>
-        <div className='thirdpage-line4'></div>
-        <div className='thirdpage-line5'></div>
-         <div className='thirdpage-line6'></div>
-      <div className='thirdpage-line7'></div>
-        <div className='thirdpage-line8'></div>
-       <div className='thirdpage-line9'></div>
-       <div className='thirdpage-line10'></div>
-       <div className='thirdpage-line11'></div>
-       <div className='thirdpage-line12'></div>
-       <div className='thirdpage-line13'></div>
-       <div className='thirdpage-line14'></div>
-       <div className='thirdpage-line15'></div>
-       <div className='thirdpage-line16'></div>
         </div>
         </div>
-        <div className="copyright-block">
+        <div className="thirdpage-copyright-block">
         all rights reserved @ aggrajan sewak media network
       </div>
     </div>
@@ -94,4 +78,4 @@ function Thirdpage() {
   )
 }
 
-export default Thirdpage
+export default Thirdpage;

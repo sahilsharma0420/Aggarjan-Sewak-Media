@@ -3,8 +3,9 @@
   display: none;
 }
 .firstpage{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  max-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -102,7 +103,6 @@ width: 450px;
   height: 100px;
 }
 .copyright-block{
-  mix-blend-mode: normal;
   display: flex;
   font-size: 16px;
   font-family: Hind;
@@ -113,6 +113,8 @@ width: 450px;
   justify-content: center;
   padding: 13px 0px 10px 0px;
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
 }
 /*cards*/
 .cardimages{
@@ -127,7 +129,7 @@ flex-direction: column;
 background-color: white;
 justify-content: center;
 align-items: center;
-border: 5px solid  #e78d07;
+border: 2px solid  #e78d07;
 border-radius: 15px;
 width: 100px;
 height: 105px;
@@ -258,7 +260,7 @@ position: absolute;
 }
 @media (max-width:1020px) {
   .firstpage{
-    height: 1300px;
+    height: 100%;
   }
   .cardimages{
     height:100px;
@@ -276,9 +278,10 @@ position: absolute;
     font-weight: 700;
   }
   .firstpage-cards{
-    height: 505px;
-    width: 862px;
+    height: 605px;
+    width: 816px;
     top: 630px;
+   
   }
   .options1{
     top: 0px;
@@ -286,15 +289,15 @@ position: absolute;
   }
   .options2{
     top: 0px;
-    left: 237.3px;
+    left: 222px;
   }
   .options3{
     top: 0px;
-    left: 474.6px;
+    left: 444px;
   }
   .options4{
     top: 00px;
-    left: 711.9px;
+    left: 666px;
   }
   .options5{
     top: 175px;
@@ -302,15 +305,15 @@ position: absolute;
   }
   .options6{
     top: 175px;
-    left: 237.3px;
+    left: 222px;
   }
   .options7{
     top: 175px;
-    left: 474.6px;
+    left: 444px;
   }
   .options8{
     top: 175px;
-    left: 711.9px;
+    left: 666px;
   }
   .options9{
     top: 345px;
@@ -318,15 +321,15 @@ position: absolute;
   }
   .options10{
     top: 345px;
-    left: 237.3px;
+    left: 222px;
   }
   .options11{
     top: 345px;
-    left: 474.6px;
+    left: 444px;
   }
   .options12{
     top: 345px;
-    left: 711.9px;
+    left: 666px;
   }
   .firstpage-card-section-image,.firstpage-card-section-image2{
    display: none;
@@ -342,16 +345,16 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 28rem;
+      height: auto;
       width:100%;
-      min-width: 51rem;
+      min-width: 816px;
     }
     .Crousel-firstpage-information-card{
       display: flex;
       flex-direction: column;
       height: auto;
       width:100% ;
-      min-width: 51rem;
+      min-width: 816px;
       border: 5px solid white;
       background-image: linear-gradient(
         180deg,
@@ -381,7 +384,7 @@ position: absolute;
       display: flex;
       flex-direction: row;
       font-size: 26px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
     
     .Crousel-firstpage-heading-information-label{
@@ -401,8 +404,11 @@ position: absolute;
       align-items: space-between;
     }
     .Crousel-firstpage-detail-options{
-      width: 160px;
+      width: 100%;
+      min-width: 155px;
     }
+ 
+   
 }
 @media (max-width:970px) {
   .firstpage-header-section{
@@ -412,7 +418,7 @@ position: absolute;
 @media (max-width:900px) {
 
   .firstpage-cards{
-    height: 505px;
+    height: 605px;
     width: 740px;
     top: 630px;
   }
@@ -475,14 +481,14 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 27rem;
+      height: 432px;
       width:100% ;
-      min-width: 46rem;
+      min-width: 726px;
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 46rem;
+      min-width: 736px;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -529,7 +535,7 @@ position: absolute;
 }
 @media (max-width: 800px) {
   .firstpage{
-    height: 1500px;
+    height: 100%;
   }
   .cardimages{
     height:100px;
@@ -547,7 +553,7 @@ position: absolute;
     font-weight: 700;
   }
   .firstpage-cards{
-    height: 730px;
+    height: 830px;
     width: 640px;
     top: 630px;
   }
@@ -607,14 +613,16 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 28rem;
-      width:100% ;
-      min-width: 41rem;
+      height: 448px;
+      min-width: 600px;
+      width: 100%;
+      max-width: 656px;
+      
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 41rem;
+      min-width: 656px;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -677,7 +685,7 @@ position: absolute;
     font-weight: 700;
   }
   .firstpage-cards{
-    height: 730px;
+    height: 830px;
     width: 540px;
     top: 630px;
   }
@@ -741,14 +749,16 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 25rem;
+      height: 400px;
       width:100% ;
-      min-width: 35rem;
+      min-width: 500px;
+      max-width: 560px;
+
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 35rem;
+      min-width: 560px;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -790,7 +800,8 @@ position: absolute;
       align-items: space-between;
     }
     .Crousel-firstpage-detail-options{
-      width: 160px;
+      width: 100%;
+      min-width: 120px;
     }
   }
   @media (max-width: 590px) {
@@ -807,15 +818,15 @@ position: absolute;
     }
     
     .firstpage{
-      height: 1400px;
+      height: 100%;
     }
     .firstpage-options-values{
       font-size: 14px;
       font-weight: 700;
     }
     .firstpage-cards{
-      height: 730px;
-      width: 462px;
+      height: 830px;
+      width: 448px;
       top: 550px;
     }
     .options1{
@@ -824,11 +835,11 @@ position: absolute;
     }
     .options2{
       top: 0px;
-      left: 166px;
+      left: 159px;
     }
     .options3{
       top: 0px;
-      left: 332px;
+      left: 318px;
     }
     .options4{
       top: 185px;
@@ -836,11 +847,11 @@ position: absolute;
     }
     .options5{
       top: 185px;
-      left: 166px;
+      left: 159px;
     }
     .options6{
       top: 185px;
-      left: 332px;
+      left: 318px;
     }
     .options7{
       top: 370px;
@@ -848,11 +859,11 @@ position: absolute;
     }
     .options8{
       top: 370px;
-      left: 166px;
+      left: 159px;
     }
     .options9{
       top: 370px;
-      left: 332px;
+      left: 318px;
     }
     .options10{
       top: 555px;
@@ -860,11 +871,11 @@ position: absolute;
     }
     .options11{
       top: 555px;
-      left: 166px;
+      left: 159px;
     }
     .options12{
       top: 555px;
-      left: 332px;
+      left: 318px;
     }
       .firstpage-header-section{
         gap: 5%;
@@ -877,9 +888,10 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 21rem;
+      height: 336px;
       width:100% ;
-      min-width: 28rem;
+      min-width: 400px;
+      max-width: 448px;
     }
     .Crousel-firstpage-information-card{
       height: auto;
@@ -924,7 +936,8 @@ position: absolute;
     } 
    
     .Crousel-firstpage-detail-options{
-      width: 105px;
+      width: 100%;
+      min-width: 105px;
     }
   }
   @media (max-width: 500px) {
@@ -939,15 +952,15 @@ position: absolute;
     height: 110px;
     }
     .firstpage{
-      height: 1150px;
+      height: 100%;
     }
     .firstpage-options-values{
       font-size: 14px;
       font-weight: 700;
     }
     .firstpage-cards{
-      height: 500px;
-      width: 25rem;
+      height: 600px;
+      width: 400px;
       top: 500px;
   
 
@@ -1010,14 +1023,15 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 19rem;
+      height: 304px;
       width:100% ;
-      min-width: 25rem;
+      max-width: 400px;
+      min-width: 350px;
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 25rem;
+      min-width: 400px;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -1057,7 +1071,8 @@ position: absolute;
     } 
    
     .Crousel-firstpage-detail-options{
-      width: 90px;
+      width: 100%;
+      min-width: 90px;
     }
   }
   @media (max-width:430px) {
@@ -1068,8 +1083,8 @@ position: absolute;
     }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
-    width: 90px;
-    height: 105px;
+    width: 110px;
+    height: 120px;
     }
     
     .firstpage-options-values{
@@ -1078,67 +1093,69 @@ position: absolute;
     }
     .firstpage-cards{
       height: 510px;
-      width: 300px;
+      width: 352px;
       top: 450px;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 19rem;
+      height: 304px;
       width:100% ;
-      min-width: 22rem;
+      max-width: 352px;
+      min-width: 330px;
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 22rem;
+      min-width: 352px;
       }
-    .options1{
-      top: 0px;
-      left: 0px;
-    }
-    .options2{
-      top: 0px;
-      left: 105px;
-    }
-    .options3{
-      top: 0px;
-      left: 210px;
-    }
-    .options4{
-      top: 135px;
-      left: 0px;
-    }
-    .options5{
-      top: 135px;
-      left: 105px;
-    }
-    .options6{
-      top: 135px;
-      left: 210px;
-    }
-    .options7{
-      top: 270px;
-      left: 0px;
-    }
-    .options8{
-      top: 270px;
-      left: 105px;
-    }
-    .options9{
-      top: 270px;
-      left: 210px;
-    }
-    .options10{
-      top:405px;
-      left: 0px;
-    }
-    .options11{
-      top: 405px;
-      left: 105px;
-    }
-    .options12{
-      top: 405px;
-      left: 210px;
-    }
+      
+      .options1{
+        top: 0px;
+        left: 0px;
+      }
+      .options2{
+        top: 0px;
+        left: 121px;
+      }
+      .options3{
+        top: 0px;
+        left: 242px;
+      }
+      .options4{
+        top: 135px;
+        left: 0px;
+      }
+      .options5{
+        top: 135px;
+        left: 121px;
+      }
+      .options6{
+        top: 135px;
+        left: 242px;
+      }
+      .options7{
+        top: 270px;
+        left: 0px;
+      }
+      .options8{
+        top: 270px;
+        left: 121px;
+      }
+      .options9{
+        top: 270px;
+        left: 242px;
+      }
+      .options10{
+        top:405px;
+        left: 0px;
+      }
+      .options11{
+        top: 405px;
+        left: 121px;
+      }
+      .options12{
+        top: 405px;
+        left: 242px;
+      }
     .firstpage-header-section{
       gap: 35%;
     }
@@ -1152,14 +1169,15 @@ position: absolute;
       height: 37rem;
     }
     .Crousel-card-image,.Crousel-card-image1{
-      height: 16rem;
+      height: 256px;
       width:100% ;
-      min-width: 20rem;
+      max-width: 320px;
+      min-width: 300px;
     }
     .Crousel-firstpage-information-card{
       height: auto;
       width:100% ;
-      min-width: 20rem;
+      min-width: 320px;
       }
     .Crousel-firstpage-heading-information{
       display: flex;
@@ -1200,6 +1218,64 @@ position: absolute;
    
     .Crousel-firstpage-detail-options{
       width: 90px;
+    }
+    .firstpage-cards{
+      height: 510px;
+      width: 320px;
+      top: 450px;
+    }
+    .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
+      gap: 10px;
+      width: 100px;
+      height: 110px;
+      }
+    .options1{
+      top: 0px;
+      left: 0px;
+    }
+    .options2{
+      top: 0px;
+      left: 110px;
+    }
+    .options3{
+      top: 0px;
+      left: 220px;
+    }
+    .options4{
+      top: 135px;
+      left: 0px;
+    }
+    .options5{
+      top: 135px;
+      left: 110px;
+    }
+    .options6{
+      top: 135px;
+      left: 220px;
+    }
+    .options7{
+      top: 270px;
+      left: 0px;
+    }
+    .options8{
+      top: 270px;
+      left: 110px;
+    }
+    .options9{
+      top: 270px;
+      left: 220px;
+    }
+    .options10{
+      top:405px;
+      left: 0px;
+    }
+    .options11{
+      top: 405px;
+      left: 110px;
+    }
+    .options12{
+      top: 405px;
+      left: 220px;
     }
     .copyright-block{
     

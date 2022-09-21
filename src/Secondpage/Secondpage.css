@@ -116,7 +116,7 @@
 }
 /**/
 .menu{
-    display: block;
+  display: block;
     height: 50px;
     background-color: #ffffff;
     align-items: center;
@@ -128,17 +128,16 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    overflow-x:auto;
-    overflow-y:hidden;
-    white-space:nowrap;
+
    
 }
-.menu-start{
-  margin-left: 20px;
+.menu-container{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
-.menu-end{
-  margin-right: 0px;
-}
+
 
 .menu p{
     display: inline-block;
@@ -270,7 +269,7 @@ margin-bottom: 40px;
     mix-blend-mode: normal;
     width: 350px;
     font-size: 14px;
-    font-weight: 600;
+  
     font-family: Hind;
     word-spacing: 5px;
   }
@@ -307,7 +306,7 @@ margin-bottom: 40px;
     mix-blend-mode: normal;
     width: 268px;
     font-size: 14px;
-    font-weight: 600;
+
     font-family: Hind;
     word-spacing: 5px;
   }
@@ -333,7 +332,7 @@ margin-bottom: 40px;
     gap: 15px;
     align-items: center;
     height: 110px;
-    font-weight: 600;
+  
   }
   .person-image{
     height:77px ;
@@ -488,9 +487,7 @@ flex-direction: column;
         .menu{
           width: 1355px;
         }
-        .menu-start{
-          margin-left: 200px;
-        }
+       
         .content{
           gap: 51px;}
       }
@@ -498,9 +495,7 @@ flex-direction: column;
        .courtroom{
         width: 831px;
        }
-       .menu-start{
-        margin-left: 150px;
-      }
+     
        .main-header{
         width: 100%;
       }
@@ -560,9 +555,7 @@ flex-direction: column;
         width:100% ;
       }
      
-      .menu-start{
-        margin-left: 70px;
-      }
+ 
       .main-header{
         width: 100%;
       }
@@ -633,12 +626,15 @@ flex-direction: column;
       width: 210px;
     }
     } 
-    @media (max-width:1110px) {
+    @media (max-width:1120px) {
       .secondpage{
         height:2450px
       }
       .right-content{
         display: none;
+      }
+      .right-content1,.news-heading1{
+        display: flex;
       }
       .main-header{
         width: 100%;
@@ -646,9 +642,30 @@ flex-direction: column;
       .menu{
         width: 900px;
       }
-      .menu-start{
-        margin-left: 20px;
-      }
+      .menu{
+        display: block;
+        height: 50px;
+        background-color: #ffffff;
+        align-items: center;
+        border-radius: 15px;
+       
+       
+        right: 0%;
+        left: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        overflow-x:auto;
+        overflow-y:hidden;
+        white-space:nowrap;
+       
+    }
+    .menu-container{
+    
+      display: inline-block;
+    
+    
+    }
       .courtroom{
         width: 900px;
       }
@@ -859,7 +876,7 @@ flex-direction: column;
           align-items: center;
           height: 106px;
           width: 401px;
-          font-weight: 600;
+          
         }
         .person-date1{
           width: 310px;

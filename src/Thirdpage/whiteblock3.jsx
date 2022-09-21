@@ -8,7 +8,7 @@ const Whiteblock3 = (props) => {
                    
                        <div className={`service4${value.id}`}>
                      
-                        <img src={value.services} alt="not found"/><span className="card-title-reason">{value.title}</span>
+                        <img src={value.services} alt="not found"/>
                         <p className="thirdpage-description-reason">{value.name}</p>
                         </div>
                 </div>

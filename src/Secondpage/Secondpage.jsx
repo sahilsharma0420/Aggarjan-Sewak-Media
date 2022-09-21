@@ -30,8 +30,8 @@ function Secondpage() {
         </div>
         </div>
         <div className='menu'>
-        
-            <p className='menu-start'>होम</p>
+           <div className="menu-container">
+            <p>होम</p>
             <p>लाइफस्टाइल</p>
             <p>ऑटो</p>
             <p>गैजेट्स</p>
@@ -45,8 +45,8 @@ function Secondpage() {
             <p> देश</p>
             <p> वीडियो</p>
             <p>फोटो</p>
-            <p className='menu-end'>यूज़ ब्रीफ</p>
-         
+            <p>यूज़ ब्रीफ</p>
+            </div>
 
         </div>
         <div className='content'>
