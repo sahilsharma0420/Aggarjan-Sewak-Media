@@ -4,7 +4,7 @@
 }
 .firstpage{
   width: 100%;
-  max-height: 100vh;
+  min-height: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -144,7 +144,7 @@ position: absolute;
 .firstpage-cards{
   position: absolute;
   height: 230px;   
-  width: 860px;
+  width: 815px;
 
   top: 400px;
   left: 0;
@@ -252,15 +252,21 @@ position: absolute;
 @media (max-width:1070px) {
   
   .firstpage-header-section{
-    gap: 44%;
+    gap: 38%;
   }
   .firstpage-text1{
-    font-size: 24px;
+    font-size: 26px;
   }
+
 }
 @media (max-width:1020px) {
   .firstpage{
     height: 100%;
+  }
+  .copyright-block{
+    position: absolute;
+    top: 1270px;
+    height: 50px;
   }
   .cardimages{
     height:100px;
@@ -278,11 +284,12 @@ position: absolute;
     font-weight: 700;
   }
   .firstpage-cards{
-    height: 605px;
+    height: 90%;
     width: 816px;
     top: 630px;
    
   }
+
   .options1{
     top: 0px;
     left: 0px;
@@ -383,12 +390,12 @@ position: absolute;
     .Crousel-firstpage-person-name,.Crousel-firstpage-person-rollno,.Crousel-firstpage-person-status,.Crousel-firstpage-person-place{
       display: flex;
       flex-direction: row;
-      font-size: 26px;
+      font-size: 20px;
       margin-bottom: 15px;
     }
     
     .Crousel-firstpage-heading-information-label{
-      font-size: 32px;
+      font-size: 24px;
     }
     .Crousel-firstpage-person-image{
       width: 200px;
@@ -412,7 +419,7 @@ position: absolute;
 }
 @media (max-width:970px) {
   .firstpage-header-section{
-    gap: 37%;
+    gap: 35%;
   }
 }
 @media (max-width:900px) {
@@ -472,10 +479,10 @@ position: absolute;
   }
   
   .firstpage-header-section{
-    gap: 33%;
+    gap: 30%;
   }
   .firstpage-text1{
-    font-size: 22px;
+    font-size: 26px;
   }
     .firstpage-card-section{
       height: 37rem;
@@ -509,12 +516,12 @@ position: absolute;
     .Crousel-firstpage-person-name,.Crousel-firstpage-person-rollno,.Crousel-firstpage-person-status,.Crousel-firstpage-person-place{
       display: flex;
       flex-direction: row;
-      font-size: 26px;
+      font-size: 20px;
       margin-bottom: 10px;
     }
    
     .Crousel-firstpage-heading-information-label{
-      font-size: 32px;
+      font-size: 24px;
     }
     .Crousel-firstpage-person-image{
       width: 200px;
@@ -552,8 +559,13 @@ position: absolute;
     font-size: 14px;
     font-weight: 700;
   }
+  .copyright-block{
+    
+    top: 1550px;
+    
+  }
   .firstpage-cards{
-    height: 830px;
+    height: 85%;
     width: 640px;
     top: 630px;
   }
@@ -643,12 +655,12 @@ position: absolute;
     .Crousel-firstpage-person-name,.Crousel-firstpage-person-rollno,.Crousel-firstpage-person-status,.Crousel-firstpage-person-place{
       display: flex;
       flex-direction: row;
-      font-size: 26px;
+      font-size: 20px;
       margin-bottom: 10px;
     }
   
     .Crousel-firstpage-heading-information-label{
-      font-size: 32px;
+      font-size: 24px;
     }
     .Crousel-firstpage-person-image{
       width: 180px;
@@ -665,6 +677,9 @@ position: absolute;
     }
     .Crousel-firstpage-detail-options{
       width: 160px;
+    }
+    .firstpage-header-section{
+      gap: 15%;
     }
   }
   @media (max-width: 680px) {
@@ -738,10 +753,10 @@ position: absolute;
     left: 400px;
   }
       .firstpage-header-section{
-        gap: 15%;
+        gap: 2%;
       }
       .firstpage-text1{
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 700;
       }
    
@@ -878,10 +893,10 @@ position: absolute;
       left: 318px;
     }
       .firstpage-header-section{
-        gap: 5%;
+        gap: 0%;
       }
       .firstpage-text1{
-        font-size: 18px;
+        font-size: 26px;
       }
  
     .firstpage-card-section{
@@ -939,6 +954,9 @@ position: absolute;
       width: 100%;
       min-width: 105px;
     }
+    .firstpage-text1{
+      font-size: 24px;
+    }
   }
   @media (max-width: 500px) {
     .cardimages{
@@ -959,11 +977,14 @@ position: absolute;
       font-weight: 700;
     }
     .firstpage-cards{
-      height: 600px;
+      height: 60%;
       width: 400px;
       top: 500px;
   
 
+    }
+    .copyright-block{
+      top:1150px ;
     }
     .options1{
       top: 0px;
@@ -1057,7 +1078,7 @@ position: absolute;
     }
     
     .Crousel-firstpage-heading-information-label{
-      font-size: 18px;
+      font-size: 20px;
     }
     .Crousel-firstpage-person-image{
       width: 110px;
@@ -1203,7 +1224,7 @@ position: absolute;
     }
     
     .Crousel-firstpage-heading-information-label{
-      font-size: 16px;
+      font-size: 17px;
     }
     .Crousel-firstpage-person-image{
       width: 80px;

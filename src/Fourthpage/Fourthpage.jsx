@@ -12,7 +12,7 @@ function Fourthpage() {
             <div className="fourthpage-first-box">
               <img
                 className="fourthpage-first-img"
-                src={`https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png`}
+                 src={process.env.PUBLIC_URL +`/images/logo1.png`}
                 alt="notfound"
               />
               <div className="fourthpage-text1">अग्रजन सेवक मीडिया नेटवर्क</div>
@@ -45,7 +45,7 @@ function Fourthpage() {
               <div className="fourthpage-heading-information">
                 <img
                   className="fourthpage-heading-information-logo"
-                  src="https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png"
+                  src={process.env.PUBLIC_URL +`/images/logo1.png`}
                   alt="not-found"
                 />
                 <p className="fourthpage-heading-information-label">
@@ -149,7 +149,7 @@ function Fourthpage() {
             </div>
           </div>
         </div>
-        <div className="copyright-block">
+        <div className="fourthpage-copyright-block">
           all rights reserved @ aggrajan sewak media network
         </div>
       </div>

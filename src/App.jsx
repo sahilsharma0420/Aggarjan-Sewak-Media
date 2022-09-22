@@ -2,6 +2,7 @@ import "./App.css";
 import Firstpage from "./Firstpage/Firstpage";
 import News from "./news/news"
 import Service from "./Service/Service"
+import Fourthpage from "./Fourthpage/Fourthpage"
 import { Routes, Route, Navigate ,BrowserRouter} from "react-router-dom";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/Aggrajan-Sewak-Media" element={<Firstpage/>} />
         <Route path="/News" element={<News/>} />
         <Route path="/Service" element={<Service/>} />
+        <Route path="/Fourthpage" element={<Fourthpage/>} />
         <Route path="/*" element={<Navigate to="/Aggrajan-Sewak-Media"/>} />
       </Routes>
       </BrowserRouter>

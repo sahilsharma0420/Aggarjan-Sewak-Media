@@ -142,11 +142,13 @@ function Firstpage() {
         </div>
        <div className="firstpage-cards">
          <Firstpagecard details={Firstpagedata} />
+         
        </div>
-        <div className="copyright-block">
+       
+      </div>
+      <div className="copyright-block">
           all rights reserved @ aggrajan sewak media network
         </div>
-      </div>
     </>
   );
 }

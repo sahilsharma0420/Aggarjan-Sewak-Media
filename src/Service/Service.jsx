@@ -3,6 +3,8 @@ import "./Service.css"
 import Whiteblock3 from './whiteblock3';
 import { thirdpagedata } from './thirdpagedata';
 import {Button} from "@mui/material";
+
+
 function Service() {
   return (
     <>
@@ -12,7 +14,7 @@ function Service() {
         <div className="thirdpage-first-box">
               <img
                 className="thirdpage-first-img"
-                src={`https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png`}
+                src={process.env.PUBLIC_URL +`/images/logo1.png`}
                 alt="notfound"
               />
               <div className="thirdpage-text1">अग्रजन सेवक मीडिया नेटवर्क</div>
@@ -33,7 +35,7 @@ function Service() {
         <div className='thirdpage-card-section'>
           <div className='thirdpage-information-card'>
             <div className='thirdpage-heading-information'>
-                <img className='thirdpage-heading-information-logo' src='https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png' alt='not-found'/>
+                <img className='thirdpage-heading-information-logo' src={process.env.PUBLIC_URL +`/images/logo1.png`} alt='not-found'/>
                 <p className='thirdpage-heading-information-label'>अग्रजन सेवक मीडिया नेटवर्क</p>
             </div>
             <div className='thirdpage-detail-information'>

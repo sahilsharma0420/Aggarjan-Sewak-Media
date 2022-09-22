@@ -12,7 +12,7 @@
 }
 .label{
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
 }
 .side-header{
@@ -771,9 +771,13 @@ flex-direction: column;
       }
     } /*bigscreen*/
     /*ipad*/
-   
+    @media (max-width:1050px) {
+  .label{
+    font-size: 22px;
+  }
+    }
 
-    @media (max-width:990px) {
+    @media (max-width:1000px) {
       .secondpage{
         height: 2450px;
       }

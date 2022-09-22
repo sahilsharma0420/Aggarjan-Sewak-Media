@@ -919,7 +919,7 @@ font-size: 12px;
   }
   @media (max-width:600px) {
     .fifthpage-header-section{
-      gap: 9%;
+      gap: 50%;
     }
     .fifthpage-information-card{
       width: 450px;
@@ -992,7 +992,7 @@ font-size: 12px;
   }
   @media (max-width:550px) {
     .fifthpage-header-section{
-      gap: 3%;
+      gap: 15%;
       
     }
 

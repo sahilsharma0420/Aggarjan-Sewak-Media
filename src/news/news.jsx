@@ -7,7 +7,7 @@ function News() {
     <div className='secondpage'>
         <div className='main-header'>
         <div className='logo-label'>
-            <img className='logo' src='https://file.rendit.io/n/i6eVE4eCy7Q1r47emUYJ.png' alt='not found' />
+            <img className='logo' src={process.env.PUBLIC_URL +`/images/logo1.png`} alt='not found' />
             <p className='label'>अग्रजन सेवक मीडिया नेटवर्क</p>
         </div>
         <div className='side-header'>
