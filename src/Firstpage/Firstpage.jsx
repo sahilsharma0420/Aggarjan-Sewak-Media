@@ -12,7 +12,7 @@ function Firstpage() {
           <div className="firstpage-first-box">
             <img
               className="firstpage-first-img"
-              src={`https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png`}
+              src={process.env.PUBLIC_URL +`/images/logo1.png`}
               alt="notfound"
             />
             <div className="firstpage-text1">अग्रजन सेवक मीडिया नेटवर्क</div>
@@ -34,7 +34,7 @@ function Firstpage() {
             <div className="firstpage-heading-information">
               <img
                 className="firstpage-heading-information-logo"
-                src="https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png"
+                src={process.env.PUBLIC_URL +`/images/logo1.png`}
                 alt="not-found"
               />
               <p className="firstpage-heading-information-label">
@@ -84,7 +84,7 @@ function Firstpage() {
             <div className="Crousel-firstpage-heading-information">
               <img
                 className="Crousel-firstpage-heading-information-logo"
-                src="https://file.rendit.io/n/NfiJx3UOyNarekUJiQy8.png"
+                src={process.env.PUBLIC_URL +`/images/logo1.png`}
                 alt="not-found"
               />
               <p className="Crousel-firstpage-heading-information-label">

@@ -20,6 +20,7 @@
 }
 .fourthpage-heading-information-label{
   margin-bottom: 0px;
+  font-size: 20px;
 }
 .fourthpage-side-panel{
     display: flex;
@@ -28,7 +29,7 @@
 .fourthpage-business-button{
 width: 119px;
   mix-blend-mode: normal;
-  background-color: #f39507;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   gap: 6px;
@@ -44,7 +45,7 @@ width: 119px;
  
     margin-bottom: 0px;
     font-family: Hind;
-    font-size: 14px;
+    font-size: 12px;
 }
 .fourthpage-first-box {
   height: 84px;
@@ -70,7 +71,7 @@ width: 119px;
   mix-blend-mode: normal;
   background-color: #ffffff;
   display: flex;
-
+ 
   flex-direction: row;
   gap: 6px;
   height: 35px;
@@ -82,7 +83,7 @@ width: 119px;
 }
 .fourthpage-text3 {
   mix-blend-mode: normal;
-  font-size: 14px;
+  font-size: 12px;
   font-family: Hind;
   margin-bottom: 0px;
   color: black;
@@ -141,12 +142,13 @@ margin-top: 10px;
  }
  .fourthpage-detail-options{
     width: 90px;
+    font-size: 16px;
  }
 .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+   margin-bottom: 10px;
 }
 .fourthpage-person-image{
     width: 100px;
@@ -779,8 +781,13 @@ gap: 20px;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
-
-      font-size: 20px;
+      margin-bottom: 15px;
+  }
+  .fourthpage-detail-information{
+    padding: 10px 50px;
+  }
+  .fourthpage-heading-information{
+    padding-left: 30px;
   }
   .fourthpage-buttons{
     width: 680px;
@@ -848,15 +855,11 @@ gap: 20px;
     .fourthpage-business-button{
 width: 119px;
     }
-    .fourthpage-business-text{
-font-size: 14px;
-    }
+  
     .fourthpage-whitebox{
  width: 119px;
     }
-    .fourthpage-text3{
-font-size: 14px;
-    }
+ 
   }
   @media (max-width:600px) {
     .fourthpage-header-section{
@@ -872,9 +875,7 @@ font-size: 14px;
     .fourthpage-heading-information-label{
       font-size: 22px;
     }
-    .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
-    font-size: 18px;
-  }
+ 
     .fourthpage-card-section-image
     {
       height: 300px;
@@ -928,6 +929,12 @@ font-size: 14px;
       gap: 28%;
       
     }
+    .fourthpage-detail-information{
+      padding: 10px 30px;
+    }
+    .fourthpage-heading-information{
+      padding-left: 10px;
+    }
 
   }
   @media (max-width:500px) {
@@ -965,15 +972,11 @@ width: 90px;
 .fourthpage-business-button{
   width: 119px;
       }
-      .fourthpage-business-text{
-  font-size: 14px;
-      }
+   
       .fourthpage-whitebox{
    width: 119px;
       }
-      .fourthpage-text3{
-  font-size: 14px;
-      }
+     
       .fourthpage-buttons{
         width: 380px;
         gap: 20px;
@@ -1006,7 +1009,12 @@ width: 90px;
   }
   @media (max-width:410px) {
   
- 
+    .fourthpage-detail-information{
+      padding: 10px 20px;
+    }
+    .fourthpage-heading-information{
+      padding-left: 0px;
+    }
     .fourthpage-header-section{
       gap: 4%;
       
@@ -1029,7 +1037,7 @@ width: 90px;
     font-size: 18px;
   }
   .fourthpage-person-name,.fourthpage-person-place,.fourthpage-person-status,.fourthpage-person-rollno{
-    font-size: 15px;
+    margin-bottom: 10px;
   }
   .fourthpage-detail-options{
 font-size: 16px;
@@ -1042,15 +1050,11 @@ width: 90px;
 .fourthpage-business-button{
   width: 119px;
       }
-      .fourthpage-business-text{
-  font-size: 14px;
-      }
+    
       .fourthpage-whitebox{
    width: 119px;
       }
-      .fourthpage-text3{
-  font-size: 14px;
-      }
+  
       .fourthpage-buttons{
         width: 329px;
         gap: 20px;
