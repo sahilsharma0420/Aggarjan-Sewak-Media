@@ -1,0 +1,491 @@
+.user {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0) 0%,
+      #ff9c08 92%
+    );
+}
+label{
+  margin-bottom: 0;
+}
+.user-header-section {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: rgba(255, 156, 9, 0.8);
+  justify-content: center;
+  align-items: center;
+  gap: 55%;
+}
+.user-whitebox{
+  background-color: #fff;
+  width: 119px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.user-first-box {
+  height: 84px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user-first-img {
+  width: 88px;
+  height: 68px;
+  mix-blend-mode: normal;
+}
+.user-text1 {
+  mix-blend-mode: normal;
+  font-size: 26px;
+  font-family: Hind;
+  font-weight: 700;
+}
+
+.user-heading-information-logo {
+  height: 68px;
+  width: 88px;
+}
+.user-text3 {
+  mix-blend-mode: normal;
+  font-size: 14px;
+  color: black;
+  font-family: Hind;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.user-first-img4 {
+  width: 7px;
+  height: 5px;
+  mix-blend-mode: normal;
+  align-self: flex-end;
+  margin: 0px 0px 9px 0px;
+}
+/*card-section*/
+.user-card-section {
+  display: flex;
+  flex-direction: row;
+  
+
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.user-information-card {
+  height: 270px;
+  width: 421px;
+  border-width: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    180deg,
+    #f8d5a1 14%,
+    #f6b555 56%,
+    #f39407 100%
+  );
+}
+.user-heading-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+}
+.user-heading-information-label {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.user-detail-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.user-person-details {
+  display: flex;
+  flex-direction: column;
+}
+.user-detail-options {
+  width: 90px;
+  font-size: 16px;
+}
+.user-person-name,
+.user-person-place,
+.user-person-status,
+.user-person-rollno {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.user-person-image {
+  width: 100px;
+  height: 100px;
+}
+select,input{
+  width: 300px;
+  margin: 0;
+  height: 25px;
+}
+.first-row,.second-row{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.form-name,.caste,.state,.district{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.user-copyright-block {
+  mix-blend-mode: normal;
+  display: flex;
+  font-size: 16px;
+  font-family: Hind;
+  width: 100%;
+  height: 45px;
+  background-color: #f8d5a1;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13px 0px 10px 0px;
+  margin-top: auto;
+}
+.user-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 868px;
+  height:270px;
+  background-image: linear-gradient(
+    180deg,
+    #f8d5a1 14%,
+    #f6b555 56%,
+    #f39407 100%
+  );
+ border: 5px solid #fff;
+ border-radius: 20px;
+ 
+}
+.form-buttons{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.form-image{
+  border-radius: 50%;
+}
+.user-lower-section{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height:310px;
+  justify-content: center;
+}
+.user-left-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.member-type1,.member-type2,.member-type3{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 70px;
+  border: 2px solid #fff;
+  background-image: linear-gradient(
+    180deg,
+    #f8d5a1 14%,
+    #f6b555 56%,
+    #f39407 100%
+  );
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.user-right-section{
+
+  gap: 15px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.user1,.user2{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 90px;
+  border: 2px solid #fff;
+  background-image: linear-gradient(
+    180deg,
+    #f8d5a1 14%,
+    #f6b555 56%,
+    #f39407 100%
+  );
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.userlist-right{
+  display: flex;
+  flex-direction: column;
+}
+.user-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user-title-icon{
+  color: blueviolet;
+}
+.user-title-label{
+  font-size: 18px;
+}
+.userlist-button-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bottom-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/*RESPONSIVENESS*/
+@media (max-width: 1330px) {
+  .user {
+    height: 100%;
+  }
+
+}
+@media (max-width: 1220px) {
+  .user {
+    height: 100%;
+  }
+
+  .user-header-section {
+    gap: 51%;
+  }
+}
+@media (max-width: 1100px) {
+  .user-text1 {
+    font-size: 26px;
+  }
+  .user-header-section {
+    gap: 46%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .user-text1 {
+    font-size: 26px;
+  }
+  .user-header-section {
+    gap: 40%;
+  }
+
+  .user {
+    height: 100%;
+  }
+
+}
+@media (max-width: 900px) {
+  .user-header-section {
+    gap: 31%;
+  }
+  .user-heading-information-label {
+    font-size: 24px;
+  }
+
+  .user-text1 {
+    font-size: 26px;
+  }
+
+  .user-card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+
+  .user {
+    height: 100%;
+  }
+
+
+
+  .user-information-card {
+    margin-top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    width: 750px;
+  }
+
+  .user-detail-information {
+    padding: 0px 50px;
+  }
+  .user-heading-information {
+    padding: 0px 30px;
+  }
+
+  .user-heading-information {
+    font-size: 24px;
+  }
+  .user-person-name,
+  .user-person-place,
+  .user-person-rollno,
+  .user-person-status {
+    font-size: 22px;
+
+    margin-bottom: 10px;
+  }
+  .user-detail-options {
+    min-width: 175px;
+    width: 100%;
+    font-size: 18px;
+  }
+  .user-person-image {
+    height: 150px;
+    width: 150px;
+  }
+  .user-header-section {
+    justify-content: center;
+  }
+}
+@media (max-width: 770px) {
+  .user-information-card {
+    width: 650px;
+  }
+  .user-header-section {
+    gap: 21%;
+  }
+  .user {
+    height: 100%;
+  }
+
+  .user-header-section {
+    justify-content: center;
+  }
+}
+@media (max-width: 670px) {
+  .user-information-card {
+    width: 550px;
+  }
+  .user-header-section {
+    gap: 11%;
+  }
+  .user-detail-options {
+    font-size: 18px;
+    min-width: 140px;
+    width: 100%;
+  }
+  .user-heading-information-label {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 670px) {
+  .user-information-card {
+    width: 550px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 610px) {
+  .user-information-card {
+    width: 450px;
+    height: 330px;
+  }
+
+  .user-header-section {
+    gap: 50%;
+  }
+  .user-text1 {
+    display: none;
+  }
+  .user-card-section {
+    gap: 50px;
+  }
+  .user {
+    height: 100%;
+  }
+
+
+  .user-heading-information-label {
+    font-size: 24px;
+  }
+  .user-detail-options {
+    font-size: 20px;
+    min-width: 115px;
+    width: 100%;
+  }
+  .user-detail-information {
+    padding: 0px 20px;
+  }
+  .user-heading-information {
+    padding: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .user-information-card {
+    width: 350px;
+    height: 300px;
+  }
+  .user-header-section {
+    gap: 40%;
+  }
+  .user-card-section {
+    gap: 50px;
+  }
+  .user-heading-information-label {
+    font-size: 17px;
+  }
+  .user-person-name,
+  .user-person-user-place,
+  .user-person-rollno,
+  .user-person-status {
+    margin-bottom: 10px;
+  }
+  .user-detail-options {
+    min-width: 45px;
+    font-size: 15px;
+  }
+  .user-person-image {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+  }
+  .user-detail-information {
+    justify-content: center;
+  }
+  .user-person-details {
+    width: 200px;
+  }
+  .user-whiteblock {
+    width: 350px;
+  }
+}
+@media (max-width: 430px) {
+  .user-header-section {
+    gap: 35%;
+  }
+}
