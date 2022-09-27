@@ -1,103 +1,103 @@
 .thirdpage{
-    height: 1135px;
-    width: 100%;
+  height: 1235px;
+  width: 100%;
 }
 .thirdpage-main-content{
-    height: 1090px;
-    width: 100%;
+  height: 1190px;
+  width: 100%;
 }
 .thirdpage-header-section {
-  display: flex;
-  flex-direction: row;
-  height: 80px;
-  background-color: rgba(255, 156, 9, 0.8);
-  justify-content: center;
-  align-items: center;
-  gap: 55%;
+display: flex;
+flex-direction: row;
+height: 80px;
+background-color: rgba(255, 156, 9, 0.8);
+justify-content: center;
+align-items: center;
+gap: 55%;
 }
 .thirdpage-first-box {
-  height: 84px;
-  position: relative;
+height: 84px;
+position: relative;
 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 .thirdpage-first-img {
-  width: 88px;
-  height: 68px;
-  mix-blend-mode: normal;
+width: 88px;
+height: 68px;
+mix-blend-mode: normal;
 }
 .thirdpage-text1 {
-  mix-blend-mode: normal;
-  font-size: 26px;
-  font-family: Hind;
-  font-weight: 700;
+mix-blend-mode: normal;
+font-size: 26px;
+font-family: Hind;
+font-weight: 700;
 }
 .thirdpage-whitebox {
-  width: 100%;
-  max-width: 119px;
-  mix-blend-mode: normal;
-  background-color: #ffffff;
-  display: flex;
-  height: 30px;
-  flex-direction: row;
- font-size: 12px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3px;
+width: 100%;
+max-width: 119px;
+mix-blend-mode: normal;
+background-color: #ffffff;
+display: flex;
+height: 30px;
+flex-direction: row;
+font-size: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
 
-  transition: all 2s linear 0s;
+transition: all 2s linear 0s;
 }
 .thirdpage-heading-information-logo{
 height: 68px;
 width: 88px;
 }
 .thirdpage-text3 {
-  mix-blend-mode: normal;
-  font-size: 14px;
-  color: black;
-  font-family: Hind;
-  margin-bottom: 0px;
-  margin-right:5px ;
+mix-blend-mode: normal;
+font-size: 14px;
+color: black;
+font-family: Hind;
+margin-bottom: 0px;
+margin-right:5px ;
 }
 .thirdpage-first-img4 {
-  width: 7px;
-  height: 5px;
-  mix-blend-mode: normal;
-  align-self: flex-end;
-  margin: 0px 0px 9px 0px;
+width: 7px;
+height: 5px;
+mix-blend-mode: normal;
+align-self: flex-end;
+margin: 0px 0px 9px 0px;
 }
 /*card-section*/
 .thirdpage-card-section{
-  display: flex;
-  flex-direction: row;
-  height: 646px; 
-  background-image: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0) 0%,
-    #ff9c08 92%
-  );
-  align-items:flex-start;
-  padding-top: 50px;
-  justify-content:center;
-    gap: 20px;
+display: flex;
+flex-direction: row;
+height: 646px; 
+background-image: linear-gradient(
+  180deg,
+  rgba(217, 217, 217, 0) 0%,
+  #ff9c08 92%
+);
+align-items:flex-start;
+padding-top: 50px;
+justify-content:center;
+  gap: 20px;
 }
 .thirdpage-information-card{
-    height: 270px;
-    width: 421px;
-    border-width: 5px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(
-        180deg,
-        #f8d5a1 14%,
-        #f6b555 56%,
-        #f39407 100%
-      );
+  height: 270px;
+  width: 421px;
+  border-width: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      180deg,
+      #f8d5a1 14%,
+      #f6b555 56%,
+      #f39407 100%
+    );
 }
 .thirdpage-heading-information{
 display: flex;
@@ -106,1645 +106,1724 @@ align-items: center;
 margin: 10px 0px;
 }
 .thirdpage-heading-information-label{
-  margin-bottom: 0px;
-  font-size: 20px;
+margin-bottom: 0px;
+font-size: 20px;
 }
 .thirdpage-detail-information{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
 }
 .thirdpage-person-details{
-    display: flex;
-    flex-direction: column;
- 
-    
- }
- .thirdpage-detail-options{
-    width: 90px;
-    font-size: 16px;
- }
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.thirdpage-detail-options{
+  width: 90px;
+  font-size: 16px;
+}
 .thirdpage-person-name,.thirdpage-person-place,.thirdpage-person-status,.thirdpage-person-rollno{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ margin-bottom: 10px;
 }
 .thirdpage-person-image{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 .thirdpage-card-section-image{
-    height: 270px;
-    width: 868px;
-   
+  height: 270px;
+  width: 868px;
+ 
 }
 /*thirdpage whiteblock*/
 .thirdpage-whiteblock{
-  position: absolute;
-  height: 560px;   
-  width: 1310px;
-  top: 444px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
- transition: all .2s linear 0s;
+position: absolute;
+height: 560px;   
+width: 1310px;
+top: 444px;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+transition: all .2s linear 0s;
 }
 /*whiteblock3*/
 .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid  #e78d07;
-  border-radius: 15px;
-  width: 130px;
-  height: 135px;
-  box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
-  position: absolute;
+display: flex;
+gap: 25px;
+flex-direction: row;
+background-color: white;
+justify-content: center;
+align-items: center;
+border: 2px solid  #e78d07;
+border-radius: 15px;
+width: 240px;
+height: 85px;
+padding: 15px 20px;
+box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+transition: transform .3s linear 0s;
+position: absolute;
 }
-  
-  
-  .service41{
-    left: 0px;
-    top: 50px;
-  }
-  .service42{
-    left: 147.5px;
-    top: 50px;
-  }
-  .service43{
-    left: 295px;
-    top: 50px;
-  }
-  .service44{
-    left: 441.5px;
-    top: 50px;
-  
-  }
-  .image4,.image10,.image13{
-padding-bottom: 24px;
-  }
-  .service45{
-    left: 589px;
-    top: 50px;
-  }
-  .service46{
-    left: 736.5px;
-    top: 50px;
-  }
-  .service47{
-    left: 884px;
-    top: 50px;
-  }
-  .service48{
-    left: 1031.5px;
-    top: 50px;
-  }
-  .service49{
-    left: 1179px;
-    top: 50px;
-  }
-  .service410{
-    left: 0px;
-    top: 215px;
-  }
-  .service411{
-    left: 147.5px;
-    top: 215px;
-  }
-  .service412{
-    left: 295px;
-    top: 215px;
-  }
-  .service413{
-    left: 441.5px;
-    top: 215px;
-  }
-  .service414{
-    left: 589px;
-    top: 215px;
-  }
-  .service415{
-    left: 736.5px;
-    top: 215px;
-  }
-  .service416{
-    left: 884px;
-    top: 215px;
-  }
-  .service417{
-    left: 1031.5px;
-    top: 215px;
-  }
-  .service418{
-    left: 1179px;
-    top: 215px;
-  }
-  .service419{
-    left: 0px;
-    top: 380px;
-  }
-  .service420{
-    left: 147.5px;
-    top: 380px;
-  }
-  .service421{
-    left: 295px;
-    top: 380px;
-  }
-  .service422{
-    left: 441.5px;
-    top: 380px;
-  }
-  .service423{
-    left: 589px;
-    top: 380px;
-  }
-  .service424{
-    left: 736.5px;
-    top: 380px;
-  }
-  .service425{
-    left: 884px;
-    top: 380px;
-  }
-  .service426{
-    left: 1031.5px;
-    top: 380px;
-  }
-  .service427{
-    left: 1179px;
-    top: 380px;
-  }
-  .thirdpage-description-reason{
-  
-    font-size: 16px;
-  }
+.service41:hover,.service42:hover,.service43:hover,.service44:hover,.service45:hover,.service46:hover,.service47:hover,.service48:hover,.service49:hover,.service410:hover,.service411:hover,.service412:hover,.service413:hover,.service414:hover,.service415:hover,.service416:hover,.service417:hover,.service418:hover,.service419:hover,.service420:hover,.service421:hover,.service422:hover,.service423:hover,.service424:hover,.service425:hover,.service426:hover,.service427:hover{
+transform: scale(1.05);
+} 
+
+.service41{
+  left: 0px;
+  top: 30px;
+}
+.service42{
+  left: 267.5px;
+  top: 30px;
+}
+.service43{
+  left: 535px;
+  top: 30px;
+}
+.service44{
+  left: 802.5px;
+  top: 30px;
+
+}
+.service45{
+  left: 1070px;
+  top: 30px;
+}
+.service46{
+  left: 0px;
+  top: 145px;
+}
+.service47{
+  left:267.5px;
+  top:145px;
+}
+.service48{
+  left: 535px;
+  top: 145px;
+}
+.service49{
+  left: 802.5px;
+  top: 145px;
+}
+.service410{
+  left: 1070px;
+  top: 145px;
+}
+.service411{
+  left: 0px;
+  top: 260px;
+}
+.service412{
+  left: 267.5px;
+  top: 260px;
+}
+.service413{
+  left: 535px;
+  top: 260px;
+}
+.service414{
+  left: 802.5px;
+  top: 260px;
+}
+.service415{
+  left: 1070px;
+  top: 260px;
+}
+.service416{
+  left: 0px;
+  top: 375px;
+}
+.service417{
+  left: 267.5px;
+  top: 375px;
+}
+.service418{
+  left: 535px;
+  top: 375px;
+}
+.service419{
+  left: 802.5px;
+  top: 375px;
+}
+.service420{
+  left: 1070px;
+  top: 375px;
+}
+.service421{
+  left: 0px;
+  top: 490px;
+}
+.service422{
+  left: 267.5px;
+  top: 490px;
+}
+.service423{
+  left: 535px;
+  top: 490px;
+}
+.service424{
+  left: 802.5px;
+  top: 490px;
+}
+.service425{
+  left: 1070px;
+  top:490px;
+}
+.service426{
+  left: 0px;
+  top:605px;
+}
+.service427{
+  left: 267.5px;
+  top: 605px;
+}
+.thirdpage-description-reason{
+
+  font-size: 16px;
+}
 /*whiteblock3*/
 /*thirdpage whiteblock*/
 /*card-section*/
 .thirdpage-copyright-block{
-    mix-blend-mode: normal;
-    display: flex;
-    font-size: 16px;
-    font-family: Hind;
-    width: 100%;
-    height: 45px;
-    background-color: #f8d5a1;
-    flex-direction: row;
-    justify-content: center;
-    padding: 13px 0px 10px 0px;
-  }
+  mix-blend-mode: normal;
+  display: flex;
+  font-size: 16px;
+  font-family: Hind;
+  width: 100%;
+  height: 45px;
+  background-color: #f8d5a1;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13px 0px 10px 0px;
+}
 
-  /*RESPONSIVENESS*/
-  @media (max-width:1330px) {
-    .thirdpage-whiteblock{
-      height: 560px;
-      width: 1190px;
-    }
-    .thirdpage{
-      height: 1135px;
-    }
-    .thirdpage-main-content{
-      height: 1090px;
-    }
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 120px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 133.75px;
-        top: 50px;
-      }
-      .service43{
-        left: 267.5px;
-        top: 50px;
-      }
-      .service44{
-        left: 401.25px;
-        top: 50px;
-      }
-      .service45{
-        left: 535px;
-        top: 50px;
-      }
-      .service46{
-        left: 668.75px;
-        top: 50px;
-      }
-      .service47{
-        left: 802.5px;
-        top: 50px;
-      }
-      .service48{
-        left: 936.25px;
-        top: 50px;
-      }
-      .service49{
-        left: 1070px;
-        top: 50px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 133.75px;
-        top: 215px;
-      }
-      .service412{
-        left: 267.5px;
-        top: 215px;
-      }
-      .service413{
-        left: 401.25px;
-        top: 215px;
-      }
-      .service414{
-        left: 535px;
-        top: 215px;
-      }
-      .service415{
-        left: 668.75px;
-        top: 215px;
-      }
-      .service416{
-        left: 802.5px;
-        top: 215px;
-      }
-      .service417{
-        left: 936.25px;
-        top: 215px;
-      }
-      .service418{
-        left: 1070px;
-        top: 215px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 133.75px;
-        top: 380px;
-      }
-      .service421{
-        left: 267.5px;
-        top: 380px;
-      }
-      .service422{
-        left: 401.25px;
-        top: 380px;
-      }
-      .service423{
-        left: 535px;
-        top: 380px;
-      }
-      .service424{
-        left: 668.75px;
-        top: 380px;
-      }
-      .service425{
-        left: 802.5px;
-        top: 380px;
-      }
-      .service426{
-        left: 936.25px;
-        top: 380px;
-      }
-      .service427{
-        left: 1070px;
-        top: 380px;
-      }
-   .thirdpage-card-section-image{
-    width: 750px;
-   }
+/*RESPONSIVENESS*/
+@media (max-width:1330px) {
+  .thirdpage-whiteblock{
+    height: 560px;
+    width: 1190px;
   }
-  @media (max-width:1220px) {
-    .thirdpage-card-section-image{
-      width: 600px;
-     }
-     .thirdpage-whiteblock{
-      height: 725px;
-      width: 1010px;
-    }
-    .thirdpage{
-      height: 1300px;
-    }
-    .thirdpage-main-content{
-      height: 1255px;
-    }
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 120px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 149px;
-        top: 50px;
-      }
-      .service43{
-        left: 298px;
-        top: 50px;
-      }
-      .service44{
-        left: 447px;
-        top: 50px;
-      }
-      .service45{
-        left: 596px;
-        top: 50px;
-      }
-      .service46{
-        left: 745px;
-        top: 50px;
-      }
-      .service47{
-        left: 894px;
-        top: 50px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 149px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 149px;
-        top: 215px;
-      }
-      .service412{
-        left: 298px;
-        top: 215px;
-      }
-      .service413{
-        left: 447px;
-        top: 215px;
-      }
-      .service414{
-        left: 596px;
-        top: 215px;
-      }
-      .service415{
-        left: 745px;
-        top: 215px;
-      }
-      .service416{
-        left: 894px;
-        top: 215px;
-      }
-      .service417{
-        left: 296px;
-        top: 545px;
-      }
-      .service418{
-        left: 445px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 149px;
-        top: 380px;
-      }
-      .service421{
-        left: 298px;
-        top: 380px;
-      }
-      .service422{
-        left: 447px;
-        top: 380px;
-      }
-      .service423{
-        left: 596px;
-        top: 380px;
-      }
-      .service424{
-        left: 745px;
-        top: 380px;
-      }
-      .service425{
-        left: 894px;
-        top: 380px;
-      }
-      .service426{
-        left: 594px;
-        top: 545px;
-      }
-      .service427{
-        left: 745px;
-        top: 545px;
-      }
-      .thirdpage-header-section{
-        gap: 51%;
-      }
+  .thirdpage{
+    height: 1235px;
   }
-  @media (max-width:1100px) {
-    .thirdpage-card-section-image{
-      width: 500px;
-     }
-     .thirdpage-text1{
-      font-size: 26px;
-     }
-     .thirdpage-header-section{
-      gap: 46%;
-     }
-     .thirdpage-whiteblock{
-      height: 725px;
-      width: 939px;
-    }
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 120px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 136.5px;
-        top: 50px;
-      }
-      .service43{
-        left: 273px;
-        top: 50px;
-      }
-      .service44{
-        left: 409.5px;
-        top: 50px;
-      }
-      .service45{
-        left: 546px;
-        top: 50px;
-      }
-      .service46{
-        left: 682.5px;
-        top: 50px;
-      }
-      .service47{
-        left: 819px;
-        top: 50px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 136.5px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 136.5px;
-        top: 215px;
-      }
-      .service412{
-        left: 273px;
-        top: 215px;
-      }
-      .service413{
-        left: 409.5px;
-        top: 215px;
-      }
-      .service414{
-        left: 546px;
-        top: 215px;
-      }
-      .service415{
-        left: 682.5px;
-        top: 215px;
-      }
-      .service416{
-        left: 819px;
-        top: 215px;
-      }
-      .service417{
-        left: 273px;
-        top: 545px;
-      }
-      .service418{
-        left: 409.5px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 136.5px;
-        top: 380px;
-      }
-      .service421{
-        left: 273px;
-        top: 380px;
-      }
-      .service422{
-        left: 409.5px;
-        top: 380px;
-      }
-      .service423{
-        left: 546px;
-        top: 380px;
-      }
-      .service424{
-        left: 682.5px;
-        top: 380px;
-      }
-      .service425{
-        left: 819px;
-        top: 380px;
-      }
-      .service426{
-        left: 546px;
-        top: 545px;
-      }
-      .service427{
-        left: 682.5px;
-        top: 545px;
-      }
-  
+  .thirdpage-main-content{
+    height: 1190px;
   }
-  
-  
-  @media (max-width:1010px) {
-    .thirdpage-card-section-image{
-      width: 421px;
-     }
-     .thirdpage-text1{
-      font-size: 26px;
-     }
-     .thirdpage-header-section{
-      gap:40%;
-     }
-     .thirdpage-whiteblock{
-      height: 890px;
-      width: 865px;
-    }
-    .thirdpage{
-      height: 1465px;
-    }
-    .thirdpage-main-content{
-      height: 1420px;
-    }
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 125px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 148px;
-        top: 50px;
-      }
-      .service43{
-        left: 298px;
-        top: 50px;
-      }
-      .service44{
-        left: 444px;
-        top: 50px;
-      }
-      .service45{
-        left: 592px;
-        top: 50px;
-      }
-      .service46{
-        left: 740px;
-        top: 50px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 148px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 148px;
-        top: 215px;
-      }
-      .service412{
-        left: 296px;
-        top: 215px;
-      }
-      .service413{
-        left: 444px;
-        top: 215px;
-      }
-      .service414{
-        left: 592px;
-        top: 215px;
-      }
-      .service415{
-        left: 740px;
-        top: 215px;
-      }
-      .service416{
-        left: 148px;
-        top: 710px;
-      }
-      .service417{
-        left: 296px;
-        top: 545px;
-      }
-      .service418{
-        left: 444px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 148px;
-        top: 380px;
-      }
-      .service421{
-        left: 296px;
-        top: 380px;
-      }
-      .service422{
-        left: 444px;
-        top: 380px;
-      }
-      .service423{
-        left: 592px;
-        top: 380px;
-      }
-      .service424{
-        left: 740px;
-        top: 380px;
-      }
-      .service425{
-        left: 296px;
-        top: 710px;
-      }
-      .service426{
-        left: 592px;
-        top: 545px;
-      }
-      .service427{
-        left: 740px;
-        top: 545px;
-      }
-  }
-  @media (max-width:900px) {
-    .thirdpage-card-section-image{
-      width: 500px;
-     }
-     .thirdpage-header-section{
-      gap: 31%;
-     }
-     .thirdpage-heading-information-label{
-      font-size: 24px;
+  .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 220px;
+    height: 85px;
+    gap: 20px;
     }
     
-     .thirdpage-text1{
-      font-size: 26px;
-     }
-
-     .thirdpage-card-section{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-    padding-top: 50px;
-     }
+    
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+      left: 242.5px;
+      top: 30px;
+    }
+    .service43{
+      left: 485px;
+      top: 30px;
+    }
+    .service44{
+      left: 727.5px;
+      top: 30px;
+    
+    }
  
-     .thirdpage{
-      height:2030px;
-     }
-     .thirdpage-main-content{
-      height: 1985px;
-     }
-     .thirdpage-card-section{
-      height: 1250px;
-     }
-     .thirdpage-card-section-image{
-      width: 750px;
-      height: 380px;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-     }
-     .thirdpage-information-card{
-      margin-top: 0px;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-      height: 380px;
-      width: 750px;
-     }
-     .thirdpage-whiteblock{
-      height: 1055px;
-      
-      top: 930px;
-      width: 750px;
-     }
- .thirdpage-detail-information{
-  padding: 0px 50px;
- }
- .thirdpage-heading-information{
-  padding: 0px 30px;
- }
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 130px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 155px;
-        top: 50px;
-      }
-      .service43{
-        left: 310px;
-        top: 50px;
-      }
-      .service44{
-        left: 465px;
-        top: 50px;
-      }
-      .service45{
-        left: 620px;
-        top: 50px;
-      }
-      .service46{
-        left: 465px;
-        top: 710px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 155px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 155px;
-        top: 215px;
-      }
-      .service412{
-        left: 310px;
-        top: 215px;
-      }
-      .service413{
-        left: 465px;
-        top: 215px;
-      }
-      .service414{
-        left: 620px;
-        top: 215px;
-      }
-      .service415{
-        left: 620px;
-        top: 710px;
-      }
-      .service416{
-        left: 155px;
-        top: 710px;
-      }
-      .service417{
-        left: 310px;
-        top: 545px;
-      }
-      .service418{
-        left: 465px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 155px;
-        top: 380px;
-      }
-      .service421{
-        left: 310px;
-        top: 380px;
-      }
-      .service422{
-        left: 465px;
-        top: 380px;
-      }
-      .service423{
-        left: 620px;
-        top: 380px;
-      }
-      .service424{
-        left: 0px;
-        top: 875px;
-      }
-      .service425{
-        left: 310px;
-        top: 710px;
-      }
-      .service426{
-        left: 620px;
-        top: 545px;
-      }
-      .service427{
-        left: 155px;
-        top: 875px;
-      }
-     
-     .thirdpage-heading-information{
-      font-size: 24px;
-     }
-     .thirdpage-person-name,.thirdpage-person-place,.thirdpage-person-rollno,.thirdpage-person-status{
-      font-size: 22px;
+    .service45{
+      left: 970px;
+      top: 30px;
+    }
+    .service46{
+      left: 0px;
+      top: 145px;
+    }
+    .service47{
+      left:242.5px;
+      top:145px;
+    }
+    .service48{
+      left: 485px;
+      top: 145px;
+    }
+    .service49{
+      left: 727.5px;
+      top: 145px;
+    }
+    .service410{
+      left: 970px;
+      top: 145px;
+    }
+    .service411{
+      left: 0px;
+      top: 260px;
+    }
+    .service412{
+      left: 242.5px;
+      top: 260px;
+    }
+    .service413{
+      left: 485px;
+      top: 260px;
+    }
+    .service414{
+      left: 727.5px;
+      top: 260px;
+    }
+    .service415{
+      left: 970px;
+      top: 260px;
+    }
+    .service416{
+      left: 0px;
+      top: 375px;
+    }
+    .service417{
+      left: 242.5px;
+      top: 375px;
+    }
+    .service418{
+      left: 485px;
+      top: 375px;
+    }
+    .service419{
+      left: 727.5px;
+      top: 375px;
+    }
+    .service420{
+      left: 970px;
+      top: 375px;
+    }
+    .service421{
+      left: 0px;
+      top: 490px;
+    }
+    .service422{
+      left: 242.5px;
+      top: 490px;
+    }
+    .service423{
+      left: 485px;
+      top: 490px;
+    }
+    .service424{
+      left: 727.5px;
+      top: 490px;
+    }
+    .service425{
+      left: 970px;
+      top:490px;
+    }
+    .service426{
+      left: 0px;
+      top:605px;
+    }
+    .service427{
+      left: 242.5px;
+      top: 605px;
+    }
     
-      margin-bottom: 10px;
-     }
-     .thirdpage-detail-options{
-      min-width: 175px;
-      width: 100%;
-      font-size: 18px;
-     }
-     .thirdpage-person-image{
-      height: 150px;
-      width: 150px;
-     }
-     .thirdpage-header-section{
-      justify-content: center;
-     }
-  }
-  @media (max-width:770px) {
-    .thirdpage-card-section-image{
-      width: 650px;
-    }
-    .thirdpage-information-card{
-      width: 650px;
-    }
-    .thirdpage-header-section{
-      gap: 21%;
-    }
-    .thirdpage{
-      height:2230px;
-     }
-     .thirdpage-main-content{
-      height: 2185px;
-     }
-   .thirdpage-header-section{
-    justify-content: center;
+ .thirdpage-card-section-image{
+  width: 750px;
+ }
+}
+@media (max-width:1220px) {
+  .thirdpage-card-section-image{
+    width: 600px;
    }
    .thirdpage-whiteblock{
-    height: 1255px;
-    
-    top: 930px;
-    width: 650px;
-   }
-
+    height: 725px;
+    width: 1044px;
+  }
+  .thirdpage{
+    height: 1350px;
+  }
+  .thirdpage-main-content{
+    height: 1305px;
+  }
   .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-    width: 140px;
-    height: 140px;
+    width: 240px;
+    height: 85px;
+  
     }
     .service41{
       left: 0px;
-      top: 50px;
+      top: 30px;
     }
     .service42{
-      left: 170px;
-      top: 50px;
+      left: 267.5px;
+      top: 30px;
     }
     .service43{
-      left: 340px;
-      top: 50px;
+      left: 535px;
+      top: 30px;
     }
     .service44{
-      left: 510px;
-      top: 50px;
+      left: 802.5px;
+      top: 30px;
+    
     }
+   
     .service45{
-      left: 340px;
-      top: 875px;
+      left: 535px;
+      top: 605px;
     }
     .service46{
-      left: 510px;
-      top: 710px;
+      left: 0px;
+      top: 145px;
     }
     .service47{
-      left: 0px;
-      top: 710px;
+      left:267.5px;
+      top:145px;
     }
     .service48{
-      left: 0px;
-      top: 545px;
+      left: 535px;
+      top: 145px;
     }
     .service49{
-      left: 170px;
-      top: 545px;
+      left: 802.5px;
+      top: 145px;
     }
     .service410{
-      left: 0px;
-      top: 215px;
+      left: 802.5px;
+      top: 605px;
     }
     .service411{
-      left: 170px;
-      top: 215px;
+      left: 0px;
+      top: 260px;
     }
     .service412{
-      left: 340px;
-      top: 215px;
+      left: 267.5px;
+      top: 260px;
     }
     .service413{
-      left: 510px;
-      top: 215px;
+      left: 535px;
+      top: 260px;
     }
     .service414{
-      left: 510px;
-      top: 875px;
+      left: 802.5px;
+      top: 260px;
     }
     .service415{
-      left:340px;
-      top: 1045px;
+      left: 0px;
+      top: 720px;
     }
     .service416{
-      left: 170px;
-      top: 710px;
+      left: 0px;
+      top: 375px;
     }
     .service417{
-      left: 340px;
-      top: 545px;
+      left: 267.5px;
+      top: 375px;
     }
     .service418{
-      left: 510px;
-      top: 545px;
+      left: 535px;
+      top: 375px;
+    }
+    .service419{
+      left: 802.5px;
+      top: 375px;
+    }
+    .service420{
+      left: 267.5px;
+      top: 720px;
+    }
+    .service421{
+      left: 0px;
+      top: 490px;
+    }
+    .service422{
+      left: 267.5px;
+      top: 490px;
+    }
+    .service423{
+      left: 535px;
+      top: 490px;
+    }
+    .service424{
+      left: 802.5px;
+      top: 490px;
+    }
+    .service425{
+      left: 535px;
+      top:720px;
+    }
+    .service426{
+      left: 0px;
+      top:605px;
+    }
+    .service427{
+      left: 267.5px;
+      top: 605px;
+    }
+    
+    .thirdpage-header-section{
+      gap: 51%;
+    }
+}
+@media (max-width:1100px) {
+  .thirdpage-card-section-image{
+    width: 500px;
+   }
+   .thirdpage-text1{
+    font-size: 26px;
+   }
+   .thirdpage-header-section{
+    gap: 46%;
+   }
+   .thirdpage-whiteblock{
+    height: 725px;
+    width: 939px;
+  }
+  .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 220px;
+    height: 85px;
+  
+    }
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+      left: 240px;
+      top: 30px;
+    }
+    .service43{
+      left: 480px;
+      top: 30px;
+    }
+    .service44{
+      left: 720px;
+      top: 30px;
+    
+    }
+   
+    .service45{
+      left: 480px;
+      top: 605px;
+    }
+    .service46{
+      left: 0px;
+      top: 145px;
+    }
+    .service47{
+      left:240px;
+      top:145px;
+    }
+    .service48{
+      left: 480px;
+      top: 145px;
+    }
+    .service49{
+      left: 720px;
+      top: 145px;
+    }
+    .service410{
+      left: 720px;
+      top: 605px;
+    }
+    .service411{
+      left: 0px;
+      top: 260px;
+    }
+    .service412{
+      left: 240px;
+      top: 260px;
+    }
+    .service413{
+      left: 480px;
+      top: 260px;
+    }
+    .service414{
+      left: 720px;
+      top: 260px;
+    }
+    .service415{
+      left: 0px;
+      top: 720px;
+    }
+    .service416{
+      left: 0px;
+      top: 375px;
+    }
+    .service417{
+      left: 240px;
+      top: 375px;
+    }
+    .service418{
+      left: 480px;
+      top: 375px;
+    }
+    .service419{
+      left: 720px;
+      top: 375px;
+    }
+    .service420{
+      left: 240px;
+      top: 720px;
+    }
+    .service421{
+      left: 0px;
+      top: 490px;
+    }
+    .service422{
+      left: 240px;
+      top: 490px;
+    }
+    .service423{
+      left: 480px;
+      top: 490px;
+    }
+    .service424{
+      left: 720px;
+      top: 490px;
+    }
+    .service425{
+      left: 480px;
+      top:720px;
+    }
+    .service426{
+      left: 0px;
+      top:605px;
+    }
+    .service427{
+      left: 240px;
+      top: 605px;
+    }
+}
+
+
+@media (max-width:1000px) {
+  .thirdpage-card-section-image{
+    width: 421px;
+   }
+   .thirdpage-text1{
+    font-size: 26px;
+   }
+   .thirdpage-header-section{
+    gap:40%;
+   }
+   .thirdpage-whiteblock{
+    height: 890px;
+    width: 865px;
+  }
+  .thirdpage{
+    height: 1465px;
+  }
+  .thirdpage-main-content{
+    height: 1420px;
+  }
+  .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 201.25px;
+    height: 85px;
+   padding: 15px 10px;
+    }
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+      left: 220px;
+      top: 30px;
+    }
+    .service43{
+      left: 440px;
+      top: 30px;
+    }
+    .service44{
+      left: 660px;
+      top: 30px;
+    
+    }
+   
+    .service45{
+      left: 440px;
+      top: 605px;
+    }
+    .service46{
+      left: 0px;
+      top: 145px;
+    }
+    .service47{
+      left:220px;
+      top:145px;
+    }
+    .service48{
+      left: 440px;
+      top: 145px;
+    }
+    .service49{
+      left: 660px;
+      top: 145px;
+    }
+    .service410{
+      left: 660px;
+      top: 605px;
+    }
+    .service411{
+      left: 0px;
+      top: 260px;
+    }
+    .service412{
+      left: 220px;
+      top: 260px;
+    }
+    .service413{
+      left: 440px;
+      top: 260px;
+    }
+    .service414{
+      left: 660px;
+      top: 260px;
+    }
+    .service415{
+      left: 0px;
+      top: 720px;
+    }
+    .service416{
+      left: 0px;
+      top: 375px;
+    }
+    .service417{
+      left: 220px;
+      top: 375px;
+    }
+    .service418{
+      left: 440px;
+      top: 375px;
+    }
+    .service419{
+      left: 660px;
+      top: 375px;
+    }
+    .service420{
+      left: 220px;
+      top: 720px;
+    }
+    .service421{
+      left: 0px;
+      top: 490px;
+    }
+    .service422{
+      left: 220px;
+      top: 490px;
+    }
+    .service423{
+      left: 440px;
+      top: 490px;
+    }
+    .service424{
+      left: 660px;
+      top: 490px;
+    }
+    .service425{
+      left: 440px;
+      top:720px;
+    }
+    .service426{
+      left: 0px;
+      top:605px;
+    }
+    .service427{
+      left: 220px;
+      top: 605px;
+    }
+}
+@media (max-width:900px) {
+  .thirdpage-card-section-image{
+    width: 500px;
+    margin-top: 30px;
+   }
+   .thirdpage-header-section{
+    gap: 31%;
+   }
+   .thirdpage-heading-information-label{
+    font-size: 24px;
+  }
+  
+   .thirdpage-text1{
+    font-size: 26px;
+   }
+
+   .thirdpage-card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  padding-top: 50px;
+   }
+
+   .thirdpage{
+    height:2030px;
+   }
+   .thirdpage-main-content{
+    height: 1985px;
+   }
+   .thirdpage-card-section{
+    height: 1250px;
+   }
+   .thirdpage-card-section-image{
+    width: 750px;
+    height: 380px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .thirdpage-information-card{
+    margin-top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    width: 750px;
+   }
+   .thirdpage-whiteblock{
+    height: 1055px;
+    
+    top: 970px;
+    width: 750px;
+   }
+.thirdpage-detail-information{
+padding: 0px 50px;
+}
+.thirdpage-heading-information{
+padding: 0px 30px;
+}
+.service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+  width: 230px;
+  height: 85px;
+ padding: 15px 10px;
+  }
+  .service41{
+    left: 0px;
+    top: 30px;
+  }
+  .service42{
+    left: 260px;
+    top: 30px;
+  }
+  .service43{
+    left: 520px;
+    top: 30px;
+  }
+  .service44{
+    left: 0px;
+    top: 835px;
+  
+  }
+ 
+  .service45{
+    left: 520px;
+    top: 605px;
+  }
+  .service46{
+    left: 0px;
+    top: 145px;
+  }
+  .service47{
+    left:260px;
+    top:145px;
+  }
+  .service48{
+    left: 520px;
+    top: 145px;
+  }
+  .service49{
+    left: 260px;
+    top: 835px;
+  }
+  .service410{
+    left: 520px;
+    top: 835px;
+  }
+  .service411{
+    left: 0px;
+    top: 260px;
+  }
+  .service412{
+    left: 260px;
+    top: 260px;
+  }
+  .service413{
+    left: 520px;
+    top: 260px;
+  }
+  .service414{
+    left:0px;
+    top: 950px;
+  }
+  .service415{
+    left: 0px;
+    top: 720px;
+  }
+  .service416{
+    left: 0px;
+    top: 375px;
+  }
+  .service417{
+    left: 260px;
+    top: 375px;
+  }
+  .service418{
+    left: 520px;
+    top: 375px;
+  }
+  .service419{
+    left: 260px;
+    top: 950px;
+  }
+  .service420{
+    left: 260px;
+    top: 720px;
+  }
+  .service421{
+    left: 0px;
+    top: 490px;
+  }
+  .service422{
+    left: 260px;
+    top: 490px;
+  }
+  .service423{
+    left: 520px;
+    top: 490px;
+  }
+  .service424{
+    left: 520px;
+    top: 950px;
+  }
+  .service425{
+    left: 520px;
+    top:720px;
+  }
+  .service426{
+    left: 0px;
+    top:605px;
+  }
+  .service427{
+    left: 260px;
+    top: 605px;
+  }
+   
+   .thirdpage-heading-information{
+    font-size: 24px;
+   }
+   .thirdpage-person-name,.thirdpage-person-place,.thirdpage-person-rollno,.thirdpage-person-status{
+    font-size: 22px;
+  
+    margin-bottom: 10px;
+   }
+   .thirdpage-detail-options{
+    min-width: 175px;
+    width: 100%;
+    font-size: 18px;
+   }
+   .thirdpage-person-image{
+    height: 150px;
+    width: 150px;
+   }
+   .thirdpage-header-section{
+    justify-content: center;
+   }
+}
+@media (max-width:770px) {
+  .thirdpage-card-section-image{
+    width: 650px;
+    margin-top: 30px;
+  }
+  .thirdpage-information-card{
+    width: 650px;
+  }
+  .thirdpage-header-section{
+    gap: 21%;
+  }
+  .thirdpage{
+    height:2230px;
+   }
+   .thirdpage-main-content{
+    height: 2185px;
+   }
+ .thirdpage-header-section{
+  justify-content: center;
+ }
+ .thirdpage-whiteblock{
+  height: 1255px;
+  
+  top: 960px;
+  width: 650px;
+ }
+
+ .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+  width: 200px;
+  height: 85px;
+ padding: 15px 10px;
+  }
+  .service41{
+    left: 0px;
+    top: 30px;
+  }
+  .service42{
+    left:225px;
+    top: 30px;
+  }
+  .service43{
+    left:450px;
+    top: 30px;
+  }
+  .service44{
+    left: 0px;
+    top: 835px;
+  
+  }
+ 
+  .service45{
+    left:450px;
+    top: 605px;
+  }
+  .service46{
+    left: 0px;
+    top: 145px;
+  }
+  .service47{
+    left:225px;
+    top:145px;
+  }
+  .service48{
+    left:450px;
+    top: 145px;
+  }
+  .service49{
+    left:225px;
+    top: 835px;
+  }
+  .service410{
+    left:450px;
+    top: 835px;
+  }
+  .service411{
+    left: 0px;
+    top: 260px;
+  }
+  .service412{
+    left:225px;
+    top: 260px;
+  }
+  .service413{
+    left:450px;
+    top: 260px;
+  }
+  .service414{
+    left:0px;
+    top: 950px;
+  }
+  .service415{
+    left: 0px;
+    top: 720px;
+  }
+  .service416{
+    left: 0px;
+    top: 375px;
+  }
+  .service417{
+    left:225px;
+    top: 375px;
+  }
+  .service418{
+    left:450px;
+    top: 375px;
+  }
+  .service419{
+    left:225px;
+    top: 950px;
+  }
+  .service420{
+    left:225px;
+    top: 720px;
+  }
+  .service421{
+    left: 0px;
+    top: 490px;
+  }
+  .service422{
+    left:225px;
+    top: 490px;
+  }
+  .service423{
+    left:450px;
+    top: 490px;
+  }
+  .service424{
+    left:450px;
+    top: 950px;
+  }
+  .service425{
+    left:450px;
+    top:720px;
+  }
+  .service426{
+    left: 0px;
+    top:605px;
+  }
+  .service427{
+    left:225px;
+    top: 605px;
+  } 
+}
+@media (max-width:670px) {
+  .thirdpage-card-section-image{
+   height: 350px;
+    width: 550px;
+    margin-top: 30px;
+  }
+  .thirdpage-information-card{
+    width: 550px;
+    height: 350px;
+  }
+  .thirdpage-header-section{
+    gap: 11%;
+  }
+  .thirdpage-detail-options{
+    font-size: 18px;
+    min-width: 140px;
+    width: 100%;
+  }
+  .thirdpage-heading-information-label{
+    font-size: 24px;
+  }
+  .thirdpage-whiteblock{
+    height: 1255px;
+    
+    top: 900px;
+    width: 550px;
+   }
+   .thirdpage{
+    height:2630px;
+   }
+   .thirdpage-main-content{
+    height: 2585px;
+   }
+   .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 250px;
+    height: 85px;
+   padding: 15px 20px;
+    }
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+      left: 300px;
+      top: 30px;
+    }
+    .service43{
+      left: 0px;
+      top: 145px;
+    }
+    .service44{
+      left: 300px;
+      top: 145px;
+    
+    }
+   
+    .service45{
+      left: 0px;
+      top: 260px;
+    }
+    .service46{
+      left: 300px;
+      top: 260px;
+    }
+    .service47{
+      left:0px;
+      top:375px;
+    }
+    .service48{
+      left: 300px;
+      top: 375px;
+    }
+    .service49{
+      left: 0px;
+      top: 490px;
+    }
+    .service410{
+      left: 300px;
+      top: 490px;
+    }
+    .service411{
+      left: 0px;
+      top: 605px;
+    }
+    .service412{
+      left: 300px;
+      top: 605px;
+    }
+    .service413{
+      left: 0px;
+      top: 720px;
+    }
+    .service414{
+      left:300px;
+      top: 720px;
+    }
+    .service415{
+      left: 0px;
+      top: 835px;
+    }
+    .service416{
+      left: 300px;
+      top: 835px;
+    }
+    .service417{
+      left: 0px;
+      top: 950px;
+    }
+    .service418{
+      left: 300px;
+      top: 950px;
     }
     .service419{
       left: 0px;
-      top: 380px;
+      top: 1065px;
     }
     .service420{
-      left: 170px;
-      top: 380px;
+      left:300px;
+      top: 1065px;
     }
     .service421{
-      left: 340px;
-      top: 380px;
+      left: 0px;
+      top: 1180px;
     }
     .service422{
-      left: 510px;
-      top: 380px;
+      left: 300px;
+      top: 1180px;
     }
     .service423{
       left: 0px;
-      top: 1045px;
+      top: 1295px;
     }
     .service424{
-      left: 0px;
-      top: 875px;
+      left: 300px;
+      top: 1295px;
     }
     .service425{
-      left: 340px;
-      top: 710px;
+      left: 0px;
+      top:1410px;
     }
     .service426{
-      left: 170px;
-      top: 1045px;
+      left: 300px;
+      top:1410px;
     }
     .service427{
-      left: 170px;
-      top: 875px;
+      left: 0px;
+      top: 1525px;
+    }
+}
+
+
+
+  
+@media (max-width:610px) {
+  .thirdpage-card-section-image{
+    width: 450px;
+    height: 330px;
+  }
+  .thirdpage-information-card{
+    width: 450px;
+    height: 330px;
+  }
+
+  .thirdpage-header-section{
+    gap: 50%;
+  }
+  .thirdpage-text1{
+    display: none;
+    }
+  .thirdpage-card-section{
+    gap: 50px;
+  }
+  .thirdpage{
+    height: 2560px;
+  }
+  .thirdpage-main-content{
+    height: 2515px;
+  }
+  .thirdpage-whiteblock{
+    height: 1585px;
+    
+    top: 860px;
+    width: 450px;
+   }
+
+   .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 210px;
+    height: 85px;
+   padding: 15px 10px;
+    }
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+     left:240px;
+      top: 30px;
+    }
+    .service43{
+      left: 0px;
+      top: 145px;
+    }
+    .service44{
+     left:240px;
+      top: 145px;
+    
     }
    
-  }
-  @media (max-width:670px) {
-    .thirdpage-card-section-image{
-      width: 550px;
+    .service45{
+      left: 0px;
+      top: 260px;
     }
-    .thirdpage-information-card{
-      width: 550px;
+    .service46{
+     left:240px;
+      top: 260px;
     }
-    .thirdpage-header-section{
-      gap: 11%;
+    .service47{
+      left:0px;
+      top:375px;
     }
-    .thirdpage-detail-options{
-      font-size: 18px;
-      min-width: 140px;
-      width: 100%;
+    .service48{
+     left:240px;
+      top: 375px;
+    }
+    .service49{
+      left: 0px;
+      top: 490px;
+    }
+    .service410{
+     left:240px;
+      top: 490px;
+    }
+    .service411{
+      left: 0px;
+      top: 605px;
+    }
+    .service412{
+     left:240px;
+      top: 605px;
+    }
+    .service413{
+      left: 0px;
+      top: 720px;
+    }
+    .service414{
+      left:240px;
+      top: 720px;
+    }
+    .service415{
+      left: 0px;
+      top: 835px;
+    }
+    .service416{
+     left:240px;
+      top: 835px;
+    }
+    .service417{
+      left: 0px;
+      top: 950px;
+    }
+    .service418{
+     left:240px;
+      top: 950px;
+    }
+    .service419{
+      left: 0px;
+      top: 1065px;
+    }
+    .service420{
+      left:240px;
+      top: 1065px;
+    }
+    .service421{
+      left: 0px;
+      top: 1180px;
+    }
+    .service422{
+     left:240px;
+      top: 1180px;
+    }
+    .service423{
+      left: 0px;
+      top: 1295px;
+    }
+    .service424{
+     left:240px;
+      top: 1295px;
+    }
+    .service425{
+      left: 0px;
+      top:1410px;
+    }
+    .service426{
+     left:240px;
+      top:1410px;
+    }
+    .service427{
+      left: 0px;
+      top: 1525px;
     }
     .thirdpage-heading-information-label{
       font-size: 24px;
     }
-    .thirdpage-whiteblock{
-      height: 1255px;
-      
-      top: 930px;
-      width: 550px;
+    .thirdpage-detail-options{
+      font-size: 20px;
+      min-width: 115px;
+      width: 100%;
+    }
+    .thirdpage-detail-information{
+      padding: 0px 20px;
      }
-  
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 120px;
-      height: 125px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 143px;
-        top: 50px;
-      }
-      .service43{
-        left: 286px;
-        top: 50px;
-      }
-      .service44{
-        left: 429px;
-        top: 50px;
-      }
-      .service45{
-        left: 286px;
-        top: 875px;
-      }
-      .service46{
-        left: 429px;
-        top: 710px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 143px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 143px;
-        top: 215px;
-      }
-      .service412{
-        left: 286px;
-        top: 215px;
-      }
-      .service413{
-        left: 429px;
-        top: 215px;
-      }
-      .service414{
-        left: 429px;
-        top: 875px;
-      }
-      .service415{
-        left:286px;
-        top: 1045px;
-      }
-      .service416{
-        left: 143px;
-        top: 710px;
-      }
-      .service417{
-        left: 286px;
-        top: 545px;
-      }
-      .service418{
-        left: 429px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 143px;
-        top: 380px;
-      }
-      .service421{
-        left: 286px;
-        top: 380px;
-      }
-      .service422{
-        left: 429px;
-        top: 380px;
-      }
-      .service423{
-        left: 0px;
-        top: 1045px;
-      }
-      .service424{
-        left: 0px;
-        top: 875px;
-      }
-      .service425{
-        left: 286px;
-        top: 710px;
-      }
-      .service426{
-        left: 143px;
-        top: 1045px;
-      }
-      .service427{
-        left: 143px;
-        top: 875px;
-      }
-  }
-  
-  
-  @media (max-width:670px) {
-    .thirdpage-card-section-image{
-      width: 550px;
-      height: 350px;
-    }
-    .thirdpage-information-card{
-      width: 550px;
-      height: 350px;
-    }
-    .thirdpage-whiteblock{
-      height: 1255px;
-      
-      top: 930px;
-      width: 550px;
+     .thirdpage-heading-information{
+      padding: 0px;
      }
-  
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 120px;
-      height: 125px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 143px;
-        top: 50px;
-      }
-      .service43{
-        left: 286px;
-        top: 50px;
-      }
-      .service44{
-        left: 429px;
-        top: 50px;
-      }
-      .service45{
-        left: 286px;
-        top: 875px;
-      }
-      .service46{
-        left: 429px;
-        top: 710px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 143px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 143px;
-        top: 215px;
-      }
-      .service412{
-        left: 286px;
-        top: 215px;
-      }
-      .service413{
-        left: 429px;
-        top: 215px;
-      }
-      .service414{
-        left: 429px;
-        top: 875px;
-      }
-      .service415{
-        left:286px;
-        top: 1045px;
-      }
-      .service416{
-        left: 143px;
-        top: 710px;
-      }
-      .service417{
-        left: 286px;
-        top: 545px;
-      }
-      .service418{
-        left: 429px;
-        top: 545px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 143px;
-        top: 380px;
-      }
-      .service421{
-        left: 286px;
-        top: 380px;
-      }
-      .service422{
-        left: 429px;
-        top: 380px;
-      }
-      .service423{
-        left: 0px;
-        top: 1045px;
-      }
-      .service424{
-        left: 0px;
-        top: 875px;
-      }
-      .service425{
-        left: 286px;
-        top: 710px;
-      }
-      .service426{
-        left: 143px;
-        top: 1045px;
-      }
-      .service427{
-        left: 143px;
-        top: 875px;
-      }
+}
+@media (max-width:480px) {
+  .thirdpage-card-section-image{
+    width: 380px;
+    height: 300px;
   }
-    
-  @media (max-width:610px) {
-    .thirdpage-card-section-image{
-      width: 450px;
-      height: 330px;
-    }
-    .thirdpage-information-card{
-      width: 450px;
-      height: 330px;
-    }
+  .thirdpage-whiteblock{
+    top: 780px;
+  }
+  .thirdpage-information-card{
+    width: 380px;
+    height: 300px;
+  }
+  .thirdpage-header-section{
+    gap: 40%;
+  }
+  .thirdpage-card-section{
+    gap: 50px;
+  }
+  .thirdpage-heading-information-label{
+    font-size: 17px;
+   }
+   .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
 
-    .thirdpage-header-section{
-      gap: 50%;
+   
+   margin-bottom: 10px;
+   }
+   .thirdpage-detail-options{
+    min-width: 45px;
+    font-size: 15px;
+   }
+   .thirdpage-person-image{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+   }
+   .thirdpage-detail-information{
+    justify-content: center;
+   }
+   .thirdpage-person-details{
+    width: 200px;
+   }
+   .thirdpage-whiteblock{
+    width: 380px;
+    top: 800px;
+   }
+
+   .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 180px;
+    height: 85px;
+   padding: 15px 8px;
+   gap: 10px;
     }
-    .thirdpage-text1{
-      display: none;
-      }
-    .thirdpage-card-section{
-      gap: 50px;
+    .service41{
+      left: 0px;
+      top: 30px;
     }
-    .thirdpage{
-      height: 2560px;
+    .service42{
+ left:200px;
+      top: 30px;
     }
-    .thirdpage-main-content{
-      height: 2515px;
+    .service43{
+      left: 0px;
+      top: 145px;
     }
-    .thirdpage-whiteblock{
-      height: 1585px;
-      
-      top: 842px;
-      width: 450px;
-     }
+    .service44{
+ left:200px;
+      top: 145px;
+    
+    }
+   
+    .service45{
+      left: 0px;
+      top: 260px;
+    }
+    .service46{
+ left:200px;
+      top: 260px;
+    }
+    .service47{
+      left:0px;
+      top:375px;
+    }
+    .service48{
+ left:200px;
+      top: 375px;
+    }
+    .service49{
+      left: 0px;
+      top: 490px;
+    }
+    .service410{
+ left:200px;
+      top: 490px;
+    }
+    .service411{
+      left: 0px;
+      top: 605px;
+    }
+    .service412{
+ left:200px;
+      top: 605px;
+    }
+    .service413{
+      left: 0px;
+      top: 720px;
+    }
+    .service414{
+    left:200px;
+      top: 720px;
+    }
+    .service415{
+      left: 0px;
+      top: 835px;
+    }
+    .service416{
+ left:200px;
+      top: 835px;
+    }
+    .service417{
+      left: 0px;
+      top: 950px;
+    }
+    .service418{
+ left:200px;
+      top: 950px;
+    }
+    .service419{
+      left: 0px;
+      top: 1065px;
+    }
+    .service420{
+    left:200px;
+      top: 1065px;
+    }
+    .service421{
+      left: 0px;
+      top: 1180px;
+    }
+    .service422{
+ left:200px;
+      top: 1180px;
+    }
+    .service423{
+      left: 0px;
+      top: 1295px;
+    }
+    .service424{
+ left:200px;
+      top: 1295px;
+    }
+    .service425{
+      left: 0px;
+      top:1410px;
+    }
+    .service426{
+ left:200px;
+      top:1410px;
+    }
+    .service427{
+      left: 0px;
+      top: 1525px;
+    }
   
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 130px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 160px;
-        top: 50px;
-      }
-      .service43{
-        left: 320px;
-        top: 50px;
-      }
-      .service44{
-        left: 320px;
-        top: 1210px;
-      }
-      .service45{
-        left: 320px;
-        top: 875px;
-      }
-      .service46{
-        left: 0px;
-        top: 1375px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 160px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 160px;
-        top: 215px;
-      }
-      .service412{
-        left: 320px;
-        top: 215px;
-      }
-      .service413{
-        left: 160px;
-        top: 1210px;
-      }
-      .service414{
-        left: 320px;
-        top: 1375px;
-      }
-      .service415{
-        left:320px;
-        top: 1045px;
-      }
-      .service416{
-        left: 160px;
-        top: 710px;
-      }
-      .service417{
-        left: 320px;
-        top: 545px;
-      }
-      .service418{
-        left: 160px;
-        top: 1375px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 160px;
-        top: 380px;
-      }
-      .service421{
-        left: 320px;
-        top: 380px;
-      }
-      .service422{
-        left: 0px;
-        top: 1210px;
-      }
-      .service423{
-        left: 0px;
-        top: 1045px;
-      }
-      .service424{
-        left: 0px;
-        top: 875px;
-      }
-      .service425{
-        left: 320px;
-        top: 710px;
-      }
-      .service426{
-        left: 160px;
-        top: 1045px;
-      }
-      .service427{
-        left: 160px;
-        top: 875px;
-      }
-      .thirdpage-heading-information-label{
-        font-size: 24px;
-      }
-      .thirdpage-detail-options{
-        font-size: 20px;
-        min-width: 115px;
-        width: 100%;
-      }
-      .thirdpage-detail-information{
-        padding: 0px 20px;
-       }
-       .thirdpage-heading-information{
-        padding: 0px;
-       }
+}
+@media (max-width:430px) {
+  .thirdpage-header-section{
+    gap: 35%;
   }
-  @media (max-width:480px) {
-    .thirdpage-card-section-image{
-      width: 350px;
-      height: 300px;
-    }
-    .thirdpage-whiteblock{
-      top: 780px;
-    }
-    .thirdpage-information-card{
-      width: 350px;
-      height: 300px;
-    }
-    .thirdpage-header-section{
-      gap: 40%;
-    }
-    .thirdpage-card-section{
-      gap: 50px;
-    }
-    .thirdpage-heading-information-label{
-      font-size: 17px;
-     }
-     .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
-  
-     
-     margin-bottom: 10px;
-     }
-     .thirdpage-detail-options{
-      min-width: 45px;
-      font-size: 15px;
-     }
-     .thirdpage-person-image{
-      height: 100px;
-      width: 100px;
-      margin-left: 20px;
-     }
-     .thirdpage-detail-information{
-      justify-content: center;
-     }
-     .thirdpage-person-details{
-      width: 200px;
-     }
-     .thirdpage-whiteblock{
-      width: 350px;
-     }
-  
-    .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
-      width: 110px;
-      height: 135px;
-      }
-      .service41{
-        left: 0px;
-        top: 50px;
-      }
-      .service42{
-        left: 120px;
-        top: 50px;
-      }
-      .service43{
-        left: 240px;
-        top: 50px;
-      }
-      .service44{
-        left: 240px;
-        top: 1210px;
-      }
-      .service45{
-        left: 240px;
-        top: 875px;
-      }
-      .service46{
-        left: 0px;
-        top: 1375px;
-      }
-      .service47{
-        left: 0px;
-        top: 710px;
-      }
-      .service48{
-        left: 0px;
-        top: 545px;
-      }
-      .service49{
-        left: 120px;
-        top: 545px;
-      }
-      .service410{
-        left: 0px;
-        top: 215px;
-      }
-      .service411{
-        left: 120px;
-        top: 215px;
-      }
-      .service412{
-        left: 240px;
-        top: 215px;
-      }
-      .service413{
-        left: 120px;
-        top: 1210px;
-      }
-      .service414{
-        left: 240px;
-        top: 1375px;
-      }
-      .service415{
-        left:240px;
-        top: 1045px;
-      }
-      .service416{
-        left: 120px;
-        top: 710px;
-      }
-      .service417{
-        left: 240px;
-        top: 545px;
-      }
-      .service418{
-        left: 120px;
-        top: 1375px;
-      }
-      .service419{
-        left: 0px;
-        top: 380px;
-      }
-      .service420{
-        left: 120px;
-        top: 380px;
-      }
-      .service421{
-        left: 240px;
-        top: 380px;
-      }
-      .service422{
-        left: 0px;
-        top: 1210px;
-      }
-      .service423{
-        left: 0px;
-        top: 1045px;
-      }
-      .service424{
-        left: 0px;
-        top: 875px;
-      }
-      .service425{
-        left: 240px;
-        top: 710px;
-      }
-      .service426{
-        left: 120px;
-        top: 1045px;
-      }
-      .service427{
-        left: 120px;
-        top: 875px;
-      }
-      @media (max-width:430px) {
-        .thirdpage-header-section{
-          gap: 35%;
-        }
-      }
+}
+@media (max-width:390px) {
+  .thirdpage-card-section-image{
+    width: 350px;
+    height: 300px;
   }
+  .thirdpage-whiteblock{
+    top: 780px;
+  }
+  .thirdpage-information-card{
+    width: 350px;
+    height: 300px;
+  }
+  .thirdpage-header-section{
+    gap: 40%;
+  }
+  .thirdpage-card-section{
+    gap: 50px;
+  }
+  .thirdpage-heading-information-label{
+    font-size: 17px;
+   }
+   .thirdpage-person-name,.thirdpage-person-thirdpage-place,.thirdpage-person-rollno,.thirdpage-person-status{
+
+   
+   margin-bottom: 10px;
+   }
+   .thirdpage-detail-options{
+    min-width: 45px;
+    font-size: 15px;
+   }
+   .thirdpage-person-image{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+   }
+   .thirdpage-detail-information{
+    justify-content: center;
+   }
+   .thirdpage-person-details{
+    width: 200px;
+   }
+   .thirdpage-whiteblock{
+    width: 350px;
+    top: 800px;
+   }
+
+   .service41,.service42,.service43,.service44,.service45,.service46,.service47,.service48,.service49,.service410,.service411,.service412,.service413,.service414,.service415,.service416,.service417,.service418,.service419,.service420,.service421,.service422,.service423,.service424,.service425,.service426,.service427{
+    width: 170px;
+    height: 85px;
+   padding: 15px 5px;
+   gap: 5px;
+    }
+    .service41{
+      left: 0px;
+      top: 30px;
+    }
+    .service42{
+left:180px;
+      top: 30px;
+    }
+    .service43{
+      left: 0px;
+      top: 145px;
+    }
+    .service44{
+left:180px;
+      top: 145px;
+    
+    }
+   
+    .service45{
+      left: 0px;
+      top: 260px;
+    }
+    .service46{
+left:180px;
+      top: 260px;
+    }
+    .service47{
+      left:0px;
+      top:375px;
+    }
+    .service48{
+left:180px;
+      top: 375px;
+    }
+    .service49{
+      left: 0px;
+      top: 490px;
+    }
+    .service410{
+left:180px;
+      top: 490px;
+    }
+    .service411{
+      left: 0px;
+      top: 605px;
+    }
+    .service412{
+left:180px;
+      top: 605px;
+    }
+    .service413{
+      left: 0px;
+      top: 720px;
+    }
+    .service414{
+   left:180px;
+      top: 720px;
+    }
+    .service415{
+      left: 0px;
+      top: 835px;
+    }
+    .service416{
+left:180px;
+      top: 835px;
+    }
+    .service417{
+      left: 0px;
+      top: 950px;
+    }
+    .service418{
+left:180px;
+      top: 950px;
+    }
+    .service419{
+      left: 0px;
+      top: 1065px;
+    }
+    .service420{
+   left:180px;
+      top: 1065px;
+    }
+    .service421{
+      left: 0px;
+      top: 1180px;
+    }
+    .service422{
+left:180px;
+      top: 1180px;
+    }
+    .service423{
+      left: 0px;
+      top: 1295px;
+    }
+    .service424{
+left:180px;
+      top: 1295px;
+    }
+    .service425{
+      left: 0px;
+      top:1410px;
+    }
+    .service426{
+left:180px;
+      top:1410px;
+    }
+    .service427{
+      left: 0px;
+      top: 1525px;
+    }
+  
+}

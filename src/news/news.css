@@ -1267,28 +1267,29 @@ flex-direction: column;
        
        .mobile-information{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
        
        }
        .mobile-information-cover{
-        height: 255px;
+        height: 120px;
         margin-top: 0px;
        }
        .mobile-flag{
-        width: 170px;
+        width: 90px;
+        height: 100px;
         
        }
        .mobile-yoga{
         margin-bottom: 20px;
        }
        .mobile-news{
-        font-size: 20px;
-       }
-       .mobile-date-share{
         font-size: 16px;
        }
+       .mobile-date-share{
+        font-size: 12px;
+       }
        .secondpage{
-        height: 3700px;
+        height: 2800px;
        }
         .mobile-business-block1,.mobile-entertainment-block1,.mobile-news-block2{
           font-size: 24px;
@@ -1304,6 +1305,6 @@ flex-direction: column;
       }
       @media (max-width:380px) {
         .secondpage{
-          height: 3650px;
+          height: 2700px;
         }
       }
