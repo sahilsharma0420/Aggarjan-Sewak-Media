@@ -125,22 +125,36 @@ width: 450px;
 .cardimages{
   height:60px;
   width: 60px;
-  margin-top: 20px;
+}
+.options-card{
+  display: flex;
+  flex-direction: column;
+}
+.imagecard{
+  border: 2px solid  #e78d07;
+  box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  height: 75px;
+  background-color: white;
 }
 .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
 display: flex;
-gap: 10px;
 flex-direction: column;
-background-color: white;
-justify-content: center;
+
+justify-content: flex-end;
 align-items: center;
-border: 2px solid  #e78d07;
 border-radius: 15px;
 width: 100px;
 height: 105px;
-box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
 position: absolute;
-padding-bottom: 15px;
+
+
 }
 
 .fifthpage-options-values{
@@ -277,7 +291,20 @@ padding-bottom: 15px;
   .cardimages{
     height:100px;
     width: 100px;
-    margin-top: 20px;
+    
+  }
+  .imagecard{
+    border: 2px solid  #e78d07;
+    box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    height: 125px;
+   
   }
   .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
   gap: 10px;
@@ -554,7 +581,20 @@ padding-bottom: 15px;
   .cardimages{
     height:100px;
     width: 100px;
-    margin-top: 20px;
+    
+  }
+  .imagecard{
+    border: 2px solid  #e78d07;
+    box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+    width: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    height: 125px;
+   
   }
   .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
   gap: 10px;
@@ -694,7 +734,20 @@ padding-bottom: 15px;
    .cardimages{
     height:90px;
     width: 90px;
-    margin-top: 20px;
+
+  }
+  .imagecard{
+    border: 2px solid  #e78d07;
+    box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+    width: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    height: 120px;
+   
   }
   .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
   gap: 10px;
@@ -831,7 +884,20 @@ padding-bottom: 15px;
     .cardimages{
       height:80px;
       width: 80px;
-      margin-top: 20px;
+      
+    }
+    .imagecard{
+      border: 2px solid  #e78d07;
+      box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+      width: 130px;
+      align-items: center;
+      display: flex;
+      justify-content: center ;
+      position: absolute;
+      border-radius: 15px;
+      top: 0;
+      height: 115px;
+     
     }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
@@ -969,7 +1035,20 @@ padding-bottom: 15px;
     .cardimages{
       height:60px;
       width: 60px;
-      margin-top: 20px;
+ 
+    }
+    .imagecard{
+      border: 2px solid  #e78d07;
+      box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+      width: 120px;
+      align-items: center;
+      display: flex;
+      justify-content: center ;
+      position: absolute;
+      border-radius: 15px;
+      top: 0;
+      height: 90px;
+     
     }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
@@ -1106,13 +1185,26 @@ padding-bottom: 15px;
       width: 100%;
       min-width: 90px;
     }
-  }
+
   @media (max-width:430px) {
     .cardimages{
       height:50px;
       width: 50px;
-      margin-top: 20px;
+    
     }
+  }.imagecard{
+    border: 2px solid  #e78d07;
+    box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+    width: 110px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    height: 95px;
+   
+  }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
     gap: 10px;
     width: 110px;
@@ -1266,6 +1358,24 @@ padding-bottom: 15px;
       width: 320px;
       top: 450px;
     }
+    .cardimages{
+      height:50px;
+      width: 50px;
+    
+    }
+  .imagecard{
+    border: 2px solid  #e78d07;
+    box-shadow: 4px 4px 4px 2px rgba(231, 150, 7, 0.3);
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    height: 85px;
+   
+  }
     .options1,.options2,.options3,.options4,.options5,.options6,.options7,.options8,.options9,.options10,.options11,.options12{
       gap: 10px;
       width: 100px;

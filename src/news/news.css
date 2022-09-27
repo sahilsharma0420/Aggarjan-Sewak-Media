@@ -1,6 +1,9 @@
 p{
   margin-bottom: 0;
 }
+.hamburger-menu{
+  display: none;
+}
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -1115,6 +1118,7 @@ flex-direction: column;
         }
         .mobile-lg-yoga1{
           width: 95%;
+          margin-top: 15px;
         }
     
         .mobile-entertainment-block1,.mobile-business-block1,.mobile-news-block2{
@@ -1201,6 +1205,113 @@ flex-direction: column;
         .secondpage{
           height: 3000px;
         }
+        .hamburger-menu{
+          display: block;
+          font-size: 2.5rerm;
+        }
+        .slider-menu{
+         
+          position: fixed;
+          right: 0cm;
+          top: 00px;
+        width: 280px;
+          z-index: 9;
+          display: flex;
+          flex-direction: column;
+          background: linear-gradient(180deg, #ffffff 0%, #ff9c08 100%),
+          linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+          background-image: linear-gradient(180deg, #ffffff 0%, #ff9c08 100%);
+           height: 100vh;
+           align-items: center;
+          box-shadow: 0 0 5px #d78d8d;
+           transition: .85s;
+        }
+        .slider-part1{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 280px;
+          align-items: center;
+          height: 10vh;
+        }
+        
+        .icon-button1{
+          border: none;
+          color: #000;
+          background-color: #FFB03A;
+        }
+        .slider-buttons{
+          display: flex;
+          flex-direction: column;
+          height: 70vh;
+          width: 280px;
+          align-items: center;
+          gap: 50px;
+          justify-content: flex-start;
+          margin-top: 20px;
+        }
+        .icon-button2{
+          border: none;
+          color: #000;
+          margin-right: 20px;
+          background-image: linear-gradient(180deg, #ffffff 0%, #fbf4e9 100%);
+        }
+        .button2,.button3{
+          display: none;
+        }
+        .slider-name{
+          display: flex;
+          flex-direction: row;
+          gap: 6px;
+        }
+        .slider-namevalue{
+          font-size: 12px;
+          margin-bottom: 0%;
+        
+        }
+        
+        .slider-news-addition{
+            display: flex;
+            gap: 5px;
+          
+            height: 30px;
+          font-size: 12px;
+          align-items: center;
+        }
+        .slider-button2{
+          z-index: 99;
+          width: 150px;
+              mix-blend-mode: normal;
+              background-color: #ffffff;
+              display: flex;
+              flex-direction: row;
+              height: 35px;
+              justify-content: center;
+              align-items: center;
+              border-radius: 3px;
+          
+              transition: all .2s linear 0s;
+        }
+        .slider-button3{
+          width: 150px;
+              mix-blend-mode: normal;
+              background-color: #ffffff;
+              display: flex;
+              border: none;
+              flex-direction: row;
+         
+              height: 35px;
+              justify-content: center;
+              align-items: center;
+              border-radius: 3px;
+              padding: 4px 0px;
+              transition: all .2s linear 0s;
+        }
+        .slider-plus{
+            width: 20px;
+            height: 20px;
+         
+        }
         .courtroom-text1{
           margin-left: 0px;
           font-size:10px;
@@ -1224,7 +1335,7 @@ flex-direction: column;
         }
         .mobile-flag{
           width: 120px;
-          height: 110px;
+          height: 100px;
         }
         .mobile-person-date{
           font-size: 16px;
@@ -1276,7 +1387,7 @@ flex-direction: column;
        }
        .mobile-flag{
         width: 90px;
-        height: 100px;
+        height: 90px;
         
        }
        .mobile-yoga{
